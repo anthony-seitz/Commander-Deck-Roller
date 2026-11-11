@@ -1,0 +1,1202 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Commander Deck Roller: Random EDH Deck Generator</title>
+<meta name="description" content="Free random Commander (EDH) deck generator. Pick a bracket, Game Changers, budget, and color identity, or build a deck from your own collection. Every deck comes with a primer.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Commander Deck Roller">
+<meta property="og:description" content="Roll a random Commander deck by bracket, budget, and colors, or build one from your own collection.">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='8' y='8' width='48' height='48' rx='10' fill='%238a4b16' transform='rotate(12 32 32)'/%3E%3Ccircle cx='24' cy='24' r='5' fill='%23fff'/%3E%3Ccircle cx='40' cy='40' r='5' fill='%23fff'/%3E%3Ccircle cx='40' cy='24' r='5' fill='%23fff'/%3E%3Ccircle cx='24' cy='40' r='5' fill='%23fff'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f4f1ea; --panel:#fffdf8; --panel-2:#f0ebe0; --ink:#1f1b16; --muted:#6c6457; --line:#ddd4c3;
+  --accent:#8a4b16; --accent-ink:#fff; --good:#2f7a4a; --warn:#a4561a; --bad:#a3302a;
+  --shadow:0 1px 2px rgba(40,30,10,.06),0 4px 16px rgba(40,30,10,.06);
+  --W:#f6eec9; --U:#a9d3ef; --B:#b9aea8; --R:#f0a586; --G:#9fd0a7; --C:#cfcac4;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#15130f; --panel:#1e1b16; --panel-2:#26221b; --ink:#efe8dc; --muted:#a59b8a; --line:#3a342a;
+    --accent:#e09a4f; --accent-ink:#1a1209; --good:#6cc28a; --warn:#e4a55c; --bad:#ec7a70;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 6px 20px rgba(0,0,0,.25);
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#15130f; --panel:#1e1b16; --panel-2:#26221b; --ink:#efe8dc; --muted:#a59b8a; --line:#3a342a;
+  --accent:#e09a4f; --accent-ink:#1a1209; --good:#6cc28a; --warn:#e4a55c; --bad:#ec7a70;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 6px 20px rgba(0,0,0,.25);
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font:15px/1.45 Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:Cinzel,Georgia,serif;margin:0;letter-spacing:.01em}
+button,input,select{font:inherit;color:inherit}
+.wrap{max-width:1280px;margin:0 auto;padding:24px 16px 64px}
+header.top{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:20px}
+header.top h1{font-size:28px}
+header.top p{margin:4px 0 0;color:var(--muted)}
+.layout{display:grid;grid-template-columns:340px minmax(0,1fr);gap:24px;align-items:start}
+@media (max-width:900px){.layout{grid-template-columns:1fr}}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow)}
+.controls{padding:18px;position:sticky;top:16px}
+@media (max-width:900px){.controls{position:static}}
+.field{margin-bottom:20px}
+.field:last-of-type{margin-bottom:12px}
+.label{display:flex;justify-content:space-between;align-items:baseline;font-weight:600;font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-bottom:8px}
+.label b{color:var(--ink);text-transform:none;letter-spacing:0;font-size:14px}
+.hint{font-size:12.5px;color:var(--muted);margin-top:6px}
+.seg{display:grid;grid-template-columns:repeat(5,1fr);gap:4px;background:var(--panel-2);padding:4px;border-radius:10px}
+.seg button{border:0;background:transparent;padding:8px 0;border-radius:7px;cursor:pointer;font-weight:600}
+.seg button[aria-pressed="true"]{background:var(--panel);box-shadow:var(--shadow);color:var(--accent)}
+.seg.two{grid-template-columns:1fr 1fr}
+.seg.three{grid-template-columns:repeat(3,1fr)}
+.seg.three button,.seg.two button{font-size:13px;padding:7px 4px}
+.pips{display:flex;gap:8px;flex-wrap:wrap}
+.pip{width:42px;height:42px;border-radius:50%;border:2px solid transparent;background:var(--panel-2);cursor:pointer;display:grid;place-items:center;padding:0;transition:transform .1s,opacity .1s;opacity:.45;filter:grayscale(.6)}
+.pip img{width:30px;height:30px}
+.pip[aria-pressed="true"]{opacity:1;filter:none;border-color:var(--accent);transform:translateY(-1px)}
+.pip:focus-visible,.seg button:focus-visible,.btn:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.row{display:flex;gap:10px;align-items:center}
+.row > *{flex:1}
+input[type=range]{width:100%;accent-color:var(--accent)}
+input[type=number],select{width:100%;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--panel)}
+.money{position:relative}
+.money span{position:absolute;left:10px;top:50%;transform:translateY(-50%);color:var(--muted)}
+.money input{padding-left:22px}
+.check{display:flex;gap:8px;align-items:center;font-size:14px;cursor:pointer;margin-top:8px}
+.check input{accent-color:var(--accent);width:16px;height:16px}
+.btn{border:1px solid var(--line);background:var(--panel);color:var(--ink);padding:10px 14px;border-radius:10px;cursor:pointer;font-weight:600}
+.btn:hover{background:var(--panel-2)}
+.btn.primary{background:var(--accent);color:var(--accent-ink);border-color:transparent;width:100%;padding:13px;font-size:16px}
+.btn.primary:hover{filter:brightness(1.07);background:var(--accent)}
+.btn:disabled{opacity:.55;cursor:wait}
+.btn.small{padding:7px 11px;font-size:13px}
+.actions{display:grid;gap:8px}
+.collection{margin-top:10px;display:grid;gap:8px}
+.collection[hidden]{display:none}
+.collection textarea{width:100%;min-height:120px;resize:vertical;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--panel);color:var(--ink);font:13px/1.4 ui-monospace,Consolas,monospace}
+.filebtn{text-align:center}
+.collection .check{margin-top:0}
+#colStatus details{margin-top:4px}
+#colStatus summary{cursor:pointer}
+#colStatus .nf{max-height:120px;overflow:auto;font-family:ui-monospace,Consolas,monospace;font-size:12px;margin-top:4px}
+#colStatus.ok{color:var(--good)}
+.nodeck{padding:28px 24px}
+.nodeck h2{font-size:21px;margin-bottom:10px}
+.nodeck p{margin:0 0 10px}
+.nodeck ul{margin:6px 0 0;padding-left:20px;color:var(--muted)}
+.nodeck li{margin-bottom:4px}
+.status{font-size:13px;color:var(--muted);min-height:20px;margin-top:10px}
+.status.err{color:var(--bad)}
+.progress{height:4px;background:var(--panel-2);border-radius:4px;overflow:hidden;margin-top:8px;display:none}
+.progress i{display:block;height:100%;width:0;background:var(--accent);transition:width .25s}
+
+/* results */
+.empty{padding:56px 24px;text-align:center;color:var(--muted)}
+.empty h2{color:var(--ink);font-size:22px;margin-bottom:8px}
+.hero{display:grid;grid-template-columns:220px minmax(0,1fr);gap:20px;padding:18px;overflow:hidden;position:relative}
+@media (max-width:620px){.hero{grid-template-columns:1fr}.hero .cardimg{max-width:240px;margin:0 auto}}
+.hero .bgart{position:absolute;inset:0;background-size:cover;background-position:center 25%;opacity:.12;filter:blur(2px);pointer-events:none}
+.hero > *:not(.bgart){position:relative}
+.cardimg{width:100%;border-radius:4.75%/3.5%;box-shadow:0 6px 20px rgba(0,0,0,.35);display:block}
+.hero h2{font-size:26px;line-height:1.15}
+.typeline{color:var(--muted);margin:4px 0 12px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px;margin:14px 0}
+.stat{background:var(--panel-2);border-radius:10px;padding:10px 12px}
+.stat .k{font-size:11.5px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.stat .v{font-size:20px;font-weight:700;font-variant-numeric:tabular-nums}
+.stat .v.ok{color:var(--good)} .stat .v.over{color:var(--bad)}
+.toolbar{display:flex;gap:8px;flex-wrap:wrap}
+.warns{margin-top:12px;font-size:13px;color:var(--warn)}
+.warns div::before{content:"⚠ "}
+.curve{display:flex;align-items:flex-end;gap:6px;height:90px;margin-top:6px}
+.curve .bar{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;height:100%;font-size:11px;color:var(--muted);font-variant-numeric:tabular-nums}
+.curve .bar i{display:block;width:100%;background:var(--accent);opacity:.85;border-radius:4px 4px 0 0;min-height:2px}
+.curve .bar span{margin-top:3px}
+.curve .bar em{font-style:normal;color:var(--ink);font-weight:600;margin-bottom:2px}
+.primer{padding:16px 18px;margin-top:16px}
+.primer-head{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:8px}
+.primer h3{font-size:17px}
+.primer h4{margin:0 0 6px;font-size:12px;text-transform:uppercase;letter-spacing:.07em;color:var(--muted)}
+.primer .tag{font-size:12.5px;font-weight:600;color:var(--accent);background:var(--panel-2);border-radius:999px;padding:3px 10px}
+.primer .lede{margin:0 0 14px}
+.primer-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+@media (max-width:700px){.primer-grid{grid-template-columns:1fr}}
+.primer p{margin:0 0 8px}
+.primer ul,.primer ol{margin:0;padding-left:20px}
+.primer li{margin-bottom:5px}
+.primer a.ref{color:var(--accent);text-decoration:none;font-weight:600}
+.primer a.ref:hover{text-decoration:underline}
+.curvebox{padding:14px 18px;margin-top:16px}
+.curvebox h3{font-size:15px}
+.groups{columns:2 320px;column-gap:16px;margin-top:16px}
+.group{break-inside:avoid;margin-bottom:16px;padding:12px 14px}
+.group h3{font-size:15px;display:flex;justify-content:space-between;padding-bottom:6px;border-bottom:1px solid var(--line);margin-bottom:4px}
+.group h3 small{font-family:Inter,sans-serif;color:var(--muted);font-weight:500;font-size:13px}
+.card{display:grid;grid-template-columns:minmax(0,1fr) auto auto;gap:8px;align-items:center;padding:5px 4px;border-radius:6px;cursor:pointer;text-decoration:none;color:inherit}
+.card:hover{background:var(--panel-2)}
+.card .nm{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.card .nm .q{color:var(--muted);margin-right:4px;font-variant-numeric:tabular-nums}
+.card .gc{font-size:10px;font-weight:700;color:var(--accent);border:1px solid var(--accent);border-radius:4px;padding:0 4px;margin-left:6px;vertical-align:1px}
+.card .pr{font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums;min-width:48px;text-align:right}
+.mana{display:inline-flex;gap:1px;align-items:center}
+.mana img{width:15px;height:15px}
+#preview{position:fixed;pointer-events:none;width:250px;border-radius:12px;box-shadow:0 10px 30px rgba(0,0,0,.45);z-index:50;display:none}
+@media (hover:none){#preview{display:none!important}}
+.toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:10px;font-size:14px;opacity:0;transition:opacity .2s;pointer-events:none;z-index:60}
+.toast.show{opacity:1}
+footer{margin-top:32px;font-size:12px;color:var(--muted);text-align:center;max-width:760px;margin-left:auto;margin-right:auto}
+footer p{margin:6px 0}
+.footnav{font-size:13.5px;margin-bottom:10px}
+.credit{font-size:12px;color:var(--muted);text-align:center;margin-top:6px}
+.btn.buy{background:var(--good);color:#fff;border-color:transparent}
+.btn.buy:hover{filter:brightness(1.08);background:var(--good)}
+/* ad placements: take no space until ads are switched on, then reserve space so the page doesn't jump */
+.ad-slot{display:none}
+body.ads-on .ad-slot{display:block;min-height:250px;margin-top:16px;text-align:center;overflow:hidden}
+body.ads-on .ad-slot.side{min-height:280px}
+.ad-label{font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:4px}
+footer a{color:inherit}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div>
+      <h1>Commander Deck Roller</h1>
+      <p>Pick your bracket, colors, Game Changers, and budget, then roll a random 100-card deck.</p>
+    </div>
+  </header>
+
+  <div class="layout">
+    <aside class="panel controls" aria-label="Deck criteria">
+      <div class="field">
+        <div class="label">Bracket <b id="bracketName"></b></div>
+        <div class="seg" id="bracketSeg" role="group" aria-label="Bracket">
+          <button data-v="1">1</button><button data-v="2">2</button><button data-v="3">3</button><button data-v="4">4</button><button data-v="5">5</button>
+        </div>
+        <div class="hint" id="bracketHint"></div>
+      </div>
+
+      <div class="field">
+        <div class="label">Game Changers <b id="gcVal"></b></div>
+        <input type="range" id="gc" min="0" max="3" value="0" aria-label="Number of Game Changers">
+        <label class="check"><input type="checkbox" id="gcRandom"> Random amount (within bracket limit)</label>
+      </div>
+
+      <div class="field">
+        <div class="label">Color identity</div>
+        <div class="pips" id="pips"></div>
+        <div class="seg three" id="colorMode" style="margin-top:10px" role="group" aria-label="Color match mode">
+          <button data-v="exact" title="Commander identity is exactly the selected colors">Exactly</button>
+          <button data-v="include" title="Identity contains at least the selected colors">Including</button>
+          <button data-v="within" title="Identity uses only the selected colors">At most</button>
+        </div>
+        <div class="row" style="margin-top:10px" id="countRow">
+          <select id="colorCount" aria-label="Number of colors">
+            <option value="">Any number of colors</option>
+            <option value="0">Colorless</option>
+            <option value="1">Mono-color</option>
+            <option value="2">Two colors</option>
+            <option value="3">Three colors</option>
+            <option value="4">Four colors</option>
+            <option value="5">Five colors</option>
+          </select>
+        </div>
+        <div class="hint" id="colorHint"></div>
+      </div>
+
+      <div class="field">
+        <div class="label">Budget <b id="budgetVal"></b></div>
+        <div class="row">
+          <div class="money"><span>$</span><input type="number" id="budget" min="20" step="10" value="150" aria-label="Max total deck price"></div>
+          <div class="money"><span>$</span><input type="number" id="perCard" min="0" step="1" placeholder="per card" aria-label="Max price per card"></div>
+        </div>
+        <div class="hint" id="budgetHint">Total deck cap · optional max per card (USD, Scryfall/TCGplayer prices)</div>
+        <label class="check"><input type="checkbox" id="noBudget"> No budget limit</label>
+      </div>
+
+      <div class="field">
+        <div class="label">Card pool</div>
+        <div class="seg three" id="poolSeg" role="group" aria-label="Card pool">
+          <button data-v="popular">Popular</button>
+          <button data-v="wild">Deep cuts</button>
+          <button data-v="collection">My collection</button>
+        </div>
+        <div id="collectionBox" class="collection" hidden>
+          <textarea id="colText" rows="6" spellcheck="false" aria-label="Your card list" placeholder="Paste your cards, one per line:&#10;1 Sol Ring&#10;2x Llanowar Elves&#10;Swords to Plowshares (STA) 10&#10;&#10;Or upload a .txt / .csv export (Moxfield, ManaBox, Archidekt, Deckbox…)"></textarea>
+          <div class="row">
+            <label class="btn small filebtn">Upload file<input type="file" id="colFile" accept=".txt,.csv,.dek,.dec,text/plain,text/csv" hidden></label>
+            <button class="btn small" id="colLoad">Load collection</button>
+          </div>
+          <label class="check"><input type="checkbox" id="haveBasics"> I have basic lands (don't need them in my list)</label>
+          <div class="hint" id="colStatus">Paste or upload a list, then load it.</div>
+        </div>
+      </div>
+
+      <div class="field">
+        <div class="label">Lands <b id="landVal"></b></div>
+        <input type="range" id="lands" min="30" max="42" value="36" aria-label="Number of lands">
+      </div>
+
+      <div class="actions">
+        <button class="btn primary" id="go">Roll a deck</button>
+        <button class="btn" id="reroll" disabled>Reroll the 99, keep commander</button>
+      </div>
+      <div class="progress" id="prog"><i></i></div>
+      <div class="status" id="status" role="status"></div>
+      <div class="ad-slot side" id="adSidebar"></div>
+    </aside>
+
+    <main>
+      <div id="out">
+        <div class="panel empty">
+          <h2>No deck yet</h2>
+          <p>Set your criteria and hit <b>Roll a deck</b>. You'll get a commander, the 99, a primer, a mana curve, and an exportable list.</p>
+          <p style="font-size:13.5px">New to brackets? Read the <a href="guide.html" style="color:var(--accent)">bracket guide &amp; FAQ</a>.</p>
+        </div>
+      </div>
+      <div class="ad-slot" id="adResults"></div>
+    </main>
+  </div>
+  <footer>
+    <nav class="footnav"><a href="guide.html">Bracket guide &amp; FAQ</a> · <a href="privacy.html">Privacy</a></nav>
+    <p>Commander Deck Roller is unofficial Fan Content permitted under the <a href="https://company.wizards.com/en/legal/fancontentpolicy" target="_blank" rel="noopener">Fan Content Policy</a>. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.</p>
+    <p>Card data and images courtesy of <a href="https://scryfall.com" target="_blank" rel="noopener">Scryfall</a>. Card art is credited to its artists. Prices are estimates. Some "Buy" links may be affiliate links, so we may earn a commission at no cost to you.</p>
+  </footer>
+</div>
+<img id="preview" alt="">
+<div class="toast" id="toast"></div>
+
+<script>
+/* =====================================================================
+   SITE SETTINGS: fill these in when your accounts are approved.
+   Everything stays switched off while a value is empty.
+   ===================================================================== */
+const SITE = {
+  // TCGplayer affiliate (via Impact): paste your tracking-link prefix, ending in "?u=".
+  // Example shape: "https://partner.tcgplayer.com/c/1234567/1830156/21018?u="
+  tcgplayerAffiliatePrefix: "",
+  // Google AdSense: your publisher ID ("ca-pub-1234567890123456") and one ad-unit ID per placement.
+  adsensePublisher: "",
+  adSlots: { sidebar: "", results: "" },
+  // Cloudflare Web Analytics token (privacy-friendly, no cookies). Leave empty to disable.
+  cloudflareAnalyticsToken: "",
+};
+(function siteSetup(){
+  if(SITE.adsensePublisher){
+    const s = document.createElement("script");
+    s.async = true; s.crossOrigin = "anonymous";
+    s.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=" + encodeURIComponent(SITE.adsensePublisher);
+    document.head.appendChild(s);
+    addEventListener("DOMContentLoaded", ()=>{
+      document.body.classList.add("ads-on");
+      for(const [id, slot] of [["adSidebar", SITE.adSlots.sidebar], ["adResults", SITE.adSlots.results]]){
+        const el = document.getElementById(id);
+        if(!el || !slot){ el && el.remove(); continue; }
+        el.innerHTML = `<div class="ad-label">Advertisement</div><ins class="adsbygoogle" style="display:block" data-ad-client="${SITE.adsensePublisher}" data-ad-slot="${slot}" data-ad-format="auto" data-full-width-responsive="true"></ins>`;
+        (window.adsbygoogle = window.adsbygoogle || []).push({});
+      }
+    });
+  }
+  if(SITE.cloudflareAnalyticsToken){
+    const s = document.createElement("script");
+    s.defer = true; s.src = "https://static.cloudflareinsights.com/beacon.min.js";
+    s.dataset.cfBeacon = JSON.stringify({token: SITE.cloudflareAnalyticsToken});
+    document.head.appendChild(s);
+  }
+})();
+
+const API = "https://api.scryfall.com";
+const SYM = s => `https://svgs.scryfall.io/card-symbols/${s.replace(/\//g,"")}.svg`;
+const COLORS = ["W","U","B","R","G"];
+const BRACKETS = {
+  1:{name:"Exhibition", maxGC:0, hint:"Ultra-casual, theme first. No Game Changers, tutors, extra turns, or mass land denial."},
+  2:{name:"Core", maxGC:0, hint:"Precon level. No Game Changers, extra turns, or mass land denial."},
+  3:{name:"Upgraded", maxGC:3, hint:"Stronger than a precon. Up to 3 Game Changers, no mass land denial."},
+  4:{name:"Optimized", maxGC:10, hint:"High power, no restrictions beyond the banned list."},
+  5:{name:"cEDH", maxGC:10, hint:"Competitive. Anything legal goes. Best with Popular staples."},
+};
+const BASIC = {W:"Plains",U:"Island",B:"Swamp",R:"Mountain",G:"Forest",C:"Wastes"};
+
+const state = {
+  bracket:3, gc:1, gcRandom:false, colors:new Set(), colorMode:"include", colorCount:"",
+  budget:150, perCard:null, noBudget:false, pool:"popular", lands:36,
+  haveBasics:true, deck:null, busy:false, collection:null,
+};
+try{ Object.assign(state, JSON.parse(localStorage.getItem("cdr-settings")||"{}"), {deck:null,busy:false,collection:null}); state.colors=new Set(state.colors||[]); }catch(e){ state.colors=new Set(); }
+function save(){ try{ const {deck,busy,collection,...rest}=state; localStorage.setItem("cdr-settings", JSON.stringify({...rest, colors:[...state.colors]})); }catch(e){} }
+
+const $ = id => document.getElementById(id);
+const sleep = ms => new Promise(r=>setTimeout(r,ms));
+const rand = n => Math.floor(Math.random()*n);
+const shuffle = a => { a=[...a]; for(let i=a.length-1;i>0;i--){const j=rand(i+1);[a[i],a[j]]=[a[j],a[i]];} return a; };
+const esc = s => String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const fmt$ = n => "$"+n.toFixed(2);
+
+/* ---------- Scryfall client (rate-limited, cached) ---------- */
+let lastReq = 0;
+const cache = new Map();
+async function sf(path, params){
+  const url = API+path+(params?"?"+new URLSearchParams(params):"");
+  if(cache.has(url)) return cache.get(url);
+  for(let attempt=0; attempt<3; attempt++){
+    const wait = Math.max(0, lastReq+110-Date.now());
+    if(wait) await sleep(wait);
+    lastReq = Date.now();
+    const r = await fetch(url,{headers:{Accept:"application/json"}});
+    if(r.status===429){ await sleep(1000*(attempt+1)); continue; }
+    const d = await r.json();
+    if(r.status===404){ cache.set(url,null); return null; }
+    if(!r.ok) throw new Error(d.details||("Scryfall error "+r.status));
+    cache.set(url,d); return d;
+  }
+  throw new Error("Scryfall is rate limiting; wait a moment and try again.");
+}
+// Returns a pool of candidate cards for a query.
+async function pool(q){
+  const base = {q, unique:"cards", order: state.pool==="popular" ? "edhrec" : pickOne(["name","released","artist","set"])};
+  const first = await sf("/cards/search", base);
+  if(!first) return [];
+  const pages = Math.ceil(first.total_cards/175);
+  if(pages<=1) return first.data;
+  if(state.pool==="popular"){
+    const p2 = await sf("/cards/search", {...base, page:2});
+    return first.data.concat(p2?p2.data:[]);
+  }
+  const pg = 2+rand(pages-1);
+  const d = await sf("/cards/search", {...base, page:pg});
+  return shuffle(first.data).slice(0,60).concat(d?d.data:[]);
+}
+const pickOne = a => a[rand(a.length)];
+
+/* ---------- card helpers ---------- */
+const price = c => parseFloat(c.prices?.usd ?? c.prices?.usd_etched ?? c.prices?.usd_foil ?? 0) || 0;
+const img = (c,size="normal") => c.image_uris?.[size] || c.card_faces?.[0]?.image_uris?.[size] || "";
+const cost = c => c.mana_cost ?? c.card_faces?.[0]?.mana_cost ?? "";
+const typeLine = c => c.type_line || c.card_faces?.[0]?.type_line || "";
+const isLand = c => /\bLand\b/.test(typeLine(c).split("//")[0]);
+const manaHTML = s => `<span class="mana">${(s.match(/\{[^}]+\}/g)||[]).map(t=>`<img src="${SYM(t.slice(1,-1))}" alt="${esc(t)}">`).join("")}</span>`;
+
+/* ---------- query builders ---------- */
+function colorQuery(){
+  const s = COLORS.filter(c=>state.colors.has(c)).join("").toLowerCase();
+  const parts=[];
+  if(state.colorMode==="exact") parts.push(`id=${s||"c"}`);
+  else if(s) parts.push(state.colorMode==="include" ? `id>=${s}` : `id<=${s}`);
+  if(state.colorMode!=="exact" && state.colorCount!=="") parts.push(`id=${state.colorCount}`);
+  return parts.join(" ");
+}
+function bracketExclusions(b){
+  const x=[];
+  if(b<=2) x.push("-otag:extra-turn");
+  if(b<=3) x.push("-otag:mass-land-denial");
+  if(b<=1) x.push("-otag:tutor");
+  return x.join(" ");
+}
+function capQ(cap){ return isFinite(cap) ? `usd<=${Math.max(0.25,cap).toFixed(2)}` : ""; }
+
+/* ---------- deck generation ---------- */
+function gcTarget(){
+  const max = BRACKETS[state.bracket].maxGC;
+  if(state.gcRandom) return rand(max+1);
+  return Math.min(state.gc, max);
+}
+async function findCommander(gcAllowed){
+  const budget = state.noBudget ? Infinity : state.budget;
+  let cap = Math.min(state.perCard||Infinity, budget*0.3);
+  const q = ["is:commander","f:commander","game:paper","-t:background", colorQuery(), bracketExclusions(state.bracket),
+             gcAllowed>0 ? "" : "-is:gamechanger", capQ(cap), isFinite(cap)?"prefer:usd-low":""].filter(Boolean).join(" ");
+  if(state.pool==="popular"){
+    const p = await pool(q);
+    if(p.length) return pickOne(p.slice(0,300));
+  } else {
+    const c = await sf("/cards/random",{q});
+    if(c) return c;
+  }
+  return null;
+}
+
+async function buildDeck(commander, onStep){
+  const warns=[];
+  const ci = (commander.color_identity||[]).join("").toLowerCase() || "c";
+  const used = new Set([commander.name]);
+  const picks = []; // {card, role}
+  const budget = state.noBudget ? Infinity : state.budget;
+  const perCard = state.perCard || Infinity;
+  let spent = price(commander);
+  const nColors = commander.color_identity.length;
+  const landTotal = state.lands;
+  const nonbasicTarget = Math.min(landTotal, nColors===0?8 : nColors===1?5 : nColors===2?11 : 15);
+  const nonlandSlots = 99 - landTotal;
+  let gcWant = gcTarget();
+  if(commander.game_changer) gcWant = Math.max(0, gcWant-1);
+  const gcMax = BRACKETS[state.bracket].maxGC - (commander.game_changer?1:0);
+
+  const filledSlots = () => picks.length;
+  const slotsLeft = () => 99 - picks.length;
+  const basicsReserve = () => landTotal - nonbasicTarget; // basics are ~free
+  function reserve(){ // money held back for the slots we still need to fill with non-basics
+    const left = Math.max(0, slotsLeft() - basicsReserve());
+    return left*0.2;
+  }
+  function dynCap(){
+    if(!isFinite(budget)) return perCard;
+    const left = Math.max(1, slotsLeft() - basicsReserve());
+    const avg = (budget - spent) / left;
+    return Math.min(perCard, Math.max(0.35, avg*4));
+  }
+  const base = () => ["f:commander","game:paper","-t:basic",`id<=${ci}`, bracketExclusions(state.bracket), "-is:gamechanger",
+                      capQ(dynCap()), isFinite(dynCap())?"prefer:usd-low":""].filter(Boolean).join(" ");
+
+  function take(cards, n, role, {allowGC=false}={}){
+    let got=0;
+    for(const c of shuffle(cards)){
+      if(got>=n || slotsLeft()<=0) break;
+      if(used.has(c.name)) continue;
+      if(c.game_changer && !allowGC) continue;
+      const p = price(c);
+      if(p>perCard) continue;
+      if(isFinite(budget) && spent + p > budget - reserve() + 0.2) continue;
+      used.add(c.name); picks.push({card:c, role}); spent += p; got++;
+    }
+    return got;
+  }
+
+  // 1. Game Changers
+  if(gcWant>0){
+    onStep("Picking Game Changers");
+    const gcs = await pool(`is:gamechanger f:commander game:paper id<=${ci} ${bracketExclusions(state.bracket)} ${capQ(Math.min(perCard, isFinite(budget)?(budget-spent)*0.5:Infinity))}`);
+    const got = take(gcs, gcWant, "Game Changers", {allowGC:true});
+    if(got<gcWant) warns.push(`Only found ${got} of ${gcWant} Game Changers that fit these colors and budget.`);
+  }
+
+  // 2. Nonbasic lands
+  onStep("Choosing lands");
+  const lands = await pool(`t:land ${base()}`);
+  const gotLands = take(lands.filter(isLand), nonbasicTarget, "Lands");
+
+  // 3. Spell categories
+  const nonlandLeft = () => nonlandSlots - picks.filter(p=>p.role!=="Lands" && !isLand(p.card)).length;
+  const plan = [
+    ["Ramp", `otag:ramp -t:land`, 10],
+    ["Card Draw", `otag:draw -t:land`, 10],
+    ["Removal", `otag:spot-removal -t:land`, 8],
+    ["Board Wipes", `otag:board-wipe -t:land`, 3],
+  ];
+  for(const [role,q,n] of plan){
+    onStep("Adding "+role.toLowerCase());
+    const cards = (await pool(`${q} ${base()}`)).filter(c=>!isLand(c));
+    take(cards, Math.min(n, nonlandLeft()), role);
+  }
+  // Synergy: commander's creature types, if any
+  const subtypes = (typeLine(commander).split("—")[1]||"").trim().split(/\s+/).filter(t=>t && !/^(Human|God|Legend)$/i.test(t));
+  if(subtypes.length && nonlandLeft()>0){
+    const t = pickOne(subtypes);
+    onStep(`Looking for ${t} synergy`);
+    const cards = (await pool(`(t:${t} OR o:"${t}") -t:land ${base()}`)).filter(c=>!isLand(c));
+    take(cards, Math.min(8, nonlandLeft()), "Synergy");
+  }
+  onStep("Adding creatures");
+  const creatureN = Math.round(nonlandLeft()*0.6);
+  take((await pool(`t:creature ${base()}`)).filter(c=>!isLand(c)), creatureN, "Creatures");
+  onStep("Adding support spells");
+  take((await pool(`-t:creature -t:land ${base()}`)), nonlandLeft(), "Support");
+  if(nonlandLeft()>0){
+    onStep("Filling gaps");
+    take((await pool(`-t:land ${base()}`)), nonlandLeft(), "Support");
+  }
+  if(nonlandLeft()>0) warns.push(`Couldn't find enough spells within budget; added ${nonlandLeft()} extra basic lands.`);
+
+  // 4. Basics weighted by color pips
+  const basicsNeeded = 99 - picks.length;
+  const pipCount = {W:0,U:0,B:0,R:0,G:0};
+  for(const {card} of picks) for(const m of (cost(card).match(/\{[^}]+\}/g)||[])) for(const col of COLORS) if(m.includes(col)) pipCount[col]++;
+  const cols = commander.color_identity.length ? commander.color_identity : ["C"];
+  const weights = cols.map(c=>c==="C"?1:(pipCount[c]||0)+2);
+  const wsum = weights.reduce((a,b)=>a+b,0);
+  const basics = {};
+  let assigned=0;
+  cols.forEach((c,i)=>{ basics[c]=Math.floor(basicsNeeded*weights[i]/wsum); assigned+=basics[c]; });
+  for(let i=0; assigned<basicsNeeded; i=(i+1)%cols.length){ basics[cols[i]]++; assigned++; }
+
+  if(isFinite(budget) && spent>budget) warns.push("Went slightly over budget.");
+  return {commander, picks, basics, spent, warns, ci};
+}
+
+async function generate(keepCommander){
+  if(state.busy) return;
+  setBusy(true);
+  const steps = 11; let step=0;
+  const onStep = msg => { step++; setStatus(msg+"…"); setProgress(Math.min(95, step/steps*100)); };
+  try{
+    if(state.pool==="collection"){
+      if(!state.collection){ await loadCollection(); if(!state.collection) return; }
+      const keep = keepCommander && state.deck?.fromCollection;
+      let commander = keep ? state.deck.commander : null;
+      if(!commander){
+        setStatus("Checking your commanders…");
+        const r = pickCollectionCommander();
+        if(r.error){ state.deck=null; renderNoDeck(r.error); setStatus("No viable deck in your collection.", true); return; }
+        commander = r.commander;
+      }
+      const deck = buildFromCollection(commander);
+      state.deck = deck; render(deck);
+      setStatus("Deck built from your collection."); setProgress(100);
+      return;
+    }
+    let commander = keepCommander && state.deck && !state.deck.fromCollection ? state.deck.commander : null;
+    if(!commander){
+      onStep("Finding a commander");
+      commander = await findCommander(BRACKETS[state.bracket].maxGC);
+      if(!commander) throw new Error("No commander matches those colors, bracket, and budget. Try loosening a filter.");
+    }
+    const deck = await buildDeck(commander, onStep);
+    state.deck = deck;
+    render(deck);
+    setStatus("Deck ready.");
+    setProgress(100);
+  }catch(e){
+    console.error(e);
+    setStatus(e.message||String(e), true);
+  }finally{
+    setBusy(false);
+    setTimeout(()=>{ $("prog").style.display="none"; }, 600);
+  }
+}
+
+/* ---------- collection mode: parse, resolve, build ---------- */
+function splitCSV(line){
+  const out=[]; let cur="", q=false;
+  for(let i=0;i<line.length;i++){
+    const ch=line[i];
+    if(q){ if(ch==='"'){ if(line[i+1]==='"'){cur+='"';i++;} else q=false; } else cur+=ch; }
+    else if(ch==='"') q=true;
+    else if(ch===','){ out.push(cur); cur=""; }
+    else cur+=ch;
+  }
+  out.push(cur); return out;
+}
+const cleanName = s => String(s||"").trim()
+  .replace(/^SB:\s*/i,"")
+  .replace(/\s+\*[^*]+\*\s*$/,"")              // *F* foil markers
+  .replace(/\s+\[[^\]]*\]\s*$/,"")             // [SET]
+  .replace(/\s+\([A-Za-z0-9]{2,6}\)(\s+[\w★\-]+)?\s*$/,"") // (SET) 123
+  .replace(/\s+\*[^*]+\*\s*$/,"")
+  .replace(/\s+\/\s+/g," // ")                 // "A / B" -> "A // B"
+  .trim();
+function parseList(text){
+  const out = new Map(); // lowercase name -> {name, qty}
+  const add = (n,q)=>{ n=cleanName(n); if(!n || n.length>150) return; const k=n.toLowerCase(); const e=out.get(k); e ? e.qty+=q : out.set(k,{name:n, qty:q}); };
+  const lines = text.split(/\r?\n/).map(l=>l.trim()).filter(Boolean);
+  if(!lines.length) return out;
+  const head = splitCSV(lines[0]).map(h=>h.trim().toLowerCase().replace(/^"|"$/g,""));
+  const nameCol = head.findIndex(h=>["name","card name","card","cardname","card_name"].includes(h));
+  if(lines[0].includes(",") && nameCol>=0){
+    const qtyCol = head.findIndex(h=>["quantity","count","qty","amount","have","tradelist count"].includes(h));
+    for(const l of lines.slice(1)){ const c=splitCSV(l); add(c[nameCol], qtyCol>=0 ? (parseInt(c[qtyCol])||1) : 1); }
+    return out;
+  }
+  for(let l of lines){
+    if(/^(#|\/\/)/.test(l) || /^(commander|deck|main ?deck|sideboard|maybeboard|companion|about|tokens?|lands?|creatures?|instants?|sorceries|artifacts?|enchantments?|planeswalkers?)\s*(\(\d+\))?:?\s*$/i.test(l)) continue;
+    let q=1; const m=l.match(/^(?:SB:\s*)?(\d+)\s*[xX]?\s+(.+)$/);
+    if(m){ q=+m[1]; l=m[2]; }
+    add(l,q);
+  }
+  return out;
+}
+let nextPostSlot = 0;
+async function sfPost(path, body){
+  for(let attempt=0; attempt<3; attempt++){
+    // reserve a send slot ~550ms apart (Scryfall allows ~2 req/sec here) so requests can overlap in flight
+    const slot = Math.max(Date.now(), nextPostSlot, lastReq+110);
+    nextPostSlot = slot + 550;
+    if(slot>Date.now()) await sleep(slot-Date.now());
+    lastReq = Date.now();
+    const r = await fetch(API+path,{method:"POST",headers:{"Content-Type":"application/json",Accept:"application/json"},body:JSON.stringify(body)});
+    if(r.status===429){ await sleep(1500*(attempt+1)); continue; }
+    const d = await r.json();
+    if(!r.ok) throw new Error(d.details||("Scryfall error "+r.status));
+    return d;
+  }
+  throw new Error("Scryfall is rate limiting; wait a moment and try again.");
+}
+async function resolveCollection(text, onProg){
+  const wanted = parseList(text);
+  const cards = new Map(); // lowercase card name -> {card, qty}
+  const notFound = [];
+  const put = (c, qty) => { const k=c.name.toLowerCase(); const e=cards.get(k); e ? e.qty+=qty : cards.set(k,{card:c, qty}); };
+  const entries = [...wanted.values()];
+  // the collection endpoint only matches a double-faced card by its front-face name
+  const frontOf = n => n.split(" // ")[0].trim();
+  const chunks = [];
+  for(let i=0;i<entries.length;i+=75) chunks.push(entries.slice(i,i+75));
+  let done = 0;
+  onProg(`Identifying cards 0 / ${entries.length}`, 0);
+  const results = await Promise.all(chunks.map(chunk =>
+    sfPost("/cards/collection",{identifiers:chunk.map(e=>({name:frontOf(e.name)}))}).then(d=>{
+      done += chunk.length;
+      onProg(`Identifying cards ${done.toLocaleString()} / ${entries.length.toLocaleString()}`, done/entries.length);
+      return d;
+    })));
+  for(const [ci, d] of results.entries()){
+    const chunk = chunks[ci];
+    const missing = new Set((d.not_found||[]).map(x=>(x.name||"").toLowerCase()));
+    for(const c of d.data){
+      const front = c.name.split(" // ")[0].toLowerCase();
+      const e = wanted.get(c.name.toLowerCase()) || wanted.get(front) || chunk.find(x=>x.name.toLowerCase().startsWith(front));
+      put(c, e ? e.qty : 1);
+    }
+    for(const e of chunk) if(missing.has(frontOf(e.name).toLowerCase())) notFound.push(e);
+  }
+  // second chance: fuzzy match for typos / partial names
+  const still = [];
+  for(const [i,e] of notFound.entries()){
+    if(i>=40){ still.push(e.name); continue; }
+    onProg(`Fixing unrecognized names (${i+1}/${Math.min(40,notFound.length)})`, 1);
+    await sleep(400);
+    const c = await sf("/cards/named",{fuzzy:e.name});
+    c ? put(c, e.qty) : still.push(e.name);
+  }
+  return {cards, notFound:still, lines:entries.length};
+}
+
+const subset = (id, ci) => id.every(x=>ci.includes(x));
+const isBasic = c => /\bBasic\b/.test(typeLine(c)) && /\bLand\b/.test(typeLine(c));
+const isCommanderCard = c => c.legalities?.commander==="legal" && !/Background/.test(typeLine(c)) &&
+  ((/Legendary/.test(typeLine(c)) && /Creature/.test(typeLine(c))) || /can be your commander/i.test(oracle(c)));
+function bracketBlocked(c, b){
+  const t = oracle(c);
+  if(b<=2 && /takes? an extra turn/i.test(t)) return true;
+  if(b<=3 && /destroy all (nonbasic )?lands|each player sacrifices (all|\w+) lands|sacrifice all lands|lands don't untap|destroy each land/i.test(t)) return true;
+  if(b<=1 && /search your library for [^.]*card/i.test(t) && !/search your library for [^.]*land card/i.test(t)) return true;
+  return false;
+}
+function matchColors(id){
+  const sel = COLORS.filter(c=>state.colors.has(c));
+  if(state.colorMode==="exact") return id.length===sel.length && subset(id, sel);
+  if(state.colorMode==="include" && !subset(sel, id)) return false;
+  if(state.colorMode==="within" && !subset(id, sel)) return false;
+  if(state.colorCount!=="" && id.length!==+state.colorCount) return false;
+  return true;
+}
+const ROLE_RE = {
+  "Ramp": /add \{|add (one|two|three) mana|mana of any|search your library for [^.]*land card|create [^.]*treasure/i,
+  "Card Draw": /draws? (a|two|three|four|five|x|that many) cards?|draw cards equal|draw a card/i,
+  "Removal": /(destroy|exile) target (creature|artifact|enchantment|planeswalker|permanent|nonland)|deals? \S+ damage to (any target|target creature)|counter target spell|return target (creature|nonland permanent) to its owner's hand/i,
+  "Board Wipes": /(destroy|exile) all (creatures|nonland|permanents|other creatures|artifacts|enchantments)|all creatures get -|damage to each creature|destroy each creature/i,
+};
+function colStats(col, cmdEntry){
+  const ci = cmdEntry.card.color_identity, b = state.bracket, gcMax = BRACKETS[b].maxGC;
+  const elig = [];
+  let lands=0, basics=0, nonland=0;
+  for(const e of col.cards.values()){
+    const c=e.card;
+    if(e===cmdEntry || c.legalities?.commander!=="legal" || !subset(c.color_identity, ci) || bracketBlocked(c,b)) continue;
+    if(isBasic(c)){ if(ci.length ? c.color_identity.length>0 : c.color_identity.length===0) basics+=e.qty; continue; }
+    if(c.game_changer && gcMax===0) continue;
+    elig.push(e);
+    isLand(c) ? lands++ : nonland++;
+  }
+  const landAvail = lands + (state.haveBasics ? Infinity : basics);
+  const nonlandSlots = 99 - state.lands;
+  const viable = nonland >= nonlandSlots-4 && nonland + landAvail >= 99 && landAvail >= 30;
+  const usable = nonland + Math.min(landAvail, 99);
+  return {elig, lands, basics, nonland, landAvail, viable, usable};
+}
+function pickCollectionCommander(){
+  const col = state.collection;
+  if(!col || !col.cards.size) return {error:{kind:"empty"}};
+  const all = [...col.cards.values()];
+  const cmds = all.filter(e=>isCommanderCard(e.card));
+  if(!cmds.length) return {error:{kind:"nocommander", total:all.length}};
+  const byColor = cmds.filter(e=>matchColors(e.card.color_identity));
+  if(!byColor.length) return {error:{kind:"colors", cmds}};
+  const gcMax = BRACKETS[state.bracket].maxGC;
+  const byBracket = byColor.filter(e=>!bracketBlocked(e.card,state.bracket) && (gcMax>0 || !e.card.game_changer));
+  if(!byBracket.length) return {error:{kind:"bracket", cmds:byColor}};
+  const scored = byBracket.map(e=>({e, s:colStats(col,e)}));
+  const viable = scored.filter(x=>x.s.viable);
+  if(!viable.length){
+    scored.sort((a,b)=>b.s.usable-a.s.usable);
+    return {error:{kind:"short", count:byBracket.length, closest:scored[0]}};
+  }
+  return {commander: pickOne(viable).e.card};
+}
+function buildFromCollection(commander){
+  const col = state.collection, warns=[];
+  const cmdEntry = col.cards.get(commander.name.toLowerCase()) || {card:commander, qty:1};
+  const st = colStats(col, cmdEntry);
+  const ci = commander.color_identity;
+  const picks=[], used=new Set([commander.name]);
+  // synergy score: how many of the commander's themes a card shares
+  const cText = oracle(commander);
+  const cmdThemes = THEMES.filter(t=>t.re.test(cText));
+  const tribe = (typeLine(commander).split("—")[1]||"").trim().split(/\s+/).find(t=>t && new RegExp(`\\b${t}s?\\b`).test(cText));
+  const syn = c => cmdThemes.filter(t=>t.re.test(oracle(c))).length + (tribe && (typeLine(c).includes(tribe)||oracle(c).includes(tribe)) ? 2 : 0);
+  const ranked = list => shuffle(list).map(e=>({e, s:syn(e.card)})).sort((a,b)=>b.s-a.s).map(x=>x.e);
+
+  const nonlandPool = st.elig.filter(e=>!isLand(e.card));
+  const landPool = st.elig.filter(e=>isLand(e.card));
+  let landTotal = state.lands;
+  const landCap = state.haveBasics ? Infinity : st.landAvail;
+  if(landCap < landTotal){ landTotal = Math.max(99-nonlandPool.length, landCap); warns.push(`You only have ${landCap} lands in these colors, so the deck runs ${landTotal}.`); }
+  if(nonlandPool.length < 99-landTotal){ const n = 99-nonlandPool.length; warns.push(`Not enough spells to fill ${99-landTotal} slots, so the deck runs ${n} lands.`); landTotal = n; }
+  const nonlandSlots = 99 - landTotal;
+  const nonlandCount = () => picks.filter(p=>!isLand(p.card)).length;
+  const take = (list, n, role, allowGC=false) => {
+    let got=0;
+    for(const e of list){
+      if(got>=n) break;
+      const c=e.card;
+      if(used.has(c.name) || (c.game_changer && !allowGC)) continue;
+      if(!isLand(c) && nonlandCount()>=nonlandSlots) break;
+      used.add(c.name); picks.push({card:c, role}); got++;
+    }
+    return got;
+  };
+  // Game Changers
+  let gcWant = gcTarget(); if(commander.game_changer) gcWant=Math.max(0,gcWant-1);
+  if(gcWant>0){
+    const gcs = ranked(nonlandPool.filter(e=>e.card.game_changer));
+    const got = take(gcs, gcWant, "Game Changers", true);
+    if(got<gcWant) warns.push(`You own ${got} Game Changer${got===1?"":"s"} in these colors (wanted ${gcWant}).`);
+  }
+  // nonbasic lands
+  const nColors = ci.length;
+  const nonbasicTarget = state.haveBasics ? Math.min(landTotal, nColors===0?8 : nColors===1?6 : nColors===2?12 : 16) : landTotal;
+  take(ranked(landPool), nonbasicTarget, "Lands");
+  // spells by role, synergy first
+  const plain = nonlandPool.filter(e=>!e.card.game_changer);
+  for(const [role,n] of [["Ramp",10],["Card Draw",10],["Removal",8],["Board Wipes",3]])
+    take(ranked(plain.filter(e=>ROLE_RE[role].test(oracle(e.card)))), Math.min(n, nonlandSlots-nonlandCount()), role);
+  take(ranked(plain.filter(e=>syn(e.card)>0)), Math.min(14, nonlandSlots-nonlandCount()), "Synergy");
+  take(ranked(plain.filter(e=>/Creature/.test(typeLine(e.card)))), Math.round((nonlandSlots-nonlandCount())*0.6), "Creatures");
+  take(ranked(plain), nonlandSlots-nonlandCount(), "Support");
+  // basics
+  let need = 99 - picks.length;
+  const basics = {};
+  if(need>0){
+    const pip = {W:0,U:0,B:0,R:0,G:0};
+    for(const {card} of picks) for(const m of (cost(card).match(/\{[^}]+\}/g)||[])) for(const k of COLORS) if(m.includes(k)) pip[k]++;
+    const cols = ci.length ? ci : ["C"];
+    const stock = {};
+    for(const k of cols) stock[k] = state.haveBasics ? Infinity : 0;
+    if(!state.haveBasics) for(const e of col.cards.values()) if(isBasic(e.card)){
+      const k = e.card.color_identity[0] || "C"; if(k in stock) stock[k]+=e.qty;
+    }
+    for(const k of cols) basics[k]=0;
+    while(need>0){
+      let best=null, bestR=-1;
+      for(const k of cols){ if(basics[k]>=stock[k]) continue; const w=(k==="C"?1:pip[k]+2); const r=w/(basics[k]+1); if(r>bestR){bestR=r;best=k;} }
+      if(!best) break;
+      basics[best]++; need--;
+    }
+    if(need>0) warns.push(`Deck is ${need} card${need===1?"":"s"} short of 100: not enough lands in your collection.`);
+  }
+  const spent = price(commander) + picks.reduce((a,p)=>a+price(p.card),0);
+  return {commander, picks, basics, spent, warns, ci:ci.join("").toLowerCase()||"c", fromCollection:true};
+}
+function renderNoDeck(err){
+  const idStr = c => (COLORS.filter(k=>c.color_identity.includes(k)).join("")||"colorless");
+  const names = list => list.slice(0,6).map(e=>`<b>${esc(e.card.name)}</b> (${idStr(e.card)})`).join(", ") + (list.length>6?`, and ${list.length-6} more`:"");
+  let why="", tips=[];
+  switch(err.kind){
+    case "empty":
+      why = "Your collection is empty, or none of the card names could be recognized.";
+      tips = ["Paste one card per line (for example <code>1 Sol Ring</code>) or upload a .txt / .csv export, then press <b>Load collection</b>."]; break;
+    case "nocommander":
+      why = `None of your ${err.total} cards can be a commander. A deck needs at least one legendary creature, or a card that says it can be your commander.`;
+      tips = ["Add a legendary creature to your list.", "Or switch the card pool back to Popular or Deep cuts."]; break;
+    case "colors":
+      why = `You own ${err.cmds.length} possible commander${err.cmds.length===1?"":"s"}, but none match the colors you picked: ${names(err.cmds)}.`;
+      tips = ["Change your colors to match one of these commanders, or use <b>At most</b> / <b>Including</b> with fewer colors selected."]; break;
+    case "bracket":
+      why = `Your commanders in these colors aren't allowed in Bracket ${state.bracket} (${BRACKETS[state.bracket].name}): ${names(err.cmds)}.`;
+      tips = ["Raise the bracket, or pick different colors."]; break;
+    case "short": {
+      const {e, s} = err.closest;
+      const nonlandSlots = 99-state.lands;
+      why = err.count===1
+        ? "You don't have enough cards to build a full 100-card deck around your only possible commander."
+        : `You don't have enough cards to build a full 100-card deck around any of your ${err.count} possible commanders.`;
+      tips = [`Closest option: <b>${esc(e.card.name)}</b> (${idStr(e.card)}). You own ${s.nonland} spell${s.nonland===1?"":"s"} in its colors (about ${nonlandSlots} needed) and ${s.lands} nonbasic land${s.lands===1?"":"s"}${state.haveBasics?"":` plus ${s.basics} basic${s.basics===1?"":"s"}`}.`];
+      if(!state.haveBasics) tips.push("If you own basic lands that aren't in your list, check <b>I have basic lands</b>.");
+      tips.push("Add more cards in that commander's colors, lower the land count, or try a different bracket or colors.");
+      break;
+    }
+  }
+  $("out").innerHTML = `<div class="panel nodeck" role="alert">
+    <h2>No deck possible from your cards</h2>
+    <p>${why}</p>
+    <ul>${tips.map(t=>`<li>${t}</li>`).join("")}</ul>
+  </div>`;
+}
+
+/* ---------- primer (rules-based deck analysis) ---------- */
+const oracle = c => (c.oracle_text ?? (c.card_faces||[]).map(f=>f.oracle_text||"").join("\n")).replaceAll(c.name.split(" // ")[0], "CARDNAME");
+const THEMES = [
+  {k:"tokens", name:"Go-wide tokens", re:/create[^.]*token/i,
+   goal:"Flood the board with creature tokens, then turn that army into damage.",
+   win:"Swing with a wide board and pump the whole team at once for a lethal attack."},
+  {k:"counters", name:"+1/+1 counters", re:/\+1\/\+1 counter|proliferate/i,
+   goal:"Grow your creatures with +1/+1 counters so every threat outsizes the opponents' blockers.",
+   win:"Attack with oversized creatures, ideally with trample or evasion, before opponents can answer them all."},
+  {k:"graveyard", name:"Graveyard value", re:/(from|into) (your|a) graveyard|\bmill|surveil|return target creature card/i,
+   goal:"Fill your graveyard and use it like a second hand, bringing back your best creatures and spells.",
+   win:"Reanimate big threats over and over, faster than opponents can remove them."},
+  {k:"spells", name:"Spellslinger", re:/instant (or|and) sorcery|noncreature spell|whenever you cast an? (instant|sorcery|white|blue|black|red|green|multicolored)\b|magecraft|prowess|copy target/i,
+   goal:"Chain cheap instants and sorceries and get value from every spell you cast.",
+   win:"Build to one explosive turn of spells and let your cast triggers finish the table."},
+  {k:"artifacts", name:"Artifacts", re:/\bartifacts? you control|artifact spell|whenever an artifact|treasure|clue/i,
+   goal:"Build an artifact engine where every artifact feeds you mana, cards, or bodies.",
+   win:"Convert the artifact engine into an overwhelming board or one big damage turn."},
+  {k:"enchant", name:"Enchantress", re:/enchantment spell|enchantments you control|constellation|\baura\b/i,
+   goal:"Draw cards off your enchantments and build a board of lasting effects that are hard to remove.",
+   win:"Grind opponents down, then close with enchantment-boosted threats."},
+  {k:"lands", name:"Lands matter", re:/landfall|land enters|additional land|lands? from your graveyard/i,
+   goal:"Play extra lands every turn and use landfall triggers for value and threats.",
+   win:"Ride your mana advantage into huge threats and landfall payoffs that outclass the table."},
+  {k:"aristocrats", name:"Aristocrats", re:/sacrifice (a|another) creature|whenever (a|another)[^.]*creature[^.]*dies|whenever you sacrifice/i,
+   goal:"Sacrifice creatures for value and make opponents pay each time something dies.",
+   win:"Drain the table a few life at a time with death triggers until everyone is out."},
+  {k:"lifegain", name:"Lifegain", re:/you gain life|gain \d+ life|lifelink/i,
+   goal:"Gain life constantly and turn each gain trigger into counters, cards, or drain.",
+   win:"Outlast the table and convert your extra life into damage."},
+  {k:"voltron", name:"Voltron", re:/equipped creature|enchanted creature|\bequip\b|attach/i,
+   goal:"Suit up your commander with equipment and auras, then protect it.",
+   win:"Kill opponents one at a time with 21 commander damage."},
+  {k:"combat", name:"Aggro", re:/whenever [^.]*attacks|combat damage to a player|double strike|haste/i,
+   goal:"Pressure opponents early and attack every turn so they're always on the back foot.",
+   win:"Combat damage, using haste and evasion to push through blockers."},
+  {k:"control", name:"Control", re:/counter target|tap target|can't attack|return target [^.]* to its owner's hand/i,
+   goal:"Answer threats as they come, then win once the table runs out of gas.",
+   win:"Lock down the game, then win with a few resilient finishers."},
+  {k:"drain", name:"Group slug", re:/each opponent loses|damage to each opponent/i,
+   goal:"Hit every opponent at once with repeated life loss and damage.",
+   win:"Burn and drain the whole table at the same time."},
+  {k:"mill", name:"Mill", re:/(target player|each opponent|target opponent) mills/i,
+   goal:"Empty your opponents' libraries.",
+   win:"Opponents lose by drawing from an empty library."},
+  {k:"blink", name:"Blink", re:/exile[^.]*return (it|that card|them)[^.]*battlefield/i,
+   goal:"Flicker your creatures to reuse their enter-the-battlefield abilities.",
+   win:"Stack up ETB value until your board and hand bury the table."},
+];
+const FINISHERS = [
+  {re:/you win the game/i, say:n=>`${n} is an alternate win condition`},
+  {re:/creatures you control get \+\S+\/\+\S+[^.]*(trample|until end of turn)/i, say:n=>`${n} pumps your whole team for a lethal swing`},
+  {re:/additional combat phase|extra combat/i, say:n=>`${n} gives extra combat steps`},
+  {re:/each opponent loses (\d+|x) life|each opponent loses life|loses life equal to/i, say:n=>`${n} drains the table`},
+  {re:/\binfect\b|\btoxic\b|poison counter/i, say:n=>`${n} can win through poison counters`},
+  {re:/double (that|the) damage|deals double|damage[^.]*is doubled/i, say:n=>`${n} doubles your damage`},
+  {re:/deals? \S+ damage to each opponent/i, say:n=>`${n} burns every opponent at once`},
+];
+function analyzeDeck(d){
+  const c = d.commander, cText = oracle(c);
+  const body = d.picks.filter(p=>!["Lands","Removal","Board Wipes","Ramp"].includes(p.role)).map(p=>p.card);
+  const subtypes = (typeLine(c).split("—")[1]||"").trim().split(/\s+/).filter(Boolean);
+  const scored = THEMES.map(t=>{
+    const cmd = t.re.test(cText) ? 6 : 0;
+    const cards = body.filter(x=>t.re.test(oracle(x)));
+    return {...t, score: cmd + cards.length, cards, cmd};
+  });
+  // tribal: commander's own text names one of its creature types
+  const tribe = subtypes.find(t=>new RegExp(`\\b${t}s?\\b`).test(cText));
+  if(tribe){
+    const cards = d.picks.map(p=>p.card).filter(x=>typeLine(x).includes(tribe) || oracle(x).includes(tribe));
+    scored.push({k:"tribal", name:`${tribe} tribal`, score:8+cards.length, cmd:8, cards,
+      goal:`Gather as many ${tribe}s as you can to power up your commander's ${tribe} synergies.`,
+      win:`Attack with a buffed-up ${tribe} army that grows every turn.`});
+  }
+  // voltron only makes sense when the commander is a real attacker
+  const pw = parseInt(c.power ?? c.card_faces?.[0]?.power) || 0;
+  // the commander's own text decides the main theme; the 99 break ties and pick a secondary plan
+  scored.sort((a,b)=>(b.cmd>0)-(a.cmd>0) || b.score-a.score);
+  let main = scored[0];
+  if(!main || main.score<3) main = {k:"good", name:"Goodstuff", cards:[], goal:"Play strong, efficient cards and lean on your commander as a value engine.", win:"Out-value opponents, then win in combat with your best threats."};
+  const second = scored.find(t=>t!==main && t.score>=4 && t.k!==main.k);
+
+  // finishers
+  const pool = [c, ...d.picks.map(p=>p.card)].filter(x=>!isLand(x));
+  const finishers=[], seen=new Set();
+  for(const f of FINISHERS) for(const x of pool){
+    if(finishers.length>=4) break;
+    if(!seen.has(x.name) && f.re.test(oracle(x))){ finishers.push({card:x, text:f.say(x.name)}); seen.add(x.name); }
+  }
+  const bigs = pool.filter(x=>!seen.has(x.name) && /Creature/.test(typeLine(x)) && (parseInt(x.power)||0)>=6)
+                   .sort((a,b)=>(parseInt(b.power)||0)-(parseInt(a.power)||0));
+  for(const x of bigs){ if(finishers.length>=4) break; finishers.push({card:x, text:`${x.name} is a ${x.power}/${x.toughness} threat`}); seen.add(x.name); }
+  if(main.k==="voltron" || (pw>=5 && finishers.length<2))
+    finishers.unshift({card:c, text:`${c.name} can take players out with commander damage`});
+
+  const byRole = r => d.picks.filter(p=>p.role===r).map(p=>p.card).sort((a,b)=>a.cmc-b.cmc);
+  const ramp = byRole("Ramp"), draw = byRole("Card Draw"), wipes = byRole("Board Wipes"), removal = byRole("Removal");
+  const castTurn = Math.max(2, Math.round((c.cmc||3) - (ramp.length>=8?1:0)));
+  const key = main.cards.filter(x=>x.name!==c.name && !seen.has(x.name)).slice(0,4);
+  return {c, main, second, finishers:finishers.slice(0,4), key, ramp, draw, wipes, removal, castTurn};
+}
+function primerHTML(a){
+  const ref = x => `<a class="ref" href="${esc(x.scryfall_uri)}" target="_blank" rel="noopener" data-img="${esc(img(x))}">${esc(x.name)}</a>`;
+  const list = xs => xs.length<=1 ? xs.map(ref).join("") : xs.slice(0,-1).map(ref).join(", ")+" and "+ref(xs[xs.length-1]);
+  const linkify = (s, x) => esc(s).replace(esc(x.name), ref(x));
+  const fin = a.finishers.length
+    ? `<ul>${a.finishers.map(f=>`<li>${linkify(f.text, f.card)}</li>`).join("")}</ul>`
+    : `<p>No single big finisher, so win by snowballing value into attacks.</p>`;
+  return `
+  <section class="panel primer">
+    <div class="primer-head"><h3>Deck primer</h3><span class="tag">${esc(a.main.name)}${a.second?` · ${esc(a.second.name)}`:""}</span></div>
+    <p class="lede"><b>The goal:</b> ${esc(a.main.goal)}${a.second?` Secondary plan: ${esc(a.second.goal.charAt(0).toLowerCase()+a.second.goal.slice(1))}`:""}</p>
+    <div class="primer-grid">
+      <div>
+        <h4>How it wins</h4>
+        <p>${esc(a.main.win)}</p>
+        ${fin}
+      </div>
+      <div>
+        <h4>Game plan</h4>
+        <ol>
+          <li><b>Early:</b> Keep hands with 3+ lands${a.ramp.length?` and ramp like ${list(a.ramp.slice(0,2))}`:""}.</li>
+          <li><b>Mid:</b> Cast ${ref(a.c)} around turn ${a.castTurn}${a.key.length?`, then add key pieces like ${list(a.key.slice(0,3))}`:""}${a.draw.length?`. Keep cards flowing with ${list(a.draw.slice(0,2))}`:""}.</li>
+          <li><b>Late:</b> ${a.finishers.length?`Set up ${list(a.finishers.slice(0,2).map(f=>f.card))} to close the game`:"Turn your board advantage into lethal attacks"}${a.wipes.length?`. If you fall behind, reset the board with ${list(a.wipes.slice(0,2))}`:""}.</li>
+        </ol>
+      </div>
+    </div>
+  </section>`;
+}
+function primerText(a){
+  const L=[`${a.c.name} — ${a.main.name}${a.second?" / "+a.second.name:""}`, "", "GOAL: "+a.main.goal, "", "HOW IT WINS: "+a.main.win];
+  for(const f of a.finishers) L.push(" - "+f.text);
+  L.push("", "GAME PLAN:",
+    ` 1. Early: keep 3+ lands${a.ramp.length?", ramp with "+a.ramp.slice(0,2).map(x=>x.name).join(" / "):""}.`,
+    ` 2. Mid: cast ${a.c.name} around turn ${a.castTurn}${a.key.length?", add "+a.key.slice(0,3).map(x=>x.name).join(", "):""}.`,
+    ` 3. Late: ${a.finishers.length?"close with "+a.finishers.slice(0,2).map(f=>f.card.name).join(" / "):"swing with your board"}${a.wipes.length?"; reset with "+a.wipes.slice(0,2).map(x=>x.name).join(" / ")+" if behind":""}.`);
+  return L.join("\n");
+}
+
+/* ---------- rendering ---------- */
+const ROLE_ORDER = ["Game Changers","Ramp","Card Draw","Removal","Board Wipes","Synergy","Creatures","Support","Lands"];
+function render(d){
+  const {commander:c, picks, basics, spent, warns} = d;
+  const groups = {};
+  for(const p of picks){ (groups[p.role] ||= []).push(p.card); }
+  const basicCount = Object.values(basics).reduce((a,b)=>a+b,0);
+  const landCount = picks.filter(p=>isLand(p.card)).length + basicCount;
+  const gcCount = picks.filter(p=>p.card.game_changer).length + (c.game_changer?1:0);
+  const budget = (state.noBudget || d.fromCollection) ? Infinity : state.budget;
+  const nonlands = picks.filter(p=>!isLand(p.card)).map(p=>p.card);
+  const avgCmc = nonlands.reduce((a,x)=>a+(x.cmc||0),0)/(nonlands.length||1);
+
+  const curve = Array(8).fill(0);
+  for(const x of nonlands) curve[Math.min(7, Math.floor(x.cmc||0))]++;
+  const cmax = Math.max(...curve,1);
+  const primer = analyzeDeck(d);
+
+  const cardRow = x => `<a class="card" href="${esc(x.scryfall_uri)}" target="_blank" rel="noopener" data-img="${esc(img(x))}">
+      <span class="nm"><span class="q">1</span>${esc(x.name)}${x.game_changer?'<span class="gc">GC</span>':""}</span>
+      ${manaHTML(cost(x))}<span class="pr">${price(x)?fmt$(price(x)):"–"}</span></a>`;
+
+  let html = `
+  <section class="panel hero">
+    <div class="bgart" style="background-image:url('${esc(img(c,"art_crop"))}')"></div>
+    <div><a href="${esc(c.scryfall_uri)}" target="_blank" rel="noopener"><img class="cardimg" src="${esc(img(c))}" alt="${esc(c.name)}"></a>
+      ${c.artist?`<div class="credit">Art by ${esc(c.artist)}</div>`:""}</div>
+    <div>
+      <div style="font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)">Your commander</div>
+      <h2>${esc(c.name)}</h2>
+      <div class="typeline">${esc(typeLine(c))} · ${manaHTML(cost(c))}</div>
+      <div>${(c.color_identity.length?c.color_identity:["C"]).map(k=>`<img src="${SYM(k)}" alt="${k}" style="width:22px;height:22px;margin-right:3px">`).join("")}</div>
+      <div class="stats">
+        <div class="stat"><div class="k">${d.fromCollection?"Collection value":"Total price"}</div><div class="v ${isFinite(budget)?(spent<=budget?"ok":"over"):""}">${fmt$(spent)}</div></div>
+        <div class="stat"><div class="k">Bracket</div><div class="v">${state.bracket} · ${BRACKETS[state.bracket].name}</div></div>
+        <div class="stat"><div class="k">Game Changers</div><div class="v">${gcCount}</div></div>
+        <div class="stat"><div class="k">Lands</div><div class="v">${landCount}</div></div>
+        <div class="stat"><div class="k">Avg. mana value</div><div class="v">${avgCmc.toFixed(2)}</div></div>
+      </div>
+      <div class="toolbar">
+        ${d.fromCollection ? "" : `<a class="btn small buy" style="text-decoration:none" href="${esc(buyUrl(d))}" target="_blank" rel="${SITE.tcgplayerAffiliatePrefix?"sponsored noopener":"noopener"}">Buy this deck on TCGplayer</a>`}
+        <button class="btn small" id="copyBtn">Copy decklist</button>
+        <button class="btn small" id="dlBtn">Download .txt</button>
+        <button class="btn small" id="primerBtn">Copy primer</button>
+        <a class="btn small" style="text-decoration:none" href="https://edhrec.com/commanders/${esc(slug(c.name))}" target="_blank" rel="noopener">Commander on EDHREC</a>
+      </div>
+      ${warns.length?`<div class="warns">${warns.map(w=>`<div>${esc(w)}</div>`).join("")}</div>`:""}
+    </div>
+  </section>
+  ${primerHTML(primer)}
+  <section class="panel curvebox">
+    <h3>Mana curve <small style="font-family:Inter;color:var(--muted);font-weight:500">(non-land cards)</small></h3>
+    <div class="curve">${curve.map((n,i)=>`<div class="bar"><em>${n||""}</em><i style="height:${n/cmax*70}%"></i><span>${i===7?"7+":i}</span></div>`).join("")}</div>
+  </section>
+  <div class="groups">`;
+  for(const role of ROLE_ORDER){
+    const list = groups[role]||[];
+    if(role==="Lands"){
+      const bl = Object.entries(basics).filter(([,n])=>n>0);
+      if(!list.length && !bl.length) continue;
+      html += `<section class="panel group"><h3>Lands <small>${landCount}</small></h3>
+        ${list.sort((a,b)=>a.name.localeCompare(b.name)).map(cardRow).join("")}
+        ${bl.map(([k,n])=>`<div class="card" style="cursor:default"><span class="nm"><span class="q">${n}</span>${BASIC[k]}</span><span></span><span class="pr">basic</span></div>`).join("")}
+      </section>`;
+      continue;
+    }
+    if(!list.length) continue;
+    const sub = list.reduce((a,x)=>a+price(x),0);
+    html += `<section class="panel group"><h3>${role} <small>${list.length} · ${fmt$(sub)}</small></h3>
+      ${list.sort((a,b)=>(a.cmc-b.cmc)||a.name.localeCompare(b.name)).map(cardRow).join("")}</section>`;
+  }
+  html += `</div>`;
+  $("out").innerHTML = html;
+  $("copyBtn").onclick = async ()=>{ try{ await navigator.clipboard.writeText(deckText(d)); toast("Decklist copied. Paste into Moxfield or Archidekt."); }catch(e){ toast("Couldn't access clipboard."); } };
+  $("primerBtn").onclick = async ()=>{ try{ await navigator.clipboard.writeText(primerText(primer)); toast("Primer copied."); }catch(e){ toast("Couldn't access clipboard."); } };
+  $("dlBtn").onclick = ()=>{
+    const a=document.createElement("a");
+    a.href=URL.createObjectURL(new Blob([deckText(d)],{type:"text/plain"}));
+    a.download=slug(c.name)+"-deck.txt"; a.click(); setTimeout(()=>URL.revokeObjectURL(a.href),1000);
+  };
+}
+const slug = s => s.split(" // ")[0].toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
+function buyUrl(d){
+  // TCGplayer Mass Entry: pre-fills a cart with the whole list (basic lands left out)
+  const lines = [d.commander, ...d.picks.map(p=>p.card)].map(c=>"1 "+c.name.split(" // ")[0]);
+  const url = "https://www.tcgplayer.com/massentry?productline=Magic&c=" + encodeURIComponent(lines.join("||"));
+  return SITE.tcgplayerAffiliatePrefix ? SITE.tcgplayerAffiliatePrefix + encodeURIComponent(url) : url;
+}
+function deckText(d){
+  const lines = [`1 ${d.commander.name}`, ""];
+  const all = d.picks.map(p=>p.card.name).sort();
+  for(const n of all) lines.push("1 "+n);
+  for(const [k,n] of Object.entries(d.basics)) if(n>0) lines.push(`${n} ${BASIC[k]}`);
+  return lines.join("\n");
+}
+
+/* hover preview */
+const pv = $("preview");
+document.addEventListener("mouseover", e=>{
+  const a = e.target.closest?.("[data-img]");
+  if(a && a.dataset.img){ pv.src=a.dataset.img; pv.style.display="block"; } else pv.style.display="none";
+});
+document.addEventListener("mousemove", e=>{
+  if(pv.style.display!=="block") return;
+  const w=250, h=349;
+  let x=e.clientX+20, y=e.clientY-h/2;
+  if(x+w>innerWidth-8) x=e.clientX-w-20;
+  y=Math.max(8, Math.min(innerHeight-h-8, y));
+  pv.style.left=x+"px"; pv.style.top=y+"px";
+});
+
+/* ---------- UI wiring ---------- */
+function setStatus(msg, err){ const s=$("status"); s.textContent=msg; s.classList.toggle("err",!!err); }
+function setProgress(p){ const b=$("prog"); b.style.display="block"; b.firstElementChild.style.width=p+"%"; }
+function setBusy(b){ state.busy=b; $("go").disabled=b; $("colLoad").disabled=b; $("reroll").disabled=b||!state.deck; $("go").textContent = b ? "Rolling…" : state.pool==="collection" ? "Build from my collection" : "Roll a deck"; }
+let toastT; function toast(m){ const t=$("toast"); t.textContent=m; t.classList.add("show"); clearTimeout(toastT); toastT=setTimeout(()=>t.classList.remove("show"),2200); }
+
+function segWire(id, key, cast=x=>x){
+  const el=$(id);
+  el.addEventListener("click", e=>{ const b=e.target.closest("button"); if(!b) return; state[key]=cast(b.dataset.v); sync(); });
+}
+segWire("bracketSeg","bracket",Number);
+segWire("colorMode","colorMode");
+segWire("poolSeg","pool");
+
+$("pips").innerHTML = COLORS.map(c=>`<button class="pip" data-c="${c}" aria-label="${({W:"White",U:"Blue",B:"Black",R:"Red",G:"Green"})[c]}"><img src="${SYM(c)}" alt=""></button>`).join("")
+  + `<button class="btn small" id="randColors" style="margin-left:auto">Random</button>`;
+$("pips").addEventListener("click", e=>{
+  const b=e.target.closest(".pip"); if(!b) return;
+  const c=b.dataset.c; state.colors.has(c)?state.colors.delete(c):state.colors.add(c); sync();
+});
+$("randColors").onclick = ()=>{
+  const n = 1+rand(5); state.colors = new Set(shuffle(COLORS).slice(0, n===5&&Math.random()<.7?rand(3)+1:n));
+  state.colorMode="exact"; sync();
+};
+$("colorCount").onchange = e=>{ state.colorCount=e.target.value; sync(); };
+$("gc").oninput = e=>{ state.gc=+e.target.value; sync(); };
+$("gcRandom").onchange = e=>{ state.gcRandom=e.target.checked; sync(); };
+$("budget").oninput = e=>{ state.budget=Math.max(1, +e.target.value||0); sync(false); };
+$("perCard").oninput = e=>{ state.perCard = +e.target.value>0 ? +e.target.value : null; sync(false); };
+$("noBudget").onchange = e=>{ state.noBudget=e.target.checked; sync(); };
+$("lands").oninput = e=>{ state.lands=+e.target.value; sync(); };
+/* collection inputs */
+try{ $("colText").value = localStorage.getItem("cdr-collection") || ""; }catch(e){}
+$("colText").addEventListener("input", ()=>{
+  state.collection = null;
+  $("colStatus").className="hint"; $("colStatus").textContent = "List changed. Load it (or just roll) to use it.";
+  try{ localStorage.setItem("cdr-collection", $("colText").value); }catch(e){}
+});
+$("colFile").onchange = async e=>{
+  const f = e.target.files[0]; if(!f) return;
+  if(f.size > 8e6){ toast("That file is too large (max 8 MB)."); return; }
+  $("colText").value = await f.text();
+  $("colText").dispatchEvent(new Event("input"));
+  e.target.value = "";
+  loadCollection();
+};
+$("colLoad").onclick = ()=>loadCollection();
+$("haveBasics").onchange = e=>{ state.haveBasics=e.target.checked; sync(); };
+async function loadCollection(){
+  const text = $("colText").value;
+  const st = $("colStatus");
+  if(!text.trim()){ st.className="hint"; st.textContent="Paste or upload a list first."; renderNoDeck({kind:"empty"}); return; }
+  const wasBusy = state.busy;
+  if(!wasBusy) setBusy(true);
+  try{
+    const col = await resolveCollection(text, (msg,p)=>{ setStatus(msg+"…"); setProgress(Math.min(95,p*95)); });
+    if(!col.cards.size){ state.collection=null; st.className="hint"; st.textContent="No cards recognized."; renderNoDeck({kind:"empty"}); return; }
+    state.collection = col;
+    const total = [...col.cards.values()].reduce((a,e)=>a+e.qty,0);
+    const cmdCount = [...col.cards.values()].filter(e=>isCommanderCard(e.card)).length;
+    st.className = "hint ok";
+    st.innerHTML = `✓ ${col.cards.size.toLocaleString()} unique cards (${total.toLocaleString()} total) · ${cmdCount} possible commander${cmdCount===1?"":"s"}` +
+      (col.notFound.length ? `<details><summary>${col.notFound.length} name${col.notFound.length===1?"":"s"} not recognized</summary><div class="nf">${col.notFound.map(esc).join("<br>")}</div></details>` : "");
+    setStatus("Collection loaded."); setProgress(100);
+  }catch(e){
+    console.error(e); st.className="hint"; setStatus(e.message||String(e), true);
+  }finally{
+    if(!wasBusy){ setBusy(false); setTimeout(()=>{ $("prog").style.display="none"; }, 600); }
+  }
+}
+
+$("go").onclick = ()=>generate(false);
+$("reroll").onclick = ()=>generate(true);
+
+function sync(touchInputs=true){
+  const B = BRACKETS[state.bracket];
+  for(const b of $("bracketSeg").children) b.setAttribute("aria-pressed", +b.dataset.v===state.bracket);
+  for(const b of $("colorMode").children) b.setAttribute("aria-pressed", b.dataset.v===state.colorMode);
+  for(const b of $("poolSeg").children) b.setAttribute("aria-pressed", b.dataset.v===state.pool);
+  for(const b of $("pips").querySelectorAll(".pip")) b.setAttribute("aria-pressed", state.colors.has(b.dataset.c));
+  $("bracketName").textContent = B.name;
+  $("bracketHint").textContent = B.hint;
+  const gcEl=$("gc");
+  gcEl.max = B.maxGC; gcEl.disabled = B.maxGC===0 || state.gcRandom;
+  if(state.gc>B.maxGC) state.gc=B.maxGC;
+  gcEl.value = state.gc;
+  $("gcRandom").checked = state.gcRandom; $("gcRandom").disabled = B.maxGC===0;
+  $("gcVal").textContent = B.maxGC===0 ? "None allowed" : state.gcRandom ? `Random 0–${B.maxGC}` : `${state.gc} of max ${B.maxGC===10?"∞":B.maxGC}`;
+  $("countRow").style.display = state.colorMode==="exact" ? "none" : "";
+  $("colorCount").value = state.colorCount;
+  const sel = COLORS.filter(c=>state.colors.has(c));
+  $("colorHint").textContent =
+    state.colorMode==="exact" ? (sel.length ? `Commander identity is exactly ${sel.join("")}.` : "No colors selected = a colorless commander.")
+    : state.colorMode==="include" ? (sel.length ? `Commander must include ${sel.join("")} (may have more).` : "Any colors.")
+    : (sel.length ? `Commander uses only colors from ${sel.join("")}.` : "Colorless only.");
+  if(touchInputs){ $("budget").value = state.budget; $("perCard").value = state.perCard??""; }
+  const isCol = state.pool==="collection";
+  $("collectionBox").hidden = !isCol;
+  $("haveBasics").checked = state.haveBasics;
+  $("budget").disabled = state.noBudget || isCol; $("perCard").disabled = isCol; $("noBudget").disabled = isCol;
+  $("noBudget").checked = state.noBudget;
+  $("budgetVal").textContent = isCol ? "Not used" : state.noBudget ? "Unlimited" : "$"+state.budget;
+  $("budgetHint").textContent = isCol ? "You already own these cards, so budget is ignored." : "Total deck cap · optional max per card (USD, Scryfall/TCGplayer prices)";
+  $("go").textContent = state.busy ? "Rolling…" : isCol ? "Build from my collection" : "Roll a deck";
+  $("lands").value = state.lands; $("landVal").textContent = state.lands;
+  save();
+}
+sync();
+</script>
+</body>
+</html>

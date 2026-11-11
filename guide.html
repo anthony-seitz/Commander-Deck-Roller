@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Commander Bracket Guide &amp; FAQ | Commander Deck Roller</title>
+<meta name="description" content="A plain-English guide to the Commander Brackets (1-5), Game Changers, budget deck building, and how the Commander Deck Roller builds random EDH decks.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="pages.css">
+</head>
+<body>
+<div class="wrap">
+  <a class="back" href="index.html">← Back to the deck roller</a>
+  <h1>Commander Bracket Guide &amp; FAQ</h1>
+  <p class="lede">What the brackets mean, what counts as a Game Changer, and how this site builds your deck.</p>
+
+  <div class="card">
+    <h2>What are Commander Brackets?</h2>
+    <p>Commander Brackets are a 1-to-5 scale for describing how powerful a Commander deck is, so a table can agree on what kind of game they want before shuffling up. Each bracket describes the experience you can expect and sets a few limits on certain cards and strategies.</p>
+    <div class="tablewrap">
+    <table>
+      <thead><tr><th>Bracket</th><th>Feel</th><th>Game Changers</th><th>Main limits</th></tr></thead>
+      <tbody>
+        <tr><td>1 · Exhibition</td><td>Ultra-casual. The theme and story come first, winning comes second.</td><td>None</td><td>No mass land denial, no chained extra turns, no two-card infinite combos.</td></tr>
+        <tr><td>2 · Core</td><td>About the power of a typical preconstructed deck. Games are slow and interactive.</td><td>None</td><td>No mass land denial, no chained extra turns, no two-card infinite combos.</td></tr>
+        <tr><td>3 · Upgraded</td><td>Stronger than a precon, with tuned synergy and better card quality.</td><td>Up to 3</td><td>No mass land denial, no chained extra turns, no early-game two-card infinite combos.</td></tr>
+        <tr><td>4 · Optimized</td><td>High power: fast mana, efficient interaction, strong combos.</td><td>Unlimited</td><td>Only the banned list.</td></tr>
+        <tr><td>5 · cEDH</td><td>Competitive. Built to win as efficiently as possible with full knowledge of the metagame.</td><td>Unlimited</td><td>Only the banned list.</td></tr>
+      </tbody>
+    </table>
+    </div>
+    <p style="font-size:13.5px;color:var(--muted)">The official bracket rules are updated from time to time. Check the latest Commander Brackets announcement from Wizards of the Coast for the current wording.</p>
+
+    <h2>What is a Game Changer?</h2>
+    <p>Game Changers are cards on an official list that warp games so much that they push a deck to a higher bracket. Examples include powerful tutors, fast mana, and cards that take over the game on their own. Brackets 1 and 2 allow none, Bracket 3 allows up to three, and Brackets 4 and 5 have no limit. The deck roller uses the official Game Changer list through Scryfall, so it stays current when the list changes.</p>
+
+    <h2>How the deck roller builds a deck</h2>
+    <h3>1. It picks a commander</h3>
+    <p>It chooses a random commander that matches your color identity, bracket, and budget. With <b>Popular</b> it picks from the most-played commanders, and with <b>Deep cuts</b> it picks from all of them.</p>
+    <h3>2. It fills the 99 by role</h3>
+    <p>Like a real deckbuilder, it fills slots by job: about 10 ramp, 10 card draw, 8 removal, 3 board wipes, cards that share the commander's creature type, then creatures and support spells. Lands are a mix of nonbasics and basics, with the basics split according to the deck's colored mana symbols.</p>
+    <h3>3. It respects your bracket and budget</h3>
+    <p>It adds exactly the number of Game Changers you choose (within the bracket limit) and leaves out extra-turn and mass land denial cards in lower brackets. It spreads your budget across the deck so the last cards still fit, choosing the cheapest printing of each card.</p>
+    <h3>4. It writes a primer</h3>
+    <p>Each deck comes with a short primer: the deck's goal, how it wins (with the actual finisher cards from the list), and an early/mid/late game plan.</p>
+
+    <h2>Building from your own collection</h2>
+    <p>Choose <b>My collection</b> under Card pool, then paste your list or upload a .txt or .csv export from Moxfield, ManaBox, Archidekt, Deckbox, or similar. The site identifies each card and builds a deck from only cards you own. If your cards can't make a legal 100-card deck under your settings, it tells you why and which commander came closest.</p>
+    <a class="cta" href="index.html">Roll a deck</a>
+  </div>
+
+  <div class="card">
+    <h2>FAQ</h2>
+    <details><summary>Are the decks tournament-ready?</summary>
+      <p>No. They're a random, playable starting point that follows deckbuilding fundamentals. Treat them as a fun challenge or a base to tune. Bracket 5 decks especially will need hand-tuning to be truly competitive.</p></details>
+    <details><summary>Does it check for two-card infinite combos?</summary>
+      <p>Not yet. There's no reliable public data source for every combo, so if you're playing Bracket 1–3, take a quick look before sitting down.</p></details>
+    <details><summary>How accurate are prices?</summary>
+      <p>Prices come from Scryfall, which uses TCGplayer market prices and updates them daily. They're estimates; actual store prices vary.</p></details>
+    <details><summary>Is my collection uploaded anywhere?</summary>
+      <p>Your list stays in your browser. Only the card names are sent to Scryfall so it can identify them. See the <a href="privacy.html">privacy policy</a>.</p></details>
+    <details><summary>Why did my collection say "No deck possible"?</summary>
+      <p>A deck needs a commander plus about 60 spells in that commander's colors (with the default 36 lands). The message names the closest commander and how many cards you're missing. Try loosening your colors, raising the bracket, lowering the land count, or checking "I have basic lands."</p></details>
+    <details><summary>Does it cost anything?</summary>
+      <p>No. The site is free and supported by ads and affiliate links.</p></details>
+  </div>
+
+  <footer>
+    <p><a href="index.html">Deck roller</a> · <a href="privacy.html">Privacy</a></p>
+    <p>Commander Deck Roller is unofficial Fan Content permitted under the <a href="https://company.wizards.com/en/legal/fancontentpolicy" target="_blank" rel="noopener">Fan Content Policy</a>. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.</p>
+  </footer>
+</div>
+</body>
+</html>

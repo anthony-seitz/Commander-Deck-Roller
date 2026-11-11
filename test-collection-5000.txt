@@ -1,0 +1,5251 @@
+# Commander Deck Roller test collection: 5250 unique cards (top EDHREC-ranked, no basic lands)
+2x Sol Ring
+3 Command Tower (TRC) 521
+4 Arcane Signet
+1x Exotic Orchard
+2 Reliquary Tower (TRC) 551
+3 Swords to Plowshares
+4x Swiftfoot Boots
+1 Lightning Greaves (TRC) 496
+2 Path of Ancestry
+3x Path to Exile
+4 Counterspell (DSC) 114
+1 Fellwar Stone
+2x Rogue's Passage
+3 Evolving Wilds (TRC) 527
+4 Cultivate
+1x Thought Vessel
+2 Blasphemous Act (MSC) 163
+3 Farseek
+4x Bojuka Bog
+1 Beast Within (TRC) 459
+2 Nature's Lore
+3x Heroic Intervention
+4 Rampant Growth (TRC) 468
+1 Chaos Warp
+2x Terramorphic Expanse
+3 Myriad Landscape (EOC) 169
+4 Mind Stone
+1x An Offer You Can't Refuse
+2 Dark Ritual (MSC) 793
+3 Birds of Paradise
+4x Polluted Delta
+1 Flooded Strand (MH3) 220
+2 Skullclamp
+3x Fabled Passage
+4 Three Visits (MSC) 181
+1 Kodama's Reach
+2x Misty Rainforest
+3 Bloodstained Mire (MH3) 216
+4 Solemn Simulacrum
+1x Windswept Heath
+2 Rhystic Study (J22) 114
+3 Wooded Foothills
+4x Verdant Catacombs
+1 Watery Grave (TRK) 306
+2 Scalding Tarn
+3x Marsh Flats
+4 Arcane Denial (MSC) 147
+1 Reanimate
+2x Llanowar Elves
+3 Arid Mesa (MH2) 244
+4 Commander's Sphere
+1x Negate
+2 Cyclonic Rift (RVR) 40
+3 Godless Shrine
+4x Hallowed Fountain
+1 Breeding Pool (TRK) 279
+2 Steam Vents
+3x Generous Gift
+4 Swan Song (EOC) 46
+1 Demonic Tutor
+2x Toxic Deluge
+3 Blood Crypt (TRK) 278
+4 Smothering Tithe
+1x Ancient Tomb
+2 Stomping Ground (TRK) 299
+3 Overgrown Tomb
+4x Brainstorm
+1 Sacred Foundry (TRK) 295
+2 Deflecting Swat
+3x Sulfur Falls
+4 Urborg, Tomb of Yawgmoth (TSR) 287
+1 Clifftop Retreat
+2x Boseiju, Who Endures
+3 Esper Sentinel (MH2) 12
+4 Yavimaya, Cradle of Growth
+1x Temple Garden
+2 Dragonskull Summit (TRC) 524
+3 Fierce Guardianship
+4x Temple of the False God
+1 Chromatic Lantern (MBC) 73
+2 Glacial Fortress
+3x Sunken Hollow
+4 Isolated Chapel (TRC) 539
+1 Cinder Glade
+2x Otawara, Soaring City
+3 Talisman of Dominance (TRC) 505
+4 Garruk's Uprising
+1x Feed the Swarm
+2 City of Brass (TMC) 62
+3 Smoldering Marsh
+4x The One Ring
+1 Frantic Search (TRC) 438
+2 Hinterland Harbor
+3x Faithless Looting
+4 Vandalblast (MSC) 168
+1 Prairie Stream
+2x Mystic Remora
+3 Drowned Catacomb (TRC) 525
+4 Elvish Mystic
+1x Deadly Rollick
+2 Phyrexian Arena (FDN) 180
+3 Canopy Vista
+4x Jeska's Will
+1 Teferi's Protection (2X2) 32
+2 Propaganda
+3x Woodland Cemetery
+4 Cavern of Souls (LCI) 269
+1 Shivan Reef
+2x Mana Confluence
+3 Battlefield Forge (TRC) 514
+4 Urza's Saga
+1x Vampiric Tutor
+2 Sakura-Tribe Elder (SOC) 285
+3 Mana Drain
+4x Lotus Petal
+1 Eternal Witness (CMM) 286
+2 Assassin's Trophy
+3x Caves of Koilos
+4 Talisman of Creativity (TRC) 504
+1 Enlightened Tutor
+2x Wayfarer's Bauble
+3 Talisman of Indulgence (TRC) 507
+4 Black Market Connections
+1x Rootbound Crag
+2 Victimize (TDC) 198
+3 Deadly Dispute
+4x Sunpetal Grove
+1 Roaming Throne (LCI) 258
+2 Talisman of Hierarchy
+3x Ashnod's Altar
+4 Talisman of Progress (TRC) 508
+1 War Room
+2x Big Score
+3 Yavimaya Coast (SOC) 425
+4 Underground River
+1x Llanowar Wastes
+2 Sulfurous Springs (FRC) 85
+3 Adarkar Wastes
+4x Abrade
+1 Blood Artist (SOC) 209
+2 Delighted Halfling
+3x Ponder
+4 Morphic Pool (TRC) 540
+1 Rejuvenating Springs
+2x Talisman of Conviction
+3 Anguished Unmaking (TRC) 472
+4 Herald's Horn
+1x Mana Vault
+2 Pongify (TRC) 441
+3 Training Center
+4x Chrome Mox
+1 Dimir Signet (FRC) 56
+2 Lightning Bolt
+3x Reflecting Pool
+4 Ghostly Prison (SOC) 146
+1 Luxury Suite
+2x Windfall
+3 Nykthos, Shrine to Nyx (THS) 223
+4 Sea of Clouds
+1x Mystical Tutor
+2 Flawless Maneuver (FRC) 25
+3 Sink into Stupor // Soporific Springs
+4x Spectator Seating
+1 Rakdos Signet (FRC) 60
+2 Vault of Champions
+3x Austere Command
+4 Izzet Signet (FRC) 58
+1 Dreamroot Cascade
+2x Worldly Tutor
+3 Mystic Sanctuary (SOC) 388
+4 Night's Whisper
+1x Undergrowth Stadium
+2 Return of the Wildspeaker (ECC) 115
+3 Gemstone Caverns
+4x Three Tree City
+1 Boros Charm (FDN) 721
+2 Farewell
+3x Command Beacon
+4 Stormcarved Coast (SOS) 263
+1 Akroma's Will
+2x Doubling Season
+3 Hardened Scales (SOC) 272
+4 Spire Garden
+1x Tireless Provisioner
+2 Orzhov Signet (TDC) 323
+3 Idol of Oblivion
+4x Prismatic Vista
+1 Buried Ruin (EOC) 150
+2 Phyrexian Tower
+3x Thran Dynamo
+4 Stroke of Midnight (FRC) 35
+1 Storm-Kiln Artist
+2x Fell the Profane // Fell Mire
+3 Mosswort Bridge (TRC) 541
+4 Mox Amber
+1x Village Rites
+2 Patchwork Banner (MSC) 207
+3 Cabal Coffers
+4x Impact Tremors
+1 Force of Will (DMR) 50
+2 Professional Face-Breaker
+3x Karn's Bastion
+4 Bountiful Promenade (MSC) 226
+1 Rapid Hybridization
+2x Azorius Signet
+3 Ash Barrens (TMC) 60
+4 Preordain
+1x Beast Whisperer
+2 Karplusan Forest (EOC) 164
+3 Fyndhorn Elves
+4x Thrill of Possibility
+1 Opt (TDC) 158
+2 Wild Growth
+3x Ornithopter of Paradise
+4 Crop Rotation (DMR) 154
+1 Secluded Courtyard
+2x Animate Dead
+3 Shipwreck Marsh (FRA) 189
+4 Rockfall Vale
+1x Pitiless Plunderer
+2 Dovin's Veto (WAR) 193
+3 Rhythm of the Wild
+4x Terminate
+1 Brushland (BRO) 259
+2 The Great Henge
+3x Sensei's Divining Top
+4 Mirkwood Bats (LTR) 95
+1 Malakir Rebirth // Malakir Mire
+2x Sign in Blood
+3 Zulaport Cutthroat (SOC) 233
+4 Sword of the Animist
+1x Mithril Coat
+2 Explore (TLE) 259
+3 Rishkar's Expertise
+4x Growth Spiral
+1 Gray Merchant of Asphodel (DSC) 142
+2 Gamble
+3x Scute Swarm
+4 Mox Opal (2XM) 275
+1 Morbid Opportunist
+2x Takenuma, Abandoned Mire
+3 Bloom Tender (ECL) 166
+4 Mox Diamond
+1x Foundry Inspector
+2 Unclaimed Territory (MSC) 275
+3 Everflowing Chalice
+4x Archmage Emeritus
+1 Harrow (EOC) 98
+2 Basilisk Collar
+3x Grand Abolisher
+4 Boros Signet (TDC) 314
+1 Viscera Seer
+2x Deserted Beach
+3 Shattered Sanctum (SOS) 260
+4 Sundown Pass
+1x Sylvan Library
+2 Infernal Grasp (SOC) 216
+3 Academy Manufactor
+4x Withering Torment
+1 Haunted Ridge (FRA) 180
+2 Untimely Malfunction
+3x Syr Konrad, the Grim
+4 Orcish Bowmasters (LTR) 103
+1 Inventors' Fair
+2x Unexpected Windfall
+3 Exsanguinate (FDN) 173
+4 Panharmonicon
+1x Jet Medallion
+2 Force of Negation (2X2) 50
+3 Diabolic Intent
+4x Overgrown Farmland
+1 Hullbreaker Horror (INR) 68
+2 Snap
+3x Bolas's Citadel
+4 Rugged Prairie (SOC) 401
+1 Inspiring Call
+2x Darksteel Citadel
+3 Etali, Primal Storm (FDN) 194
+4 Ragavan, Nimble Pilferer
+1x Aetherize
+2 Faerie Mastermind (SOC) 114
+3 Reality Shift
+4x Seedborn Muse
+1 Witch Enchanter // Witch-Blessed Meadow (MH3) 239
+2 Mana Geyser
+3x Cascade Bluffs
+4 Scavenger Grounds (MSC) 263
+1 Ruby Medallion
+2x Choked Estuary
+3 Craterhoof Behemoth (TDM) 138
+4 Underground Sea
+1x Finale of Devastation
+2 Seething Song (C21) 179
+3 Braids, Arisen Nightmare
+4x Temple of Epiphany
+1 Authority of the Consuls (FDN) 137
+2 Avenger of Zendikar
+3x Seat of the Synod
+4 Flooded Grove (SOC) 373
+1 Phyrexian Altar
+2x The Ozolith
+3 Shadowspear (THB) 236
+4 Exploration
+1x Flusterstorm
+2 Skyshroud Claim (EOC) 107
+3 Urza's Incubator
+4x Temple of Silence
+1 Fetid Heath (FRC) 72
+2 Phyrexian Metamorph
+3x Dryad of the Ilysian Grove
+4 Sun Titan (TRC) 428
+1 Foreboding Ruins
+2x Bala Ged Recovery // Bala Ged Sanctuary
+3 Temple of Enlightenment (TRC) 566
+4 Entomb
+1x Guardian Project
+2 Rakdos Charm (EOC) 125
+3 Temple of Triumph
+4x Simic Growth Chamber
+1 Harmonize (TRC) 464
+2 Jungle Shrine
+3x Lotus Cobra
+4 Bastion of Remembrance (TLE) 160
+1 Darkwater Catacombs
+2x Decanter of Endless Water
+3 Azusa, Lost but Seeking (CMM) 274
+4 Frostboil Snarl
+1x Whispersilk Cloak
+2 Volcanic Island (SUM) 291
+3 Reclamation Sage
+4x Port Town
+1 Deathcap Glade (SOS) 253
+2 Loran of the Third Path
+3x Kindred Discovery
+4 Temple of Mystery (TRC) 568
+1 Sevinne's Reclamation
+2x Golgari Rot Farm
+3 Fortified Village (TRC) 532
+4 Furycalm Snarl
+1x Skycloud Expanse
+2 Anger (SOC) 235
+3 Tundra
+4x Putrefy
+1 Damn (LCC) 191
+2 Utopia Sprawl
+3x Arcane Sanctum
+4 Tropical Island (SUM) 288
+1 Buried Alive
+2x Sapphire Medallion
+3 Land Tax (SOC) 153
+4 Twilight Mire
+1x Consider
+2 Dawn's Truce (BLB) 9
+3 Blackblade Reforged
+4x Ketria Triome
+1 Goldspan Dragon (SOC) 245
+2 Anointed Procession
+3x Shifting Woodland
+4 Aetherflux Reservoir (KLD) 192
+1 Great Furnace
+2x Mistrise Village
+3 Baleful Strix (OTC) 215
+4 Spark Double
+1x Shamanic Revelation
+2 Jetmir's Garden (SNC) 250
+3 Arena of Glory
+4x Temple of Deceit
+1 Crumbling Necropolis (MSC) 237
+2 Pact of Negation
+3x Mystic Monastery
+4 Eiganjo, Seat of the Empire (NEO) 268
+1 Badlands
+2x Branching Evolution
+3 Scrubland (SUM) 286
+4 Go for the Throat
+1x Nomad Outpost
+2 Nature's Claim (IMA) 177
+3 Opulent Palace
+4x Temple of Malady
+1 Vanquisher's Banner (LCC) 316
+2 Spire of Industry
+3x Rampaging Baloths
+4 Underworld Breach (THB) 161
+1 Forgotten Ancient
+2x Dimir Aqueduct
+3 Toski, Bearer of Secrets (MKC) 191
+4 Helm of the Host
+1x Damnation
+2 Demolition Field (FDN) 687
+3 Silence
+4x Dauthi Voidwalker
+1 Kutzil, Malamet Exemplar (LCI) 232
+2 Spara's Headquarters
+3x Game Trail
+4 Evolution Sage (ECC) 105
+1 Zagoth Triome
+2x Despark
+3 Selvala, Heart of the Wilds (ECC) 116
+4 Kami of Whispered Hopes
+1x Frontier Bivouac
+2 Fanatic of Rhonas (MH3) 152
+3 Parallel Lives
+4x Lotho, Corrupt Shirriff
+1 Etherium Sculptor (EOC) 72
+2 Guttersnipe
+3x Kessig Wolf Run
+4 Seaside Citadel (TRC) 556
+1 High Market
+2x Warren Soultrader
+3 Gilded Lotus (MSC) 199
+4 Mystic Forge
+1x Walking Ballista
+2 Raffine's Tower (SNC) 254
+3 Minas Tirith
+4x Demand Answers
+1 Cursed Mirror (FRC) 49
+2 Shineshadow Snarl
+3x Undercity Sewers
+4 Bayou (SUM) 283
+1 Pearl Medallion
+2x Snakeskin Veil
+3 Ephemerate (MH1) 7
+4 Orzhov Basilica
+1x Enduring Vitality
+2 Psychosis Crawler (MKC) 234
+3 Welcoming Vampire
+4x Sungrass Prairie
+1 Taiga (SUM) 287
+2 Plateau
+3x Urza's Cave
+4 Mondrak, Glory Dominus (ONE) 23
+1 Dispatch
+2x Cabal Ritual
+3 Unnatural Growth (INR) 223
+4 Simian Spirit Guide
+1x Hall of Heliod's Generosity
+2 Shadowblood Ridge (DSC) 296
+3 Gaea's Cradle
+4x Sram, Senior Edificer
+1 Geier Reach Sanitarium (LCC) 335
+2 Academy Ruins
+3x Bident of Thassa
+4 Ohran Frostfang (SOC) 279
+1 Izzet Boilerworks
+2x Tainted Wood
+3 Living Death (TDC) 185
+4 Disciple of Freyalise // Garden of Freyalise
+1x Expedition Map
+2 Soul Warden (MM3) 24
+3 Ghalta, Primal Hunger
+4x Tamiyo's Safekeeping
+1 Savannah (SUM) 285
+2 Red Elemental Blast
+3x Tainted Field
+4 Conjurer's Closet (INR) 259
+1 Thassa's Oracle
+2x Sheoldred, the Apocalypse
+3 Treasure Vault (AFR) 261
+4 Entish Restoration
+1x Plaza of Heroes
+2 Goblin Bombardment (MH2) 279
+3 Fabricate
+4x Vault of the Archangel
+1 Supreme Verdict (TRC) 480
+2 Chandra's Ignition
+3x Temple of Malice
+4 Gruul Turf (ECC) 152
+1 Xander's Lounge
+2x Commander's Plate
+3 Raugrin Triome (IKO) 251
+4 Accursed Marauder
+1x Mental Misstep
+2 Ancient Den (EOC) 148
+3 Rise of the Dark Realms
+4x Indatha Triome
+1 Azorius Chancery (DSC) 261
+2 Pyroblast
+3x Underground Mortuary
+4 Tatyova, Benthic Druid (FDN) 247
+1 Voice of Victory
+2x Talisman of Curiosity
+3 Faeburrow Elder (ECC) 53
+4 Vito, Thorn of the Dusk Rose
+1x Diabolic Tutor
+2 Bedevil (MSC) 182
+3 Adeline, Resplendent Cathar
+4x Maskwood Nexus
+1 Culling the Weak (EXO) 55
+2 Savai Triome
+3x Blazemire Verge
+4 Redirect Lightning (TLA) 151
+1 Read the Bones
+2x Blasphemous Edict
+3 Field of the Dead (M20) 247
+4 Avacyn's Pilgrim
+1x Tainted Peak
+2 Ramunap Excavator (OTC) 202
+3 Bender's Waterskin
+4x Birgi, God of Storytelling // Harnfel, Horn of Bounty
+1 Mother of Runes (CLB) 702
+2 Sanguine Bond
+3x Bolt Bend
+4 Blind Obedience (RVR) 9
+1 Talisman of Resilience
+2x Terror of the Peaks
+3 Oracle of Mul Daya (EOC) 102
+4 Liquimetal Torque
+1x Sandsteppe Citadel
+2 Temple of Plenty (TRC) 569
+3 Valakut Awakening // Valakut Stoneforge
+4x Massacre Wurm
+1 Overwhelming Stampede (MSC) 178
+2 The Meathook Massacre
+3x Crypt Ghast
+4 Chord of Calling (RVR) 134
+1 Exquisite Blood
+2x Burnished Hart
+3 Felidar Retreat (FDN) 574
+4 Veil of Summer
+1x Necropotence
+2 Wishclaw Talisman (FDN) 617
+3 Bonders' Enclave
+4x Relic of Legends
+1 Boros Garrison (CLU) 231
+2 Rakdos Carnarium
+3x Gitaxian Probe
+4 The Reaver Cleaver (DMC) 8
+1 Pinnacle Monk // Mystic Peak
+2x Ripples of Undeath
+3 Strip Mine (4ED) 363
+4 Tainted Isle
+1x Ignoble Hierarch
+2 Green Sun's Zenith (2X2) 150
+3 Clever Concealment
+4x Emergence Zone
+1 Unwinding Clock (TRC) 510
+2 Dread Return
+3x Ziatora's Proving Ground
+4 Hedron Archive (TRC) 492
+1 Necroblossom Snarl
+2x Hexing Squelcher
+3 Imperial Seal (2X2) 79
+4 Elemental Bond
+1x Displacer Kitten
+2 Sword of Feast and Famine (2XM) 296
+3 Vineglimmer Snarl
+4x Laboratory Maniac
+1 Graven Cairns (DSC) 280
+2 Mindbreak Trap
+3x Second Harvest
+4 Mossfire Valley (TDC) 378
+1 Cathars' Crusade
+2x Return the Favor
+3 Nesting Grounds (ECC) 155
+4 Springleaf Drum
+1x Temple of Abandon
+2 Maze of Ith (DMR) 250
+3 Hedge Maze
+4x Goblin Anarchomancer
+1 Talon Gates of Madara (SDS) 28
+2 Basalt Monolith
+3x Marionette Apprentice
+4 Brotherhood Regalia (ACR) 71
+1 Worn Powerstone
+2x Raucous Theater
+3 Conduit of Worlds (MSC) 171
+4 Mayhem Devil
+1x Scrawling Crawler
+2 Beastmaster Ascension (NCC) 283
+3 Unbreakable Formation
+4x Saw in Half
+1 Curiosity (JMP) 147
+2 Shadowy Backstreet
+3x Grave Pact
+4 Wheel of Fortune (SUM) 185
+1 Emerald Medallion
+2x Growing Rites of Itlimoc // Itlimoc, Cradle of the Sun
+3 Mortify (FDN) 662
+4 Thespian's Stage
+1x Reprieve
+2 Teferi's Ageless Insight (J25) 371
+3 Selesnya Sanctuary
+4x Champion of Lambholt
+1 Darksteel Mutation (SOC) 142
+2 Talisman of Impulse
+3x Selfless Spirit
+4 Ghostly Flicker (CMM) 98
+1 Puresteel Paladin
+2x Icetill Explorer
+3 Gloomlake Verge (DSK) 260
+4 Six
+1x Culling Ritual
+2 Crucible of Worlds (2X2) 303
+3 Tibalt's Trickery
+4x Access Tunnel
+1 Opposition Agent (CMR) 141
+2 Cloud Key
+3x Emry, Lurker of the Loch
+4 Corrupted Conviction (OTJ) 84
+1 Carrion Feeder
+2x Mulldrifter
+3 Arbor Elf (A25) 160
+4 Hydroelectric Specimen // Hydroelectric Laboratory
+1x Strionic Resonator
+2 Mangara, the Diplomat (SOC) 155
+3 Minamo, School at Water's Edge
+4x Bitterblossom
+1 Banner of Kinship (FDN) 127
+2 Realmwalker
+3x Stitcher's Supplier
+4 Floodfarm Verge (DSK) 259
+1 Trouble in Pairs
+2x Elas il-Kor, Sadistic Pilgrim
+3 Vault of Whispers (J25) 780
+4 Deathrite Shaman
+1x Tribute to the World Tree
+2 Ophiomancer (SOC) 118
+3 Archdruid's Charm
+4x Shizo, Death's Storehouse
+1 Ancient Copper Dragon (CLB) 161
+2 Aftermath Analyst
+3x Boggart Trawler // Boggart Bog
+4 Torment of Hailfire (HOU) 77
+1 Thundering Falls
+2x Dig Through Time
+3 Greater Good (MSC) 174
+4 Vernal Fen
+1x Goreclaw, Terror of Qal Sisma
+2 Elspeth, Storm Slayer (TDM) 11
+3 Harmonic Prodigy
+4x Caretaker's Talent
+1 Noxious Revival (NPH) 118
+2 Wizard Class
+3x Simic Signet
+4 Plaguecrafter (RVR) 89
+1 Open the Armory
+2x Gravecrawler
+3 Imp's Mischief (CMM) 167
+4 Incubation Druid
+1x Altar of Dementia
+2 Fog (EMA) 167
+3 All That Glitters
+4x Rite of Flame
+1 Borne Upon a Wind (LTR) 44
+2 Ozolith, the Shattered Spire
+3x Cryptolith Rite
+4 Treasure Cruise (SOC) 205
+1 Ruinous Ultimatum
+2x Bontu's Monument
+3 Savage Lands (MSC) 827
+4 Sheltered Thicket
+1x Consecrated Sphinx
+2 Trailblazer's Boots (OTC) 269
+3 The Earth Crystal
+4x Reckless Fireweaver
+1 Distant Melody (ECC) 45
+2 Sea Gate Restoration // Sea Gate, Reborn
+3x Midnight Clock
+4 Archaeomancer's Map (SOC) 136
+1 Knight of the White Orchid
+2x Commercial District
+3 Windbrisk Heights (TDC) 411
+4 Meticulous Archive
+1x Sculpting Steel
+2 Bridgeworks Battle // Tanglespan Bridgeworks (MH3) 249
+3 Hushwood Verge
+4x Into the Flood Maw
+1 Snuff Out (GVL) 53
+2 Tireless Tracker
+3x Starting Town
+4 Grim Monolith (ULG) 126
+1 Krosan Grip
+2x Dramatic Reversal
+3 Mentor of the Meek (HOC) 170
+4 Intangible Virtue
+1x Sanctum Weaver
+2 Wood Elves (HOB) 142
+3 Haywire Mite
+4x Goblin Electromancer
+1 Black Market (CLB) 739
+2 Canyon Slough
+3x Shared Animosity
+4 Dualcaster Mage (C21) 165
+1 Wrath of God
+2x Kindred Dominance
+3 Changeling Outcast (OTC) 128
+4 Opal Palace
+1x Sphere of Safety
+2 Curse of Opulence (TDC) 209
+3 Sundering Eruption // Volcanic Fissure
+4x Aggravated Assault
+1 Purphoros, God of the Forge (CMM) 246
+2 Pyretic Ritual
+3x Ancient Greenwarden
+4 Fact or Fiction (FRC) 41
+1 Innkeeper's Talent
+2x Reflections of Littjara
+3 Charcoal Diamond (CLB) 305
+4 Chasm Skulker
+1x Chain Reaction
+2 Archivist of Oghma (CLB) 4
+3 Springheart Nantuko
+4x Mortuary Mire
+1 Grim Tutor (M21) 103
+2 Muddle the Mixture
+3x Narset's Reversal
+4 Imperial Recruiter (MH2) 281
+1 Whip of Erebos
+2x Life from the Loam
+3 Tyvar's Stand (SOC) 291
+4 Thought Monitor
+1x Thornspire Verge
+2 Riveteers Overlook (ECC) 162
+3 Mirari's Wake
+4x Howling Mine
+1 Hammer of Nazahn (CMM) 388
+2 Castle Ardenvale
+3x Castle Garenbrig
+4 Palladium Myr (CMM) 967
+1 Seize the Spoils
+2x Hellkite Tyrant
+3 Viridescent Bog (SOC) 421
+4 Overflowing Basin
+1x Sheoldred, Whispering One
+2 Avacyn, Angel of Hope (INR) 477
+3 Enduring Innocence
+4x Lush Portico
+1 Veyran, Voice of Duality (SOC) 337
+2 Chimil, the Inner Sun
+3x Mockingbird
+4 Champion's Helm (CMM) 375
+1 Mossborn Hydra
+2x Warstorm Surge
+3 Flare of Fortitude (MH3) 26
+4 Grapeshot
+1x Lion's Eye Diamond
+2 Fire Diamond (CLB) 313
+3 Terrasymbiosis
+4x Elves of Deep Shadow
+1 Forbidden Orchard (2X2) 323
+2 Rising of the Day
+3x Oran-Rief, the Vastwood
+4 Golgari Signet (DSC) 246
+1 Elvish Spirit Guide
+2x Void Rend
+3 Loyal Apprentice (TDC) 222
+4 Spelunking
+1x Bleachbone Verge
+2 Collective Resistance (MH3) 147
+3 Cloudshift
+4x Kenrith's Transformation
+1 Aqueous Form (CMR) 56
+2 Idyllic Tutor
+3x Twinflame Tyrant
+4 Scoured Barrens (TDM) 267
+1 Mystic Gate
+2x Revitalizing Repast // Old-Growth Grove
+3 Abrupt Decay (MM3) 146
+4 Imprisoned in the Moon
+1x Leyline of Anticipation
+2 Valley Floodcaller (BLB) 79
+3 Bloodchief Ascension
+4x Isochron Scepter
+1 Elspeth, Sun's Champion (FRC) 24
+2 Liliana, Dreadhorde General
+3x Eldritch Evolution
+4 Kaya's Ghostform (WAR) 94
+1 Noble Hierarch
+2x Drannith Magistrate
+3 Reassembling Skeleton (TDC) 195
+4 Elegant Parlor
+1x Priest of Titania
+2 Sunbillow Verge (DFT) 264
+3 Soul's Attendant
+4x Brain Freeze
+1 Vanquish the Horde (TRC) 432
+2 Ferrous Lake
+3x Sylvan Safekeeper
+4 Steel Overseer (EOC) 144
+1 Eladamri's Call
+2x Castle Locthwain
+3 Escape Tunnel (TMT) 184
+4 Fleshbag Marauder
+1x Dryad Arbor
+2 Inkshield (SOC) 316
+3 Enduring Tenacity
+4x Springbloom Druid
+1 Spinerock Knoll (DSC) 300
+2 Urza, Lord High Artificer
+3x Peregrin Took
+4 Ornithopter (DMR) 233
+1 Bloodthirsty Conqueror
+2x High Tide
+3 Meteor Golem (MSC) 205
+4 Sai, Master Thopterist
+1x Tocasia's Welcome
+2 Return to Nature (MOC) 309
+3 Danitha Capashen, Paragon
+4x Irrigated Farmland
+1 Aurelia, the Warleader (FDN) 651
+2 Gilded Goose
+3x Jungle Hollow
+4 Coruscation Mage (BLB) 131
+1 Niv-Mizzet, Parun
+2x Colossus Hammer
+3 Sunscorched Divide (SOC) 410
+4 Ranger-Captain of Eos
+1x Talrand, Sky Summoner
+2 Etali, Primal Conqueror // Etali, Primal Sickness (MOM) 137
+3 The World Tree
+4x Flowering of the White Tree
+1 The Fire Crystal (FIN) 135
+2 Bitter Triumph
+3x Clearwater Pathway // Murkwater Pathway
+4 Mizzix's Mastery (OTC) 175
+1 Brash Taunter
+2x Brightclimb Pathway // Grimclimb Pathway
+3 Riverpyre Verge (DFT) 260
+4 The Soul Stone
+1x Sky Diamond
+2 Ayara, First of Locthwain (ELD) 75
+3 Enduring Curiosity
+4x Buster Sword
+1 Thrummingbird (EOC) 80
+2 High Fae Trickster
+3x Nature's Rhythm
+4 Urza's Tower (CMM) 1053
+1 Gruul Signet
+2x Yawgmoth, Thran Physician
+3 Cankerbloom (ONE) 161
+4 Wonder
+1x Sigarda's Aid
+2 Dragon Tempest (TDC) 94
+3 Urza's Mine
+4x Ashaya, Soul of the Wild
+1 Urza's Power Plant (CMM) 1052
+2 Ledger Shredder
+3x Ripples of Potential
+4 Heraldic Banner (FDN) 254
+1 Gyre Sage
+2x Ghost Quarter
+3 Loot, Exuberant Explorer (FDN) 106
+4 Sunken Ruins
+1x Blightstep Pathway // Searstep Pathway
+2 The Mycosynth Gardens (EOC) 168
+3 Aesi, Tyrant of Gyre Strait
+4x The Wind Crystal
+1 Tear Asunder (EOC) 109
+2 Raise the Palisade
+3x Witch's Cottage
+4 Lotus Field (SOC) 385
+1 Young Pyromancer
+2x Fetid Pools
+3 Cephalid Coliseum (TDC) 349
+4 Elesh Norn, Grand Cenobite
+1x Evendo, Waking Haven
+2 Delney, Streetwise Lookout (MKM) 12
+3 Mesa Enchantress
+4x Forsaken Monument
+1 Nadier's Nightblade (MH3) 275
+2 Bloodletter of Aclazotz
+3x Beseech the Mirror
+4 Kodama of the West Tree (J25) 78
+1 Fiery Emancipation
+2x Curse of the Swine
+3 Rancor (2X2) 156
+4 Splendid Reclamation
+1x Riverglide Pathway // Lavaglide Pathway
+2 Xorn (AFR) 167
+3 Breach the Multiverse
+4x Expressive Iteration
+1 Reconnaissance (EXO) 17
+2 Forgotten Cave
+3x Fiery Islet
+4 Blade of Selves (TDC) 313
+1 Boromir, Warden of the Tower
+2x Needleverge Pathway // Pillarverge Pathway
+3 Thousand-Year Elixir (C21) 271
+4 Elvish Archdruid
+1x Rite of Replication
+2 Scrap Trawler (MOC) 373
+3 Myr Retriever
+4x Tragic Slip
+1 Padeem, Consul of Innovation (J25) 62
+2 Rishkar, Peema Renegade
+3x Radiant Summit
+4 Murder (J25) 467
+1 Spell Pierce
+2x Kappa Cannoneer
+3 Serum Visions (OTC) 112
+4 Disrupt Decorum
+1x Zuran Orb
+2 Tempt with Discovery (C19) 183
+3 Descent into Avernus
+4x Darksteel Plate
+1 Tainted Pact (ODY) 164
+2 Solphim, Mayhem Dominus
+3x Temur Ascendancy
+4 Burgeoning (C16) 143
+1 Monument to Endurance
+2x Grim Hireling
+3 Throne of Eldraine (PLST) WOC-28
+4 Thoughtcast
+1x Desolate Mire
+2 Reconnaissance Mission (MSC) 153
+3 The Gitrog Monster
+4x Essence Flux
+1 City on Fire (MOM) 135
+2 Wastewood Verge
+3x Archmage of Runes
+4 Warleader's Call (TRC) 483
+1 Sword of Hearth and Home
+2x Bristly Bill, Spine Sower
+3 Bear Umbra (NEC) 113
+4 Dismember
+1x Emeria, the Sky Ruin
+2 Promise of Loyalty (TRC) 426
+3 Archway of Innovation
+4x Thopter Spy Network
+1 Vesuva (TSR) 289
+2 Field of Ruin
+3x Demonic Consultation
+4 Krenko, Tin Street Kingpin (J25) 572
+1 Myr Battlesphere
+2x Resculpt
+3 Bastion Protector (MSC) 122
+4 Pull from Tomorrow
+1x Metallic Mimic
+2 Excalibur, Sword of Eden (ACR) 72
+3 Ojer Taq, Deepest Foundation // Temple of Civilization
+4x Peregrine Drake
+1 Fountainport (BLB) 253
+2 Old Gnawbone
+3x Solve the Equation
+4 Desperate Ritual (UMA) 127
+1 Cyberdrive Awakener
+2x Evolution Witness
+3 Jaheira, Friend of the Forest (CLB) 237
+4 Tezzeret's Gambit
+1x Blightsteel Colossus
+2 Cut a Deal (MSC) 127
+3 Omnath, Locus of Rage
+4x Eidolon of Blossoms
+1 Shared Roots (TLA) 196
+2 Unearth
+3x Alhammarret's Archive
+4 Approach of the Second Sun (AKH) 4
+1 Sejiri Shelter // Sejiri Glacier
+2x Stormcatch Mentor
+3 Spirited Companion (J25) 256
+4 Bloodfell Caves
+1x Archon of Cruelty
+2 Taurean Mauler (TDC) 238
+3 Phyrexian Reclamation
+4x Strike It Rich
+1 Caged Sun (CM2) 178
+2 Irenicus's Vile Duplication
+3x Devoted Druid
+4 Crashing Drawbridge (TDC) 316
+1 Coat of Arms
+2x Agadeem's Awakening // Agadeem, the Undercrypt
+3 Blighted Woodland (CLB) 881
+4 Moraug, Fury of Akoum
+1x Dispel
+2 Cabal Stronghold (DOM) 238
+3 All Is Dust
+4x Ichor Wellspring
+1 Wilderness Reclamation (DSC) 205
+2 Teleportation Circle
+3x Cabaretti Courtyard
+4 Tataru Taru (FIC) 30
+1 Mask of Memory
+2x Archaeomancer
+3 Karmic Guide (SOC) 151
+4 Mechanized Production
+1x Inspiring Statuary
+2 Dusk // Dawn (MKC) 61
+3 Cruel Celebrant
+4x Defile
+1 Mindcrank (CLB) 866
+2 Narset, Parter of Veils
+3x Sokenzan, Crucible of Defiance
+4 Inexorable Tide (MM2) 49
+1 Angel of the Ruins
+2x Last March of the Ents
+3 Chain of Vapor (C16) 84
+4 Bloodghast
+1x Eerie Interlude
+2 Willowrush Verge (DFT) 270
+3 Fumigate
+4x Loxodon Warhammer
+1 Annie Joins Up (OTJ) 191
+2 Kardur, Doomscourge
+3x Mines of Moria
+4 Windborn Muse (MKC) 92
+1 Decimate
+2x Heliod, Sun-Crowned
+3 Serra Ascendant (IMA) 31
+4 Moldervine Reclamation
+1x Torbran, Thane of Red Fell
+2 Gavony Township (MOC) 406
+3 Mirror Entity
+4x Kodama of the East Tree
+1 Manifold Key (CLB) 319
+2 Combat Celebrant
+3x Thriving Isle
+4 Talisman of Unity (MKC) 244
+1 Force of Vigor
+2x Steelshaper's Gift
+3 Razorkin Needlehead (DSK) 153
+4 Genji Glove
+1x Monologue Tax
+2 Rewind (M21) 63
+3 Rivendell
+4x Restoration Magic
+1 Arcane Lighthouse (SOC) 361
+2 Nettlecyst
+3x Arasta of the Endless Web
+4 Managorger Hydra (MOC) 307
+1 Omniscience
+2x Noxious Gearhulk
+3 Nyxbloom Ancient (THB) 190
+4 Castle Vantress
+1x Combustible Gearhulk
+2 Dictate of Erebos (JOU) 65
+3 Midnight Reaper
+4x Training Grounds
+1 Staff of Domination (CMR) 343
+2 Yahenni, Undying Partisan
+3x Necromancy
+4 Krosan Verge (OTC) 304
+1 Dismal Backwater
+2x Spellskite
+3 Swarmyard (TSR) 284
+4 Pest Infestation
+1x Syphon Mind
+2 Sythis, Harvest's Hand (CMM) 938
+3 Apex Devastator
+4x Herald of Secret Streams
+1 Scattered Groves (TRC) 553
+2 Hour of Reckoning
+3x Enchantress's Presence
+4 Elesh Norn, Mother of Machines (ONE) 10
+1 Wind-Scarred Crag
+2x Witch's Clinic
+3 Destiny Spinner (CMM) 890
+4 Wear // Tear
+1x Three Steps Ahead
+2 Oketra's Monument (DMC) 188
+3 Herd Heirloom
+4x Roiling Regrowth
+1 Jhoira, Weatherlight Captain (EOC) 118
+2 Unwind
+3x Lathliss, Dragon Queen
+4 Razortide Bridge (EOC) 171
+1 Charismatic Conqueror
+2x Jhoira's Familiar
+3 Barren Moor (DSC) 262
+4 Portal to Phyrexia
+1x Spellseeker
+2 Aura Shards (CMD) 182
+3 Chatterfang, Squirrel General
+4x Karlach, Fury of Avernus
+1 Sakashima of a Thousand Faces (CMR) 89
+2 Blossoming Sands
+3x Abandoned Air Temple
+4 Vivi Ornitier (FIN) 248
+1 K'rrik, Son of Yawgmoth
+2x Hunter's Insight
+3 Wayward Swordtooth (LCC) 263
+4 Setessan Champion
+1x Blackcleave Cliffs
+2 Wurmcoil Engine (2XM) 308
+3 Jace, Wielder of Mysteries
+4x Ghalta, Stampede Tyrant
+1 Swiftwater Cliffs (TDM) 268
+2 Slip Out the Back
+3x Tranquil Thicket
+4 Door of Destinies (TRC) 489
+1 Ram Through
+2x Krenko, Mob Boss
+3 The Reality Chip (NEO) 74
+4 Marauding Blight-Priest
+1x Exemplar of Light
+2 Selesnya Signet (PLST) RVR-267
+3 Ocelot Pride
+4x Marvin, Murderous Mimic
+1 Stoneforge Mystic (2XM) 31
+2 Strix Serenade
+3x Badgermole Cub
+4 Mesmeric Orb (2XM) 272
+1 Muldrotha, the Gravetide
+2x Ugin, the Ineffable
+3 Secret Rendezvous (SOC) 166
+4 Fertile Ground
+1x Castle Embereth
+2 Thriving Heath (MSC) 580
+3 Mishra's Bauble
+4x Tranquil Cove
+1 Kozilek, Butcher of Truth (2X2) 2
+2 Prismari Command
+3x Not Dead After All
+4 Wall of Omens (TDC) 138
+1 Drakuseth, Maw of Flames
+2x Damning Verdict
+3 Alchemist's Refuge (SOC) 360
+4 The Darkness Crystal
+1x Circle of Dreams Druid
+2 Thornwood Falls (TDM) 269
+3 Marble Diamond
+4x Disenchant
+1 Well of Lost Dreams (C21) 275
+2 Anim Pakal, Thousandth Moon
+3x Ethereal Armor
+4 Great Train Heist (OTJ) 125
+1 Gisela, Blade of Goldnight
+2x Skrelv, Defector Mite
+3 Tezzeret, Cruel Captain (EOE) 2
+4 Lumra, Bellow of the Woods
+1x Cathartic Reunion
+2 Teferi, Time Raveler (RVR) 232
+3 Essence Warden
+4x Cragcrown Pathway // Timbercrown Pathway
+1 Nezahal, Primal Tide (CMR) 401
+2 Shalai, Voice of Plenty
+3x Vilis, Broker of Blood
+4 Firebrand Archer (FDN) 196
+1 Deflecting Palm
+2x Haven of the Spirit Dragon
+3 Up the Beanstalk (WOE) 195
+4 City of Traitors
+1x Suture Priest
+2 Sheoldred's Edict (ONE) 108
+3 Plumb the Forbidden
+4x Barkchannel Pathway // Tidechannel Pathway
+1 Kalonian Hydra (MOC) 305
+2 Crackle with Power
+3x Flare of Duplication
+4 Lonely Sandbar (EOC) 166
+1 Enduring Courage
+2x Grasp of Fate
+3 Spore Frog (MH1) 180
+4 Seachrome Coast
+1x Stock Up
+2 Luminous Broodmoth (IKO) 21
+3 Fire-Lit Thicket
+4x Twilight Prophet
+1 Grim Haruspex (CLB) 754
+2 Glasspool Mimic // Glasspool Shore
+3x Spymaster's Vault
+4 Nightscape Familiar (DMR) 94
+1 Ravenous Chupacabra
+2x Vindicate
+3 Tekuthal, Inquiry Dominus (EOC) 78
+4 Tyrite Sanctum
+1x Mirrormade
+2 Hengegate Pathway // Mistgate Pathway (KHM) 260
+3 Fireshrieker
+4x Fiery Inscription
+1 Augur of Autumn (TRC) 458
+2 Windcrag Siege
+3x Secure the Wastes
+4 Concealed Courtyard (OTJ) 268
+1 Recruiter of the Guard
+2x Silent Arbiter
+3 Thriving Grove (MSC) 579
+4 Revel in Riches
+1x Silverbluff Bridge
+2 Moonshaker Cavalry (SOC) 110
+3 Summon: Bahamut
+4x Waterlogged Grove
+1 Titania, Protector of Argoth (EOC) 111
+2 Branchloft Pathway // Boulderloft Pathway
+3x Soul Shatter
+4 Triumph of the Hordes (NPH) 123
+1 Grand Crescendo
+2x Midgar, City of Mako // Reactor Raid
+3 The Black Gate (LTC) 80
+4 Dreamtide Whale
+1x Homeward Path
+2 Kambal, Profiteering Mayor (OTJ) 211
+3 Magus of the Wheel
+4x Requisition Raid
+1 Glaring Fleshraker (MH3) 7
+2 Mikokoro, Center of the Sea
+3x Dragon's Hoard
+4 Kediss, Emberclaw Familiar (CMR) 188
+1 Millikin
+2x The Shire
+3 Goblin Engineer (MH1) 128
+4 Painful Quandary
+1x Wan Shi Tong, Librarian
+2 Steel Hellkite (TDC) 327
+3 Sodden Verdure
+4x Brainsurge
+1 Ezuri's Predation (DSC) 178
+2 Darkbore Pathway // Slitherbore Pathway
+3x Thriving Bluff
+4 Tarrian's Soulcleaver (LCI) 264
+1 Akroma's Memorial
+2x Neheb, the Eternal
+3 Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel (FIN) 115
+4 Cascading Cataracts
+1x Captain Lannery Storm
+2 Magda, Brazen Outlaw (KHM) 142
+3 Forge Anew
+4x Marwyn, the Nurturer
+1 Uthros, Titanic Godcore (EOE) 260
+2 Zopandrel, Hunger Dominus
+3x Siren Stormtamer
+4 Sphere Grid (FIC) 70
+1 Shrine of the Forsaken Gods
+2x Mount Doom
+3 Artisan of Kozilek (CMM) 801
+4 Clever Impersonator
+1x Wasteland
+2 Notion Thief (ZNC) 96
+3 Formidable Speaker
+4x Thriving Moor
+1 Insatiable Avarice (OTJ) 91
+2 Xenagos, God of Revels
+3x Lórien Revealed
+4 Dark Confidant (FIN) 94
+1 Shark Typhoon
+2x Junji, the Midnight Sky
+3 Electro, Assaulting Battery (SPM) 76
+4 Arachnogenesis
+1x Legion Leadership // Legion Stronghold
+2 Expedite (CMR) 413
+3 Wheel of Misfortune
+4x Flux Channeler
+1 Amphibian Downpour (MH3) 51
+2 Skyclave Apparition
+3x Light Up the Stage
+4 Primal Vigor (C13) 162
+1 Umbral Collar Zealot
+2x Bane of Progress
+3 Kogla, the Titan Ape (IKO) 162
+4 Vraska, Betrayal's Sting
+1x Migration Path
+2 Rustvale Bridge (EOC) 175
+3 Sterling Grove
+4x Lethal Scheme
+1 Exalted Sunborn (EOE) 15
+2 Starfield Mystic
+3x Silver Myr
+4 Patriar's Seal (CLB) 332
+1 Twinflame
+2x Archangel of Thune
+3 Vorinclex, Monstrous Raider (KHM) 199
+4 Bushwhack
+1x Liberator, Urza's Battlethopter
+2 Chromatic Orrery (M21) 228
+3 Coveted Jewel
+4x Waste Not
+1 Agate Instigator (PLST) BLC-21
+2 Secret Tunnel
+3x Fracture
+4 Sheltered by Ghosts (SOC) 171
+1 Amulet of Vigor
+2x Archon of Sun's Grace
+3 Scourge of the Throne (TDC) 230
+4 Cleansing Nova
+1x Iron Myr
+2 Weftstalker Ardent (EOE) 169
+3 Archfiend of Ifnir
+4x Slayers' Stronghold
+1 Wight of the Reliquary (SOC) 338
+2 Explosive Vegetation
+3x Topiary Stomper
+4 Pollywog Prodigy (BLC) 15
+1 Aven Mindcensor
+2x Duelist's Heritage
+3 Kambal, Consul of Allocation (2X2) 237
+4 Past in Flames
+1x Rosie Cotton of South Lane
+2 Vexing Bauble (MH3) 212
+3 Balefire Dragon
+4x Scapeshift
+1 Organic Extinction (EOC) 66
+2 Nuka-Cola Vending Machine
+3x Hedge Shredder
+4 Elenda, the Dusk Rose (LCC) 268
+1 Valakut, the Molten Pinnacle
+2x Full Throttle
+3 Dakmor Salvage (EOC) 156
+4 Stump Stomp // Burnwillow Clearing
+1x Defense of the Heart
+2 Ruin Crab (ZNR) 75
+3 Valgavoth, Terror Eater
+4x Saryth, the Viper's Fang
+1 Rune-Scarred Demon (FDN) 184
+2 Astral Cornucopia
+3x Undying Malice
+4 Alexios, Deimos of Kosmos (ACR) 33
+1 Mahadi, Emporium Master
+2x Peer into the Abyss
+3 Maestros Theater (EOC) 167
+4 Wandering Archaic // Explore the Vastlands
+1x Flare of Malice
+2 Kiki-Jiki, Mirror Breaker (IMA) 136
+3 Enter the Enigma
+4x Tendershoot Dryad
+1 Krark-Clan Ironworks (5DN) 134
+2 Dragonspeaker Shaman
+3x Sylvan Scrying
+4 Vigor (BBD) 215
+1 Conqueror's Flail
+2x Keeper of the Accord
+3 Molten Gatekeeper (MH3) 128
+4 Thassa, Deep-Dwelling
+1x Jadar, Ghoulcaller of Nephalia
+2 Experimental Augury (EOC) 73
+3 Mirage Mirror
+4x Simic Ascendancy
+1 Martial Coup (FRC) 28
+2 Guildless Commons
+3x Dreadhorde Invasion
+4 Soul-Guide Lantern (EOC) 143
+1 Mikaeus, the Unhallowed
+2x Vibrant Cityscape
+3 Key to the City (C21) 248
+4 Timeless Witness
+1x Haliya, Guided by Light
+2 Ulamog, the Ceaseless Hunger (CMM) 5
+3 Awaken the Woods
+4x Whir of Invention
+1 Finale of Revelation (FDN) 589
+2 Pristine Talisman
+3x Sword of Fire and Ice
+4 Brokers Hideout (SNC) 248
+1 Palantír of Orthanc
+2x Staff of Compleation
+3 Dragonlord's Servant (TDC) 210
+4 Leyline Axe
+1x Shimmer Myr
+2 Dolmen Gate (LRW) 256
+3 Endurance
+4x Teysa Karlov
+1 Laelia, the Blade Reforged (SOC) 246
+2 Sephara, Sky's Blade
+3x Haunted Mire
+4 Persist (ECC) 83
+1 Atsushi, the Blazing Sky
+2x Baral, Chief of Compliance
+3 Skirk Prospector (DMR) 137
+4 Genesis Wave
+1x Scroll Rack
+2 Enthusiastic Mechanaut (EOC) 114
+3 Brass's Bounty
+4x Asceticism
+1 Third Path Iconoclast (TDC) 307
+2 Ad Nauseam
+3x Grave Titan
+4 Carpet of Flowers (USG) 240
+1 Lindblum, Industrial Regency // Mage Siege
+2x Colossal Majesty
+3 Rootborn Defenses (PLST) RVR-26
+4 Cavern-Hoard Dragon
+1x Kinnan, Bonder Prodigy
+2 Courser of Kruphix (CMM) 888
+3 Crime Novelist
+4x Halimar Depths
+1 Restoration Angel (INR) 38
+2 Razorverge Thicket
+3x Giver of Runes
+4 Ulamog, the Infinite Gyre (2X2) 3
+1 Priest of Forgotten Gods
+2x Boltwave
+3 Glissa Sunslayer (ECC) 122
+4 All Will Be One
+1x Hedron Crab
+2 Cloud of Faeries (MOC) 219
+3 Muraganda Raceway
+4x Gold Myr
+1 Bulk Up (FDN) 80
+2 Atarka, World Render
+3x Jukai Naturalist
+4 Electrodominance (TDC) 212
+1 Agatha's Soul Cauldron
+2x Binding the Old Gods
+3 Whirlwind of Thought (FRC) 51
+4 Embercleave
+1x Abzan Falconer
+2 Vampiric Rites (FDN) 615
+3 Ishgard, the Holy See // Faith & Grief
+4x Thousand-Year Storm
+1 Chronicle of Victory (ECL) 253
+2 Cleric Class
+3x Regrowth
+4 Bonehoard Dracosaur (LCI) 134
+1 Adventurer's Inn
+2x Grisly Salvage
+3 Elven Chorus (LTR) 160
+4 Shiny Impetus
+1x Crawlspace
+2 Duskshell Crawler (J25) 653
+3 Waterlogged Teachings // Inundated Archive
+4x Butcher of Malakir
+1 Skull Prophet (TDC) 304
+2 Coiling Oracle
+3x Forensic Gadgeteer
+4 Darkslick Shores (OTC) 281
+1 Adrix and Nev, Twincasters
+2x Contagion Clasp
+3 Ominous Seas (IKO) 61
+4 Rings of Brighthearth
+1x Chandra, Torch of Defiance
+2 Altar of the Brood (KTK) 216
+3 Weathered Wayfarer
+4x Delayed Blast Fireball
+1 The Water Crystal (FIN) 85
+2 Legolas's Quick Reflexes
+3x Shatterskull Smashing // Shatterskull, the Hammer Pass
+4 Lae'zel, Vlaakith's Champion (CLB) 29
+1 Goldvein Hydra
+2x Imperious Perfect
+3 Rankle, Master of Pranks (OTC) 148
+4 Darksteel Forge
+1x Call of the Ring
+2 Ghostly Pilferer (OTC) 98
+3 Reverberate
+4x Tangled Islet
+1 Wave Goodbye (TMC) 46
+2 Prosperous Innkeeper
+3x Snapcaster Mage
+4 Invasion of Ikoria // Zilortha, Apex of Ikoria (MOM) 190
+1 Fake Your Own Death
+2x Corpse Knight
+3 Beledros Witherbloom (SOC) 296
+4 Crystal Vein
+1x Cathar Commando
+2 Inspiring Vantage (OTJ) 269
+3 Echoes of Eternity
+4x Gaea's Gift
+1 Silent Hallcreeper (DSK) 72
+2 Baleful Mastery
+3x Mantle of the Ancients
+4 No Mercy (DMR) 95
+1 Fling
+2x Iroas, God of Victory
+3 Guide of Souls (MH3) 29
+4 Secluded Steppe
+1x Comet Storm
+2 Terastodon (C21) 207
+3 Flare of Denial
+4x Feign Death
+1 Caduceus, Staff of Hermes (ACR) 2
+2 Rugged Highlands
+3x Drown in the Loch
+4 Isshin, Two Heavens as One (NEO) 224
+1 Deep Analysis
+2x Eldrazi Monument
+3 Radiant Fountain (C21) 310
+4 Elixir of Immortality
+1x Concordant Crossroads
+2 Misdirection (DDT) 15
+3 Lifecrafter's Bestiary
+4x Sigil of the Empty Throne
+1 Ancient Silver Dragon (CLB) 56
+2 Koma, Cosmos Serpent
+3x Avatar's Wrath
+4 Monumental Henge (MH3) 222
+1 Triskaidekaphile
+2x Mystic Confluence
+3 Miirym, Sentinel Wyrm (CLB) 284
+4 Dark Deal
+1x Ouroboroid
+2 Rain of Riches (OTC) 177
+3 Vedalken Orrery
+4x Time Wipe
+1 The Eternity Elevator (EOE) 241
+2 Decree of Pain
+3x Fauna Shaman
+4 Deadeye Navigator (INR) 59
+1 Thalia, Heretic Cathar
+2x Insidious Roots
+3 Grab the Prize (DSK) 138
+4 Treasure Nabber
+1x Long River's Pull
+2 Dark Depths (DMR) 244
+3 Cover of Darkness
+4x Obscuring Haze
+1 Diamond Pick-Axe (LCI) 143
+2 Temur Battle Rage
+3x Odric, Lunarch Marshal
+4 Underworld Dreams (THB) 121
+1 Copperline Gorge
+2x Scourge of Valkas
+3 Stridehangar Automaton (DRC) 19
+4 Arid Archway
+1x Disciple of Bolas
+2 Sunbaked Canyon (MH1) 247
+3 Apex Altisaur
+4x Exploration Broodship
+1 Sneak Attack (DMR) 139
+2 Hangarback Walker
+3x Westvale Abbey // Ormendahl, Profane Prince
+4 In Garruk's Wake (CLB) 759
+1 Pawn of Ulamog
+2x Twitching Doll
+3 Gratuitous Violence (FDN) 715
+4 Phantasmal Image
+1x Heliod's Intervention
+2 Meren of Clan Nel Toth (TDC) 297
+3 Gifts Ungiven
+4x Fell the Mighty
+1 Metastatic Evangel (MH3) 35
+2 Stonecoil Serpent
+3x Rebuff the Wicked
+4 Utvara Hellkite (RVR) 129
+1 Kessig Flamebreather
+2x Coastal Piracy
+3 Lizard Blades (NEO) 153
+4 Cloud, Midgar Mercenary
+1x Natural Order
+2 Rites of Flourishing (ZNC) 80
+3 Tree of Tales
+4x Adagia, Windswept Bastion
+1 Horizon of Progress (M3C) 78
+2 Ganax, Astral Hunter
+3x Planar Genesis
+4 Final Fortune (7ED) 182
+1 Snake Umbra
+2x Acidic Slime
+3 Stubborn Denial (KTK) 56
+4 Patriarch's Bidding
+1x Tortured Existence
+2 Resourceful Defense (EOC) 67
+3 Null Elemental Blast
+4x Myrel, Shield of Argive
+1 Dragonmaster Outcast (TDC) 211
+2 Ojer Axonil, Deepest Might // Temple of Power
+3x Blooming Marsh
+4 Farhaven Elf (KHC) 62
+1 Witty Roastmaster
+2x Artist's Talent
+3 World Shaper (OTC) 214
+4 Surrak and Goreclaw
+1x Dour Port-Mage
+2 Unnatural Restoration (ONE) 191
+3 Rumor Gatherer
+4x Rhox Faithmender
+1 Hydroid Krasis (SOC) 315
+2 Mazirek, Kraul Death Priest
+3x It That Betrays
+4 Codsworth, Handy Helper (PIP) 14
+1 Izzet Charm
+2x Creeping Bloodsucker
+3 Radiant Grove (TDC) 385
+4 Deserted Temple
+1x Monastery Mentor
+2 Drana, Liberator of Malakir (LCC) 193
+3 Aether Channeler
+4x Case of the Locked Hothouse
+1 Frostcliff Siege (TDM) 187
+2 Ulamog, the Defiler
+3x Eerie Ultimatum
+4 Kozilek, the Great Distortion (CMM) 2
+1 The Grey Havens
+2x Spirebluff Canal
+3 Corpsejack Menace (CM2) 152
+4 Ugin, the Spirit Dragon
+1x Unstoppable Slasher
+2 Freed from the Real (A25) 58
+3 Lavaspur Boots
+4x Blood Moon
+1 Archfiend of Depravity (E01) 31
+2 Phelia, Exuberant Shepherd
+3x Kher Keep
+4 Bloodforged Battle-Axe (MOC) 349
+1 Feldon of the Third Path
+2x Malcolm, Alluring Scoundrel
+3 Ashling, Flame Dancer (MH3) 115
+4 Crux of Fate
+1x Relentless Assault
+2 Ba Sing Se (TLA) 266
+3 Eldrazi Conscription
+4x Cryptic Command
+1 Stitch Together (C18) 119
+2 Tergrid, God of Fright // Tergrid's Lantern
+3x Valakut Exploration
+4 Uro, Titan of Nature's Wrath (THB) 229
+1 Fire Nation Palace
+2x Fomori Vault
+3 Awakening Zone (SOC) 262
+4 Seize the Day
+1x Smuggler's Surprise
+2 Maelstrom Wanderer (ECC) 127
+3 Simic Guildgate
+4x Giada, Font of Hope
+1 Ophidian Eye (TSP) 70
+2 Scavenging Ooze
+3x Morophon, the Boundless
+4 Losheel, Clockwork Scholar (CMM) 38
+1 Uthros Research Craft
+2x Cultivator Colossus
+3 Shriekmaw (ECC) 85
+4 Desynchronization
+1x Fiery Confluence
+2 Marionette Master (AFC) 102
+3 Goblin Welder
+4x Erode
+1 Overprotect (BLB) 185
+2 Sunscorch Regent
+3x The Gaffer
+4 Siege-Gang Commander (PLST) DMR-136
+1 Kiora's Follower
+2x Consuming Aberration
+3 Brass's Tunnel-Grinder // Tecutlan, the Searing Rift (LCI) 135
+4 Felidar Sovereign
+1x Zetalpa, Primal Dawn
+2 Silent Clearing (MH1) 246
+3 Urza's Ruinous Blast
+4x March of Swirling Mist
+1 Parting Gust (BLB) 24
+2 Elvish Warmaster
+3x Pirate's Pillage
+4 Simulacrum Synthesizer (BIG) 6
+1 Court of Grace
+2x Masterwork of Ingenuity
+3 Galadriel's Dismissal (LTC) 500
+4 Sword of Vengeance
+1x Golgari Charm
+2 Nurturing Peatland (MH1) 243
+3 Kazuul's Fury // Kazuul's Cliffs
+4x End-Raze Forerunners
+1 Inspiring Overseer (FDN) 736
+2 Unmarked Grave
+3x Maddening Cacophony
+4 Gleaming Splendor (HOB) 15
+1 Sting, the Glinting Dagger
+2x Replicating Ring
+3 Smuggler's Share (MKC) 84
+4 Electrostatic Field
+1x Ugin, Eye of the Storms
+2 Chainer, Nightmare Adept (MH2) 289
+3 Alesha, Who Laughs at Fate
+4x Unleash Fury
+1 Felidar Guardian (AER) 19
+2 Renewed Solidarity
+3x Wild-Magic Sorcerer
+4 Botanical Sanctum (OTJ) 267
+1 Twenty-Toed Toad
+2x Illusionist's Bracers
+3 Death Baron (FDN) 521
+4 Void Winnower
+1x Battle Hymn
+2 Chameleon, Master of Disguise (MSC) 148
+3 Defiler of Vigor
+4x Prismatic Lens
+1 Thran Power Suit (BRO) 253
+2 Golgari Guildgate
+3x Loyal Warhound
+4 Soul of the Harvest (JMP) 432
+1 Return to Dust
+2x Call the Coppercoats
+3 Trumpeting Carnosaur (LCI) 171
+4 Grenzo, Havoc Raiser
+1x The Skullspore Nexus
+2 Metalwork Colossus (MSC) 204
+3 Run Away Together
+4x Tetsuko Umezawa, Fugitive
+1 Blast Zone (CMM) 987
+2 Traverse the Outlands
+3x Woe Strider
+4 Oversold Cemetery (DMR) 96
+1 Deepglow Skate
+2x Sublime Epiphany
+3 Druid Class (AFR) 180
+4 Horizon Canopy
+1x Lively Dirge
+2 Teval's Judgment (TDC) 28
+3 Gwenna, Eyes of Gaea
+4x Shore Up
+1 Eldrazi Temple (CMM) 992
+2 Blood Money
+3x Allosaurus Shepherd
+4 Crypt of Agadeem (TDC) 354
+1 Curiosity Crafter
+2x Orim's Chant
+3 Twinning Staff (NCC) 383
+4 Runaway Steam-Kin
+1x Extraplanar Lens
+2 Clock of Omens (M13) 202
+3 Nissa, Who Shakes the World
+4x Murderous Rider // Swift End
+1 Gingerbrute (J25) 751
+2 Poison-Tip Archer
+3x Horizon Explorer
+4 Reforge the Soul (INR) 167
+1 Jin-Gitaxias, Core Augur
+2x Savage Ventmaw
+3 Massacre Girl, Known Killer (ECC) 79
+4 Spirit Mantle
+1x Sword of Truth and Justice
+2 Ondu Spiritdancer (DSC) 101
+3 Vengeful Bloodwitch
+4x Winds of Rath
+1 Voltaic Key (M11) 219
+2 Kaldra Compleat
+3x Lyra Dawnbringer
+4 Tannuk, Memorial Ensign (EOE) 233
+1 Fathom Mage
+2x Ardenn, Intrepid Archaeologist
+3 Flashback (SOS) 115
+4 Springleaf Parade
+1x Soulherder
+2 Foreboding Landscape (TDC) 365
+3 Moonsilver Key
+4x Overrun
+1 Open the Way (SOC) 280
+2 Mirror Box
+3x Quantum Misalignment
+4 Susur Secundi, Void Altar (EOE) 259
+1 Ingenious Artillerist
+2x Leyline of the Guildpact
+3 Flame of Anor (LTR) 203
+4 Profane Tutor
+1x Praetor's Grasp
+2 The Scarab God (CMM) 353
+3 Hoarding Broodlord
+4x Molten Duplication
+1 Proft's Eidetic Memory (MKM) 67
+2 Unstoppable Plan
+3x Jaxis, the Troublemaker
+4 Obscura Storefront (DSC) 291
+1 Gift of the Viper
+2x Hornet Queen
+3 Glen Elendra Archmage (UMA) 58
+4 Archmage's Charm
+1x Daxos, Blessed by the Sun
+2 Ilysian Caryatid (CMM) 297
+3 Jin-Gitaxias, Progress Tyrant
+4x Slither Blade
+1 Intruder Alarm (8ED) 86
+2 Retreat to Coralhelm
+3x Gala Greeters
+4 Impulsive Pilferer (OTC) 171
+1 Relic of Sauron
+2x Origin of Metalbending
+3 Painful Truths (TRC) 447
+4 Delina, Wild Mage
+1x Bitterbloom Bearer
+2 Vampire Nighthawk (FDN) 757
+3 Tomb of the Spirit Dragon
+4x Fable of the Mirror-Breaker // Reflection of Kiki-Jiki
+1 Barad-dûr (LTR) 253
+2 The Locust God
+3x Vaultborn Tyrant
+4 Charming Prince (FDN) 568
+1 Overlord of the Hauntwoods
+2x Khalni Ambush // Khalni Territory
+3 Supernatural Stamina (CMM) 188
+4 Seize the Spotlight
+1x Army of the Damned
+2 Lithoform Engine (ZNR) 245
+3 Platinum Angel
+4x Paradise Mantle
+1 Knuckles the Echidna (SLD) 2082
+2 Blue Sun's Zenith
+3x Vorinclex, Voice of Hunger
+4 Mana Leak (2X2) 58
+1 Thermo-Alchemist
+2x Timely Ward
+3 Firemane Commando (SOC) 145
+4 Shigeki, Jukai Visionary
+1x Ancient Brass Dragon
+2 Starfield Vocalist (EOE) 78
+3 Undead Augur
+4x Season of Gathering
+1 Talion, the Kindly Lord (WOE) 215
+2 Ghalta and Mavren
+3x Tezzeret the Seeker
+4 Nyx Weaver (TDC) 298
+1 Utter End
+2x Riptide Laboratory
+3 Bountiful Landscape (TDC) 342
+4 Adaptive Automaton
+1x Adaptive Omnitool
+2 Satyr Wayfinder (TRC) 469
+3 Massacre Girl
+4x Legion Warboss
+1 Sunlit Marsh (SOC) 409
+2 Battle Angels of Tyr
+3x Humble Defector
+4 Call Forth the Tempest (LTC) 509
+1 Sacred Peaks
+2x Circuitous Route
+3 Hit the Mother Lode (LCI) 153
+4 The Aetherspark
+1x Psychic Corrosion
+2 Goblin Matron (PLST) DMR-123
+3 The Eternal Wanderer
+4x Jarad, Golgari Lich Lord
+1 Nyx Lotus (THB) 235
+2 Urabrask the Hidden
+3x Aurelia, the Law Above
+4 Kami of the Crescent Moon (VOC) 107
+1 Thought Scour
+2x Fate Unraveler
+3 Grateful Apparition (CMM) 824
+4 Disallow
+1x Grand Arbiter Augustin IV
+2 Nimbus Maze (AFC) 252
+3 Extravagant Replication
+4x The Walls of Ba Sing Se
+1 Goldlust Triad (TDC) 34
+2 Brave the Sands
+3x Great Hall of the Citadel
+4 Insurrection (CMM) 236
+1 Silver Shroud Costume
+2x Bartolomé del Presidio
+3 Festering Thicket (SOC) 371
+4 Korvold, Fae-Cursed King
+1x Valgavoth's Lair
+2 Zacama, Primal Calamity (LCC) 296
+3 Claim Jumper
+4x Get Lost
+1 Darkness (TSB) 40
+2 Colossal Grave-Reaver
+3x Collector's Vault
+4 Juri, Master of the Revue (EOC) 119
+1 Emrakul, the Promised End
+2x Razorgrass Ambush // Razorgrass Field
+3 Demonic Counsel (DSK) 92
+4 Lion Sash
+1x Commandeer
+2 Scheming Symmetry (M20) 113
+3 Wedding Ring
+4x Izzet Guildgate
+1 Elenda's Hierophant (LCC) 71
+2 Doom Whisperer
+3x Power Fist
+4 Traveling Chocobo (FIN) 210
+1 Containment Construct
+2x Mistvault Bridge
+3 White Sun's Twilight (FRC) 38
+4 Song of the Dryads
+1x Mana Reflection
+2 Matzalantli, the Great Door // The Core (LCI) 256
+3 Leaden Myr
+4x Tormod's Crypt
+1 True Conviction (C14) 93
+2 Terrain Generator
+3x Skrelv's Hive
+4 Cycle of Renewal (TLA) 170
+1 Anticausal Vestige
+2x Murmuring Mystic
+3 Contagion Engine (SOM) 145
+4 Breena, the Demagogue
+1x Lazotep Quarry
+2 Bennie Bracks, Zoologist (MKC) 57
+3 Dimir Guildgate
+4x Refute
+1 Dictate of Kruphix (FDN) 587
+2 Hero's Blade
+3x Threefold Thunderhulk
+4 Touch the Spirit Realm (NEO) 40
+1 Sage's Reverie
+2x Casualties of War
+3 Passionate Archaeologist (CLB) 656
+4 Loran's Escape
+1x Tree of Perdition
+2 Gift of Immortality (MSC) 134
+3 Arwen, Weaver of Hope
+4x Dragon's Rage Channeler
+1 Sylvan Caryatid (TDC) 272
+2 Honest Rutstein
+3x Fists of Flame
+4 The Battle of Bywater (LTR) 2
+1 Sword of Forge and Frontier
+2x Walk-In Closet // Forgotten Cellar
+3 Sticky Fingers (SNC) 124
+4 Divine Visitation
+1x Razaketh, the Foulblooded
+2 Dragonlord Dromoka (TDC) 286
+3 Day of Judgment
+4x Temple Bell
+1 Junk Winder (MKC) 107
+2 Phyrexian Obliterator
+3x Boros Guildgate
+4 Cryptbreaker (EMN) 86
+1 Bronze Guardian
+2x Cordial Vampire
+3 Sunhome, Fortress of the Legion (OTC) 324
+4 Helpful Hunter
+1x Kazuul, Tyrant of the Cliffs
+2 Search for Tomorrow (DMC) 137
+3 Halo Fountain
+4x Archetype of Imagination
+1 Wooded Ridgeline (DMU) 260
+2 Resplendent Angel
+3x Hellkite Courser
+4 Hazoret's Monument (DMC) 183
+1 Righteous Valkyrie
+2x Drivnod, Carnage Dominus
+3 Mutavault (TRC) 542
+4 Evacuation
+1x Multani, Yavimaya's Avatar
+2 Vile Entomber (FDN) 616
+3 Bitterthorn, Nissa's Animus
+4x Jace's Archivist
+1 Drumbellower (SOC) 143
+2 As Foretold
+3x Spellbook
+4 Guardian of Faith (SOC) 148
+1 Eldritch Immunity
+2x Hulking Raptor
+3 Angel's Grace (TSR) 4
+4 Bloodline Pretender
+1x Norn's Annex
+2 Lord of the Accursed (MIC) 124
+3 Leaf-Crowned Visionary
+4x Doomwake Giant
+1 Summon: Titan (FIN) 204
+2 Perilous Landscape
+3x For the Common Good
+4 Summon: Fenrir (FIN) 203
+1 Defense Grid
+2x Twisted Landscape
+3 Homunculus Horde (FDN) 41
+4 Black Sun's Zenith
+1x The Last Agni Kai
+2 Cauldron of Essence (SOS) 179
+3 Urabrask // The Great Work
+4x Winds of Abandon
+1 Ob Nixilis, the Fallen (TDC) 192
+2 Helm of Awakening
+3x Monster Manual // Zoological Study
+4 Thirst for Knowledge (TRC) 443
+1 Taunt from the Rampart
+2x Split Up
+3 Crystal Barricade (FDN) 7
+4 Aven Interrupter
+1x Insidious Fungus
+2 Hostage Taker (OTC) 231
+3 Inti, Seneschal of the Sun
+4x Tormenting Voice
+1 Smuggler's Copter (NEC) 160
+2 Harvester of Souls
+3x Dazzling Theater // Prop Room
+4 Nighthawk Scavenger (OTC) 144
+1 Inkmoth Nexus
+2x Sunbird's Invocation
+3 Dreamstone Hedron (CMM) 945
+4 Starscape Cleric
+1x Drana and Linvala
+2 Patrolling Peacemaker (EOC) 5
+3 Teferi's Puzzle Box
+4x Abundance
+1 Maelstrom of the Spirit Dragon (TDM) 260
+2 Witness Protection
+3x Deafening Silence
+4 Temur Sabertooth (NCC) 315
+1 Shinka, the Bloodsoaked Keep
+2x Sonic Screwdriver
+3 Solitude (MH2) 32
+4 Thassa, God of the Sea
+1x Grave Researcher // Reanimate
+2 Dragon Fodder (FDN) 535
+3 Mutational Advantage
+4x Warping Wail
+1 Teshar, Ancestor's Apostle (SOC) 180
+2 Moon-Blessed Cleric
+3x Venser's Journal
+4 Angel of Vitality (FDN) 706
+1 Winged Boots
+2x Goldvein Pick
+3 Port Razer (LCC) 230
+4 Lathril, Blade of the Elves
+1x Gix, Yawgmoth Praetor
+2 Chart a Course (FDN) 586
+3 Tempt with Bunnies
+4x Nasty End
+1 Sire of Seven Deaths (FDN) 1
+2 Junk Diver
+3x Herald of the Pantheon
+4 Venser, Shaper Savant (J25) 66
+1 Shattered Landscape
+2x Varragoth, Bloodsky Sire
+3 Maha, Its Feathers Night (BLB) 100
+4 Wound Reflection
+1x Garruk's Packleader
+2 Brawn (MOC) 292
+3 Drownyard Temple
+4x Hero of Bladehold
+1 Many Partings (TLE) 169
+2 Spectral Sailor
+3x Hero's Downfall
+4 Wild Magic Surge (CLB) 206
+1 Kor Spiritdancer
+2x Rise of the Witch-king
+3 Time Warp (MSC) 788
+4 Copy Enchantment
+1x Crystal Skull, Isu Spyglass
+2 Conduit Pylons (OTJ) 254
+3 Power Depot
+4x Multiversal Passage
+1 Wooded Bastion (2XM) 332
+2 Magda, the Hoardmaster
+3x Silundi Vision // Silundi Isle
+4 Quartzwood Crasher (LCC) 281
+1 Wake the Past
+2x Virtue of Persistence // Locthwain Scorn
+3 Horn of Gondor (LTR) 240
+4 Seething Landscape
+1x Mikaeus, the Lunarch
+2 Grazilaxx, Illithid Scholar (CLB) 723
+3 Orzhov Guildgate
+4x Ogre Slumlord
+1 Stormfist Crusader (DSC) 234
+2 Emeria Angel
+3x Aerith Gainsborough
+4 Bootleggers' Stash (SNC) 134
+1 Strength of the Harvest // Haven of the Harvest
+2x Perpetual Timepiece
+3 Diregraf Colossus (MIC) 112
+4 Halana and Alena, Partners
+1x Sheoldred // The True Scriptures
+2 One with the Multiverse (DSC) 121
+3 Flicker of Fate
+4x Nevinyrral's Disk
+1 Triton Shorestalker (OTC) 121
+2 Krenko's Command
+3x Intuition
+4 Auton Soldier (WHO) 36
+1 Generous Plunderer
+2x Sakashima the Impostor
+3 Overpowering Attack (ACR) 37
+4 The Council of Four
+1x Sangromancer
+2 Emeria Shepherd (ZNC) 16
+3 Sunforger
+4x Glint-Horn Buccaneer
+1 Kozilek's Command (MH3) 11
+2 There and Back Again
+3x Abstergo Entertainment
+4 Alchemist's Talent (BLC) 22
+1 Eureka Moment
+2x The Eldest Reborn
+3 Cybermen Squadron (WHO) 176
+4 Scorched Geyser
+1x Fractured Sanity
+2 Thunderfoot Baloth (DSC) 201
+3 Ainok Strike Leader
+4x Eladamri, Korvecdal
+1 Daretti, Scrap Savant (CMM) 213
+2 Mycosynth Lattice
+3x Party Thrasher
+4 Grist, the Hunger Tide (DSC) 220
+1 Sowing Mycospawn
+2x Arixmethes, Slumbering Isle
+3 Rakdos Guildgate (FDN) 693
+4 Psychic Frog
+1x Goblin Warchief
+2 Archangel of Tithes (OTJ) 2
+3 Drown in Ichor
+4x Ravenform
+1 Crash Through (FDN) 620
+2 Trinket Mage
+3x Ojer Kaslem, Deepest Growth // Temple of Cultivation
+4 Seraph Sanctuary (DDQ) 33
+1 Elvish Reclaimer
+2x Paradise Druid
+3 Contaminated Landscape (TRC) 522
+4 Falkenrath Noble
+1x Night of the Sweets' Revenge
+2 Dawn Charm (CMR) 371
+3 Overkill
+4x Birthing Pod
+1 Liliana, Death's Majesty (J25) 458
+2 Timeless Lotus
+3x Sarkhan, Soul Aflame
+4 Crippling Fear (CMM) 862
+1 Akiri, Fearless Voyager
+2x Earthbender Ascension
+3 Everybody Lives! (WHO) 18
+4 Likeness Looter
+1x Single Combat
+2 Volatile Stormdrake (MH3) 79
+3 Winding Constrictor
+4x Oko, Thief of Crowns
+1 Will of the Jeskai (TDC) 40
+2 Nissa, Resurgent Animist
+3x Selvala, Explorer Returned
+4 Cancel (FDN) 505
+1 Garruk, Primal Hunter
+2x Semblance Anvil
+3 Cityscape Leveler (BRO) 233
+4 Ruthless Technomancer
+1x Thousand Moons Smithy // Barracks of the Thousand
+2 Koma, World-Eater (FDN) 121
+3 Master of Etherium
+4x Cemetery Reaper
+1 Personal Tutor (CMM) 110
+2 Vengeful Ancestor
+3x Dragonfire Blade
+4 Electroduplicate (FDN) 85
+1 Silverback Elder
+2x Jidoor, Aristocratic Capital // Overture
+3 Pearl-Ear, Imperial Advisor (SOC) 160
+4 Hellkite Charger
+1x Mycoloth
+2 Body of Knowledge (DSC) 112
+3 Sudden Spoiling
+4x Illustrious Wanderglyph
+1 Horn of Greed (CN2) 211
+2 Reckless Impulse
+3x Perplexing Test
+4 Rhonas's Monument (GNT) 56
+1 Selesnya Guildgate
+2x Summon: Knights of Round
+3 Liesa, Forgotten Archangel (INR) 243
+4 Kederekt Parasite
+1x Gonti, Lord of Luxury
+2 Azorius Guildgate (FDN) 683
+3 Balmor, Battlemage Captain
+4x Teferi, Master of Time
+1 Mana Tithe (TSR) 26
+2 Bruvac the Grandiloquent
+3x Coldsteel Heart
+4 Fallen Shinobi (OTC) 226
+1 Nashi, Moon Sage's Scion
+2x Atomize
+3 Darksteel Ingot (OTC) 256
+4 Agent of Treachery
+1x Basking Broodscale
+2 Bone Miser (C19) 15
+3 Grim Backwoods
+4x The Cabbage Merchant
+1 Minas Morgul, Dark Fortress (LTC) 514
+2 Kwain, Itinerant Meddler
+3x Hagra Mauling // Hagra Broodpit
+4 Liliana of the Dark Realms (M14) 102
+1 Plague Myr
+2x Crackling Doom
+3 Food Chain (2X2) 147
+4 Arboreal Grazer
+1x Archon of Emeria
+2 Drown in Dreams (MIC) 13
+3 Rise of the Eldrazi
+4x Elder Gargaroth
+1 Brudiclad, Telchor Engineer (SOC) 299
+2 Will of the Mardu
+3x Wrenn's Resolve
+4 Ruby, Daring Tracker (FDN) 245
+1 Singularity Rupture
+2x Weaver of Harmony
+3 Cold-Eyed Selkie (OTC) 218
+4 Glimpse the Impossible
+1x Universal Automaton
+2 Haunted Cloak (CMM) 389
+3 Niv-Mizzet, Visionary
+4x General Kreat, the Boltbringer
+1 Grinding Station (5DN) 127
+2 Galadhrim Ambush
+3x Deathreap Ritual
+4 Fierce Empath (FDN) 636
+1 Prosper, Tome-Bound
+2x Trading Post
+3 Tome of Legends (MSC) 223
+4 Grafdigger's Cage
+1x Karn, the Great Creator
+2 Hydra's Growth (THB) 172
+3 Warden of the Grove
+4x Ancient Gold Dragon
+1 Risen Reef (ECC) 132
+2 Masked Vandal
+3x Klauth, Unrivaled Ancient
+4 Font of Mythos (CON) 136
+1 Funeral Room // Awakening Hall
+2x Verdant Sun's Avatar
+3 Tranquil Landscape (TRC) 573
+4 Sepulchral Primordial
+1x The Mindskinner
+2 Mind's Eye (BBD) 240
+3 Laughing Mad
+4x Super State
+1 Temur Battlecrier (TDM) 228
+2 Primal Amulet // Primal Wellspring
+3x Monstrous Vortex
+4 Dracogenesis (TDM) 105
+1 Duty Beyond Death
+2x Bubbling Muck
+3 Carnelian Orb of Dragonkind (FDN) 759
+4 Lier, Disciple of the Drowned
+1x Contentious Plan
+2 Kitsa, Otterball Elite (BLB) 54
+3 Airbender Ascension
+4x Thunderclap Drake
+1 Primeval Bounty (FDN) 644
+2 Triplicate Titan
+3x Llanowar Tribe
+4 Flickerwisp (2X2) 11
+1 Merciless Executioner
+2x Dragonhawk, Fate's Tempest
+3 Serra's Emissary (FRC) 32
+4 Tribute Mage
+1x Desolate Lighthouse
+2 Gruul Guildgate (FDN) 690
+3 Descendants' Path
+4x Think Twice
+1 Contaminated Aquifer (TDC) 353
+2 Frenzied Baloth
+3x Aura of Silence
+4 Grapple with the Past (TDC) 257
+1 Forge of Heroes
+2x Jacked Rabbit
+3 Aetheric Amplifier (DRC) 18
+4 Wall of Blossoms
+1x Zendikar's Roil
+2 Tandem Lookout (MM3) 53
+3 The Key to the Vault
+4x Archfiend of Despair
+1 Shock (MSC) 809
+2 Mina and Denn, Wildborn
+3x Flare of Cultivation
+4 Summon: Primal Odin (FIN) 121
+1 Ondu Inversion // Ondu Skyruins
+2x Scourge of Fleets
+3 Whirler Rogue (OTC) 122
+4 Sabotender
+1x Final Showdown
+2 Tyvar, Jubilant Brawler (ONE) 218
+3 Tarnished Citadel
+4x Lightning Strike
+1 Quilled Greatwurm (FDN) 111
+2 Demon's Disciple
+3x Quirion Ranger
+4 Combat Research (DMU) 44
+1 Imposter Mech
+2x Riot Control
+3 Bloodthirsty Blade (MKC) 225
+4 Doom Blade
+1x Idyllic Beachfront
+2 Season of Weaving (BLB) 68
+3 Glacial Chasm
+4x Kokusho, the Evening Star
+1 Argentum Armor (AFC) 198
+2 Hidden Grotto
+3x Gut Shot
+4 Treasonous Ogre (CNS) 36
+1 Jaya's Immolating Inferno
+2x Greed
+3 Planar Incision (NEO) 72
+4 Deep Gnome Terramancer
+1x Swarmyard Massacre
+2 Explorer's Scope (CMM) 380
+3 Summon: Yojimbo
+4x Urza's Workshop
+1 Slip Through Space (OGW) 47
+2 Brainstealer Dragon
+3x Sword of Light and Shadow
+4 Insight Engine (EOC) 6
+1 Rooftop Storm
+2x Stuffy Doll
+3 Pact of the Serpent (LCC) 206
+4 Wrathful Red Dragon
+1x Darksteel Colossus
+2 Sword of Wealth and Power (BIG) 26
+3 Toxrill, the Corrosive
+4x Entity Tracker
+1 Jetmir, Nexus of Revels (SNC) 193
+2 Song of Totentanz
+3x Improvisation Capstone
+4 Rev, Tithe Extractor (J25) 45
+1 Season of Growth
+2x Leyline Tyrant
+3 Hermit Druid (INR) 202
+4 Invert Polarity
+1x Sphinx of the Second Sun
+2 Ral, Crackling Wit (BLB) 230
+3 Starwinder
+4x It That Heralds the End
+1 Chomping Changeling (ECL) 172
+2 Circle of Power
+3x Spiteful Banditry
+4 Scurry Oak (MH2) 172
+1 Umbral Mantle
+2x Qarsi Revenant
+3 Deceptive Landscape (TDC) 356
+4 Blacksmith's Skill
+1x Starfall Invocation
+2 Poison Dart Frog (LCI) 207
+3 Delay
+4x Circuit Mender
+1 Broken Bond (DOM) 157
+2 Currency Converter
+3x Dance of the Dead
+4 Amonkhet Raceway (DFT) 248
+1 PuPu UFO
+2x Overlord of the Balemurk
+3 Giggling Skitterspike (DSC) 39
+4 Agna Qel'a
+1x Squee, the Immortal
+2 End the Festivities (VOW) 155
+3 Plargg and Nassari
+4x Memnite
+1 Shorikai, Genesis Engine (NEC) 4
+2 Fighter Class
+3x Thrumming Stone
+4 Ancestral Mask (EMA) 157
+1 Geth's Grimoire
+2x Grafted Exoskeleton
+3 Virtue of Knowledge // Vantress Visions (WOE) 76
+4 Shire Terrace
+1x Nexus of Fate
+2 Rest in Peace (BIG) 4
+3 Kindred Summons
+4x Royal Assassin
+1 Manabarbs (M12) 150
+2 Lightning, Army of One
+3x Bloodline Bidding
+4 Diregraf Captain (MIC) 148
+1 Goldmire Bridge
+2x Endless Ranks of the Dead
+3 Wrap in Vigor (CNS) 183
+4 Nine-Lives Familiar
+1x Blur
+2 Orthion, Hero of Lavabrink (MOM) 334
+3 Satyr Enchanter
+4x Lys Alana Huntmaster
+1 Glittering Stockpile (OTC) 167
+2 Conduit of Ruin
+3x Scour for Scrap
+4 Ezuri, Renegade Leader (DDU) 1
+1 Elvish Visionary
+2x Brago, King Eternal
+3 Assemble the Legion (RVR) 163
+4 Tainted Strike
+1x Nether Traitor
+2 Silkguard (SOC) 286
+3 Accursed Duneyard
+4x Court of Garenbrig
+1 Turntimber Symbiosis // Turntimber, Serpentine Wood (ZNR) 215
+2 Prized Statue
+3x Slaughter the Strong
+4 Valgavoth, Harrower of Souls (DSC) 6
+1 Vraska's Fall
+2x Ghoulcaller Gisa
+3 Atraxa, Praetors' Voice (2XM) 190
+4 Constant Mists
+1x Oblivion Sower
+2 Displace (EMN) 55
+3 Agent of the Iron Throne
+4x Alibou, Ancient Witness
+1 Disdainful Stroke (WOE) 47
+2 Master Transmuter
+3x Bugenhagen, Wise Elder
+4 Arabella, Abandoned Doll (DSK) 208
+1 Trophy Mage
+2x Greedy Freebooter
+3 Sedgemoor Witch (STX) 86
+4 The Regalia
+1x Chthonian Nightmare
+2 Drossforge Bridge (MH2) 246
+3 Not of This World
+4x Manamorphose
+1 Sanctum Seeker (J25) 485
+2 Steelbane Hydra
+3x Starfield of Nyx
+4 Darksteel Monolith (CMM) 743
+1 Together Forever
+2x Encroaching Dragonstorm
+3 Bruenor Battlehammer (AFR) 219
+4 Survival of the Fittest
+1x Neoform
+2 Pathrazer of Ulamog (CMM) 4
+3 Arcane Bombardment
+4x Gonti, Night Minister
+1 Manglehorn (AKH) 175
+2 Samwise Gamgee
+3x Ioreth of the Healing House
+4 Mutilate (GVL) 55
+1 Animar, Soul of Elements
+2x Rograkh, Son of Rohgahh
+3 Sheltering Landscape (MH3) 227
+4 Dawn of Hope
+1x Consuming Corruption
+2 Kiora, Behemoth Beckoner (WAR) 232
+3 Banishing Light
+4x Lignify
+1 Fury (ECC) 50
+2 Ureni of the Unwritten
+3x Bruna, the Fading Light
+4 Zul Ashur, Lich Lord (FDN) 77
+1 Escape to the Wilds
+2x Liliana's Caress
+3 God-Eternal Oketra (WAR) 16
+4 Sceptre of Eternal Glory
+1x Conclave Mentor
+2 Primordial Hydra (SOC) 284
+3 Dictate of the Twin Gods
+4x Thirsting Roots
+1 Dionus, Elvish Archdruid (J25) 52
+2 Inscription of Abundance
+3x Thalia, Guardian of Thraben
+4 Endbringer (CMM) 803
+1 Forsaken Miner
+2x Y'shtola Rhul
+3 Earthshaker Dreadmaw (LCI) 183
+4 Lord Skitter, Sewer King
+1x Hazel's Brewmaster
+2 The Indomitable (LCC) 75
+3 Emrakul, the World Anew
+4x Berserkers' Onslaught
+1 Professor Onyx (DSC) 153
+2 Whelming Wave
+3x Faerie Seer
+4 Halvar, God of Battle // Sword of the Realms (KHM) 15
+1 Wirewood Lodge
+2x Crowded Crypt
+3 Ringsight (LTR) 220
+4 Boreal Druid
+1x Pyrohemia
+2 Yarok, the Desecrated (ECC) 136
+3 Your Temple Is Under Attack
+4x Outpost Siege
+1 Verduran Enchantress (CMM) 915
+2 Brilliant Restoration
+3x Perch Protection
+4 Dowsing Dagger // Lost Vale (XLN) 235
+1 Thieving Skydiver
+2x Spiteful Visions
+3 Hull Breach (MSC) 185
+4 Lim-Dûl's Vault
+1x Sol Talisman
+2 Worldspine Wurm (DSC) 206
+3 Abundant Growth
+4x Wavebreak Hippocamp
+1 Envoy of the Ancestors (MH3) 23
+2 Dawnsire, Sunstar Dreadnought
+3x Force of Despair
+4 Bow of Nylea (THS) 153
+1 God-Pharaoh's Statue
+2x Naturalize
+3 Geothermal Bog (DSC) 278
+4 Greater Auramancy
+1x Mox Jasper
+2 Tinder Wall (ICE) 270
+3 Codex Shredder
+4x Resonating Lute
+1 Harmonized Crescendo (ECL) 54
+2 Ajani's Welcome
+3x Gishath, Sun's Avatar
+4 Llanowar Reborn (LCC) 341
+1 Ancient Ziggurat
+2x Winds of Change
+3 Sandwurm Convergence (DSC) 195
+4 Mimic Vat
+1x Regal Behemoth
+2 Two-Handed Axe // Sweeping Cleave (CLB) 203
+3 Zealous Conscripts
+4x Endless Atlas
+1 Crimson Wisps (J25) 533
+2 Kozilek, the Broken Reality
+3x Urban Evolution
+4 Gogo, Mysterious Mime (FIC) 56
+1 Pantlaza, Sun-Favored
+2x Crib Swap
+3 Animist's Awakening (SOC) 261
+4 Agitator Ant
+1x Infectious Inquiry
+2 Saheeli, Sublime Artificer (CMM) 935
+3 Y'shtola, Night's Blessed
+4x Mycosynth Wellspring
+1 Zendikar Resurgent (C17) 160
+2 Blade of the Bloodchief
+3x Druid of Purification
+4 Beanstalk Giant // Fertile Footsteps (DSC) 172
+1 Mirrodin Besieged
+2x The Earth King
+3 Icon of Ancestry (LCC) 305
+4 Will of the Abzan
+1x Molten Echoes
+2 Captivating Vampire (INR) 100
+3 Myr Convert
+4x Cid, Freeflier Pilot
+1 Ilharg, the Raze-Boar (RVR) 113
+2 Wear Down
+3x Otherworldly Gaze
+4 Ivy Lane Denizen (J25) 674
+1 Zhalfirin Void
+2x Runic Armasaur
+3 Ichormoon Gauntlet (ONE) 56
+4 Aminatou's Augury
+1x Firebender Ascension
+2 Cranial Plating (2XM) 245
+3 Esika, God of the Tree // The Prismatic Bridge
+4x Ajani's Pridemate
+1 Villainous Wealth (OTC) 249
+2 Odric, Master Tactician
+3x Emrakul's Messenger
+4 Harvest Season (KHC) 63
+1 Astral Dragon
+2x Fear of Missing Out
+3 Alandra, Sky Dreamer (MKC) 94
+4 Weatherlight
+1x Glóin, Dwarf Emissary
+2 Voyager Quickwelder (DFT) 37
+3 Kona, Rescue Beastie
+4x Collector Ouphe
+1 Brightstone Ritual (ONS) 191
+2 Surge Conductor
+3x Black Mage's Rod
+4 Expropriate (CN2) 30
+1 Nulldrifter
+2x Voldaren Estate
+3 Selfless Squire (MKC) 82
+4 Blossoming Defense
+1x Titan of Industry
+2 Erebor Flamesmith (LTR) 122
+3 Wand of Wonder
+4x Karn, Legacy Reforged
+1 Sundering Growth (C19) 203
+2 Wrenn and Seven
+3x Forced Fruition
+4 Disciple of the Vault (2XM) 86
+1 Hordeling Outburst
+2x Echoing Deeps
+3 Shivan Gorge (DSC) 297
+4 The Chain Veil
+1x Gisela, the Broken Blade
+2 The Lord of Pain (DSC) 3
+3 Vega, the Watcher
+4x Manor Gate
+1 Debt to the Deathless (PLST) RVR-176
+2 Inga and Esika
+3x Ancient Stone Idol
+4 Empty the Warrens (PLST) DMR-118
+1 Skyclave Relic
+2x Doc Aurlock, Grizzled Genius
+3 Ancient Cellarspawn (DSC) 16
+4 Assault Formation
+1x Regisaur Alpha
+2 Valorous Stance (TRC) 431
+3 Valley Rotcaller
+4x Oath of Teferi
+1 Reiterate (TSR) 182
+2 Harsh Mentor
+3x Bloodline Keeper // Lord of Lineage
+4 Dollmaker's Shop // Porcelain Gallery (DSK) 4
+1 Merchant Scroll
+2x Angelic Destiny
+3 Life's Legacy (NCC) 300
+4 Tinybones, Bauble Burglar
+1x Lair of the Hydra
+2 Witch of the Moors (SOC) 230
+3 Tinybones, the Pickpocket
+4x Yuriko, the Tiger's Shadow
+1 Railway Brawler (OTJ) 175
+2 Urabrask's Forge
+3x Armored Skyhunter
+4 Priest of Fell Rites (MH2) 208
+1 Mogis, God of Slaughter
+2x Court of Ambition
+3 Blood Pet (7ED) 121
+4 Rip Apart
+1x Unquestioned Authority
+2 Heritage Reclamation (TDM) 145
+3 Mnemonic Betrayal
+4x Mischievous Mystic
+1 Thrasios, Triton Hero (C16) 46
+2 Powerbalance
+3x Haughty Djinn
+4 Temple of the Dragon Queen (TDC) 104
+1 Kellogg, Dangerous Mind
+2x The Jolly Balloon Man
+3 Efficient Construction (CMM) 88
+4 Siege-Gang Lieutenant
+1x Ultimate Magic: Holy
+2 Goblin Chieftain (JMP) 324
+3 Zack Fair
+4x Somberwald Sage
+1 Eldrazi Confluence (M3C) 32
+2 Protean Hulk
+3x Studious First-Year // Rampant Growth
+4 Loading Zone (EOE) 196
+1 Tamiyo's Journal
+2x Indulgent Aristocrat
+3 Unbound Flourishing (SOC) 126
+4 Shadrix Silverquill
+1x Kogla and Yidaro
+2 Baird, Steward of Argive (CMM) 15
+3 Teval, the Balanced Scale
+4x Essence Scatter
+1 Transpose (FIC) 52
+2 Abundant Countryside
+3x Tifa Lockhart
+4 Diresight (TLE) 162
+1 Tempt with Vengeance
+2x Fangs of Kalonia
+3 Prosperous Thief (J25) 346
+4 Andúril, Narsil Reforged
+1x Megrim
+2 Ghirapur Orrery (KLD) 216
+3 Echo of Eons
+4x Aclazotz, Deepest Betrayal // Temple of the Dead
+1 Burglar Rat (FDN) 170
+2 Niv-Mizzet, the Firemind
+3x Baldur's Gate
+4 Momentous Fall (JMP) 411
+1 Ghoulish Impetus
+2x The Seriema
+3 Nature's Will (CHK) 230
+4 Puppeteer Clique
+1x The Immortal Sun
+2 Champion of the Perished (MID) 91
+3 Dread Presence
+4x Planar Nexus
+1 Roiling Vortex (ZNR) 156
+2 Angrath's Marauders
+3x Careful Study
+4 Sea Gate (CLB) 359
+1 Artifact Mutation
+2x Beamtown Beatstick
+3 Gold-Forged Thopteryx (MAT) 31
+4 Crystal Grotto
+1x Imoti, Celebrant of Bounty
+2 Giant Adephage (DSC) 179
+3 Retreat to Kazandu
+4x Great Divide Guide
+1 Kabira Takedown // Kabira Plateau (ZNR) 19
+2 Linvala, Keeper of Silence
+3x Gwenom, Remorseless
+4 Scholar of New Horizons (BRC) 6
+1 Staff of the Storyteller
+2x Pemmin's Aura
+3 Quick Study (SOS) 65
+4 Black Dragon Gate
+1x Bloated Contaminator
+2 Thornbite Staff (MOR) 145
+3 Deadpool, Trading Card
+4x Mari, the Killing Quill
+1 Brass Squire (CMR) 460
+2 Yawgmoth's Will
+3x Arch of Orazca
+4 Heartless Summoning (INR) 117
+1 Wrathful Raptors
+2x Bloodthirster
+3 Chandra's Incinerator (M21) 136
+4 Dwynen, Gilt-Leaf Daen
+1x Aettir and Priwen
+2 Soul's Fire (CMR) 200
+3 Gauntlet of Power
+4x Gateway Plaza
+1 Primevals' Glorious Rebirth (DMC) 165
+2 Throne of the God-Pharaoh
+3x Ascend from Avernus
+4 Chulane, Teller of Tales (MKC) 202
+1 Final Parting
+2x Jeskai Ascendancy
+3 Skithiryx, the Blight Dragon (2XM) 107
+4 Aether Spellbomb
+1x Ancient Bronze Dragon
+2 Impulse (DMR) 56
+3 Bite Down
+4x Prologue to Phyresis
+1 Zombie Master (6ED) 162
+2 Headless Rider
+3x Jwari Disruption // Jwari Ruins
+4 Ashiok, Dream Render (WAR) 228
+1 Spine of Ish Sah
+2x Kuldotha Forgemaster
+3 Brazen Borrower // Petty Theft (SOC) 190
+4 Emeritus of Woe // Demonic Tutor
+1x Questing Beast
+2 Rakdos, Lord of Riots (DSC) 230
+3 Bred for the Hunt
+4x Leechridden Swamp
+1 Temporal Mastery (INR) 90
+2 Worldsoul's Rage
+3x Gond Gate
+4 Torrential Gearhulk (CMM) 128
+1 Flesh Duplicate
+2x Cursed Totem
+3 Cunning Rhetoric (OTC) 129
+4 Vraska Joins Up
+1x Mirri, Weatherlight Duelist
+2 Rampaging Ferocidon (DSC) 167
+3 Twinferno
+4x Pashalik Mons
+1 Danny Pink (WHO) 39
+2 Wrenn and Realmbreaker
+3x Dusk Legion Duelist
+4 Twilight Diviner (ECL) 122
+1 Zenith Chronicler
+2x The Ur-Dragon
+3 Scene of the Crime (MKM) 267
+4 Freyalise, Llanowar's Fury
+1x Nadir Kraken
+2 Pain for All (EOE) 151
+3 Virtue of Loyalty // Ardenvale Fealty
+4x Blade Historian
+1 Teferi's Time Twist (WAR) 72
+2 Invisible Stalker
+3x Gandalf the White
+4 Undead Warchief (HOP) 44
+1 Pip-Boy 3000
+2x Anzrag, the Quake-Mole
+3 Survivors' Encampment (HOU) 184
+4 Longshot, Rebel Bowman
+1x Fire Covenant
+2 Skysovereign, Consul Flagship (NEC) 159
+3 The Queen of Dale
+4x Thalisse, Reverent Medium
+1 Step Through (MH2) 66
+2 Mind's Dilation
+3x Emiel the Blessed
+4 Baylen, the Haymaker (BLB) 205
+1 Cryptothrall
+2x Murkfiend Liege
+3 Kaervek the Merciless (DSC) 222
+4 Dwarven Mine
+1x Unsummon
+2 Volatile Fault (LCI) 286
+3 Genesis Hydra
+4x Heroes' Podium
+1 Spectacular Showdown (MKC) 162
+2 Ugin's Labyrinth
+3x Bloodsoaked Insight // Sanguine Morass
+4 Cosmos Elixir (KHM) 237
+1 Thousand-Faced Shadow
+2x Estrid's Invocation
+3 Guardian Augmenter (SOC) 271
+4 Queen Marchesa
+1x Reckless Handling
+2 Lifestream's Blessing (FIC) 67
+3 Fynn, the Fangbearer
+4x Sylvan Tutor
+1 Tectonic Hazard (LCI) 169
+2 Wizard's Staff
+3x Murmuring Bosk
+4 Voracious Hydra (M20) 200
+1 Vat of Rebirth
+2x Blood Seeker
+3 Dina, Soul Steeper (SOC) 305
+4 Wilhelt, the Rotcleaver
+1x Nalfeshnee
+2 Sword of War and Peace (2XM) 300
+3 Gilded Drake
+4x Hinterland Sanctifier
+1 Master of Dark Rites (LCC) 83
+2 Raise the Past
+3x Wrecking Ball Arm
+4 Molten Tributary (SOC) 387
+1 Semester's End
+2x Camellia, the Seedmiser
+3 Settle the Wreckage (HOB) 26
+4 Venat, Heart of Hydaelyn // Hydaelyn, the Mothercrystal
+1x Emeria's Call // Emeria, Shattered Skyclave
+2 Traumatize (M14) 77
+3 Shimmer Dragon
+4x Rionya, Fire Dancer
+1 Spider-Sense (SPM) 46
+2 Tamiyo, Field Researcher
+3x The Unagi of Kyoshi Island
+4 Mistveil Plains (SOC) 386
+1 Thrakkus the Butcher
+2x Lich-Knights' Conquest
+3 Boseiju, Who Shelters All (CHK) 273
+4 Fog Bank
+1x Folio of Fancies
+2 Valkyrie Harbinger (J25) 275
+3 Dragonstorm Globe
+4x Darkmoss Bridge
+1 Retreat to Hagra (C18) 116
+2 Cloudstone Curio
+3x Domri, Anarch of Bolas
+4 Ygra, Eater of All (BLB) 241
+1 Clifftop Lookout
+2x Khalni Heart Expedition
+3 Graypelt Refuge (C19) 249
+4 Hyena Umbra
+1x Preposterous Proportions
+2 Momentary Blink (DMR) 15
+3 Chief of the Foundry
+4x Caesar, Legion's Emperor
+1 Witch-king of Angmar (LTR) 114
+2 Inspired Tinkering
+3x Court of Cunning
+4 Mirrorpool (CMM) 1010
+1 Rakdos, Patron of Chaos
+2x Aerial Extortionist
+3 Expel the Interlopers (TDC) 115
+4 Cyberman Patrol
+1x Infectious Bite
+2 River of Tears (MKC) 283
+3 Dazzling Angel
+4x Troll of Khazad-dûm
+1 Sire of Stagnation (BFZ) 206
+2 Rousing Refrain
+3x Scythecat Cub
+4 Fated Firepower (TLA) 132
+1 Bone Shards
+2x Tragic Arrogance
+3 Arbor Adherent (TDC) 42
+4 Gleeful Arsonist
+1x Sundial of the Infinite
+2 Mist-Cloaked Herald (MSC) 760
+3 Hornet Nest
+4x Memorial to Folly
+1 Vein Ripper (MKM) 110
+2 Ethersworn Canonist
+3x Weathered Sentinels
+4 Urza's Bauble (5ED) 406
+1 Graveshifter
+2x Aetherspouts
+3 Ultima, Origin of Oblivion (FIN) 2
+4 Ripjaw Raptor
+1x Youthful Valkyrie
+2 Aura Mutation (NCC) 328
+3 Thrashing Brontodon
+4x Raging Ravine
+1 Reyav, Master Smith (CMR) 290
+2 Venerated Rotpriest
+3x Inquisitive Glimmer
+4 Quietus Spike (NCC) 377
+1 Kefka, Court Mage // Kefka, Ruler of Ruin
+2x Blightbelly Rat
+3 Double Vision (NCC) 267
+4 Volrath's Stronghold
+1x Repulsive Mutation
+2 Parasitic Impetus (SOC) 222
+3 Chromatic Star
+4x Time Sieve
+1 Unholy Grotto (ONS) 327
+2 Keen Sense
+3x Toph, Hardheaded Teacher
+4 Overgrown Battlement (TDC) 264
+1 World Map
+2x Jumbo Cactuar
+3 Zhulodok, Void Gorger (CMM) 704
+4 Storm Herd
+1x Nightshade Dryad
+2 Glittering Massif (TRC) 536
+3 Meekstone
+4x Sleight of Hand
+1 Tishana's Tidebinder (LCI) 81
+2 Persistent Constrictor
+3x Nykthos Paragon
+4 Greensleeves, Maro-Sorcerer (DMC) 27
+1 Genesis Chamber
+2x Brokers Ascendancy
+3 Sacrifice (SUM) 126
+4 Lazotep Plating
+1x Rite of the Dragoncaller
+2 Drift of Phantasms (RVR) 42
+3 Kozilek's Unsealing
+4x Struggle for Project Purity
+1 Price of Progress (EMA) 141
+2 Walking Atlas
+3x Pyromancer's Goggles
+4 Archetype of Aggression (BNG) 88
+1 Golgari Grave-Troll
+2x Charred Foyer // Warped Space
+3 Rumble Arena (TLA) 277
+4 Sanctum of Ugin
+1x Outcaster Trailblazer
+2 Celestine, the Living Saint (40K) 10
+3 Lurrus of the Dream-Den
+4x Alseid of Life's Bounty
+1 Jodah, the Unifier (DMU) 203
+2 Crystalline Crawler
+3x Elven Ambush
+4 Sidisi, Undead Vizier (DTK) 120
+1 Prime Speaker Zegana
+2x Peerless Recycling
+3 Uncharted Haven (BLB) 261
+4 One with the Machine
+1x Chatterstorm
+2 Phyresis (MBS) 49
+3 Vorpal Sword
+4x Miscast
+1 Ratadrabik of Urborg (DMU) 213
+2 Sulfuric Vortex
+3x Rimewood Falls
+4 Crossroads Village (FIN) 276
+1 Iron Spider, Stark Upgrade
+2x Pariah
+3 Will of the Sultai (TDC) 49
+4 Flumph
+1x Eye of Ugin
+2 Magic Damper (FIN) 61
+3 Skirge Familiar
+4x Olivia's Wrath
+1 Duplicant (CMM) 946
+2 Cemetery Tampering
+3x Mirrex
+4 Transcendent Envoy (SOC) 183
+1 Elvish Harbinger
+2x Resurgent Belief
+3 Curious Altisaur (LCC) 90
+4 Carmen, Cruel Skymarcher
+1x Beacon of Immortality
+2 Paradox Haze (TSP) 71
+3 Nowhere to Run
+4x Necroskitter
+1 Sylvan Anthem (MH2) 176
+2 Virtue of Strength // Garenbrig Growth
+3x Gisa, Glorious Resurrector
+4 Dance of the Manse (NEC) 136
+1 Tooth and Nail
+2x Gingerbread Cabin
+3 Emet-Selch of the Third Seat (FIC) 81
+4 Case of the Ransacked Lab
+1x Kykar, Wind's Fury
+2 Orcish Lumberjack (DDL) 44
+3 Bitter Reunion
+4x Zurgo Stormrender
+1 Benevolent Hydra (SOC) 124
+2 Heaped Harvest
+3x Mocking Sprite
+4 Metamorphosis Fanatic (DSC) 21
+1 Firdoch Core
+2x Glistening Sphere
+3 Hell to Pay (OTJ) 126
+4 Shadow Rift
+1x Collective Inferno
+2 Fecund Greenshell (BLB) 171
+3 Stormtide Leviathan
+4x Finale of Glory
+1 Geode Rager (CLB) 794
+2 Starnheim Aspirant
+3x Gleaming Overseer
+4 Black Waltz No. 3 (FIN) 214
+1 Wyll's Reversal
+2x Ulvenwald Hydra
+3 Sovereign Okinec Ahau (LCI) 240
+4 Voice of the Blessed
+1x The Legend of Kyoshi // Avatar Kyoshi
+2 Zur the Enchanter (DMR) 206
+3 Appa, Steadfast Guardian
+4x Howlsquad Heavy
+1 Cackling Counterpart (INR) 55
+2 Archetype of Endurance
+3x Earthquake
+4 Shoreline Looter (BLB) 70
+1 Basilisk Gate
+2x Revenge of Ravens
+3 Lae'zel's Acrobatics (CLB) 30
+4 Savage Beating
+1x Oswald Fiddlebender
+2 Wash Away (VOW) 87
+3 Angel of Destiny
+4x Planar Engineering
+1 Fraying Sanity (HOU) 35
+2 Toph, Earthbending Master
+3x Summoner's Pact
+4 Turbulent Springs (SOC) 57
+1 Magewright's Stone
+2x Sunspine Lynx
+3 Tower Defense (TDC) 275
+4 Cornered by Black Mages
+1x Herald of War
+2 Sazh's Chocobo (FIN) 200
+3 Foundation Breaker
+4x Inspiring Leader
+1 Comeuppance (MKC) 58
+2 Magmakin Artillerist
+3x Daze
+4 Silent-Blade Oni (OTC) 241
+1 Umezawa's Jitte
+2x Fatal Push
+3 The Goose Mother (SOC) 312
+4 Wolverine Riders
+1x Farmer Cotton
+2 Ancestral Vision (TDC) 144
+3 Summer Bloom
+4x Virulent Emissary
+1 Nazgûl (LTR) 100
+2 Nirkana Revenant
+3x Spikefield Hazard // Spikefield Cave
+4 Germination Practicum (SOS) 149
+1 Glasswing Grace // Age-Graced Chapel
+2x Rampaging Yao Guai
+3 Derevi, Empyrial Tactician (CMA) 176
+4 Silver-Fur Master
+1x Machine God's Effigy
+2 Turbulent Fen (SOC) 55
+3 Tasha's Hideous Laughter
+4x Simic Charm
+1 Library of Leng (5ED) 387
+2 Legion Loyalty
+3x Maze's End
+4 Cultivator's Caravan (FDN) 670
+1 Kuja, Genome Sorcerer // Trance Kuja, Fate Defied
+2x Rain-Slicked Copse
+3 Malevolent Rumble (MH3) 161
+4 Royal Treatment
+1x Otharri, Suns' Glory
+2 Mass Hysteria (INR) 164
+3 Thunderbreak Regent
+4x Winter Moon
+1 Ink-Eyes, Servant of Oni (PCA) 33
+2 Oakhollow Village
+3x Regal Caracal
+4 Beseech the Queen (HOP) 19
+1 Revive the Shire
+2x Liliana of the Veil
+3 Fell (BLB) 95
+4 Vedalken Archmage
+1x Kilo, Apogee Mind
+2 Doppelgang (MKM) 198
+3 Ulvenwald Tracker
+4x Mightform Harmonizer
+1 Repercussion (UDS) 95
+2 Hammer of Purphoros
+3x Gathering Stone
+4 Dragon Mage (FDN) 621
+1 Spectacular Spider-Man
+2x Eclipsed Realms
+3 Unholy Annex // Ritual Chamber (DSK) 118
+4 Galvanic Iteration
+1x Krang, Utrom Warlord
+2 Rivaz of the Claw (DMU) 215
+3 Mudflat Village
+4x Turbulent Moor
+1 Mirror Room // Fractured Realm (DSK) 67
+2 Underrealm Lich
+3x Jolrael, Mwonvuli Recluse
+4 Lost Monarch of Ifnir (DRC) 11
+1 Uncivil Unrest
+2x Tyvar, the Pummeler
+3 Renata, Called to the Hunt (THB) 196
+4 Lifeblood Hydra
+1x The Mind Stone
+2 Phyrexian Walker (VIS) 152
+3 Toph, the Blind Bandit
+4x Archenemy's Charm
+1 Eclipsed Steppe (TRC) 526
+2 Thickest in the Thicket
+3x Biomancer's Familiar
+4 Brimaz, King of Oreskos (J25) 58
+1 Hall of the Bandit Lord
+2x Octopus Form
+3 Mogg War Marshal (PLST) DMR-131
+4 Arcanis the Omnipotent
+1x Hollowmurk Siege
+2 Overlord of the Floodpits (DSK) 68
+3 Bribery
+4x Leyline of Abundance
+1 Canopy Gargantuan (TDC) 45
+2 Blowfly Infestation
+3x Biophagus
+4 Necroduality (INR) 79
+1 Cauldron Familiar
+2x Yenna, Redtooth Regent
+3 Trostani, Selesnya's Voice (C19) 204
+4 Mindsplice Apparatus
+1x Den of the Bugbear
+2 Misleading Signpost (PLST) WOC-11
+3 Infernal Plunge
+4x Ajani, Strength of the Pride
+1 Xantcha, Sleeper Agent (CMM) 362
+2 Abyssal Harvester
+3x March of the Multitudes
+4 Smaug the Magnificent (HOB) 110
+1 Athreos, God of Passage
+2x Starnheim Courser
+3 Syr Ginger, the Meal Ender (WOE) 252
+4 Thraben Charm
+1x Impostor Syndrome
+2 Lagomos, Hand of Hatred (DMU) 205
+3 Esika's Chariot
+4x Time Stretch
+1 Marauding Raptor (LCC) 228
+2 Zombie Apocalypse
+3x Zellix, Sanity Flayer
+4 Abdel Adrian, Gorion's Ward (CLB) 2
+1 Spawnbed Protector
+2x Stromkirk Captain
+3 The Mightstone and Weakstone (BRO) 238
+4 Firebending Student
+1x Holdout Settlement
+2 Cosmogrand Zenith (EOE) 9
+3 Robe of Stars
+4x Karametra's Acolyte
+1 Gimli of the Glittering Caves (LTC) 32
+2 Tiamat
+3x Spirit Link
+4 Blanchwood Armor (FDN) 213
+1 Treasure Map // Treasure Cove
+2x Abraded Bluffs
+3 Eldrazi Displacer (OGW) 13
+4 Stonespeaker Crystal
+1x The Warring Triad
+2 Elvish Piper (A25) 168
+3 Ranging Raptors
+4x Chivalric Alliance
+1 Flameshadow Conjuring (MOC) 280
+2 Tolarian Winds
+3x Marang River Regent // Coil and Catch
+4 Selfless Savior (M21) 36
+1 Gluntch, the Bestower
+2x Increasing Vengeance
+3 The Endstone (EOE) 240
+4 Legion Lieutenant
+1x Iridescent Vinelasher
+2 Mizzium Mortars (CLB) 803
+3 Oviya, Automech Artisan
+4x Heartless Hidetsugu
+1 Blinkmoth Nexus (2XM) 311
+2 Erebos, God of the Dead
+3x Betor, Kin to All
+4 Reaver Titan (40K) 163
+1 Empyrean Eagle
+2x Citadel Gate
+3 Stonybrook Banneret (LCC) 173
+4 Songs of the Damned
+1x Eaten Alive
+2 Radstorm (PIP) 37
+3 Rottenmouth Viper
+4x Peter Parker's Camera
+1 Surge of Salvation (MOM) 41
+2 Master of Ceremonies
+3x Power Conduit
+4 Burnt Offering (ICE) 116
+1 Splash Portal
+2x Render Silent
+3 Cliffgate (CLB) 350
+4 Hermes, Overseer of Elpis
+1x Welding Jar
+2 Temporal Trespass (FRF) 55
+3 Serra's Sanctum
+4x Elvish Promenade
+1 Mountain Valley (EOC) 61
+2 Bria, Riptide Rogue
+3x Decorum Dissertation
+4 Loyal Guardian (MSC) 176
+1 Bothersome Quasit
+2x Temporal Manipulation
+3 Fandaniel, Telophoroi Ascian (FIC) 46
+4 Inevitable Betrayal
+1x Zimone, Paradox Sculptor
+2 Redoubled Stormsinger (SOC) 251
+3 Tyrranax Rex
+4x Creeping Tar Pit
+1 Blighted Agent (NPH) 29
+2 Temple Altisaur
+3x Mirrorworks
+4 Mana Sculpt (SOS) 57
+1 Elspeth Conquers Death
+2x Nuclear Fallout
+3 Angel of Indemnity (SOC) 133
+4 Piper of the Swarm
+1x Kenrith, the Returned King
+2 Reshape (2XM) 64
+3 Starstorm
+4x Tectonic Giant
+1 Pick Your Poison (MKM) 170
+2 Otepec Huntmaster
+3x Ziatora, the Incinerator
+4 Phyrexian Vindicator (ONE) 27
+1 Lathiel, the Bounteous Dawn
+2x Defend the Rider
+3 Desert of the Fervent (J25) 764
+4 Shambling Ghast
+1x Elvish Champion
+2 Darkstar Augur (BLB) 90
+3 Saw It Coming
+4x Stinkweed Imp
+1 Edgar Markov (INR) 234
+2 Double Major
+3x Light-Paws, Emperor's Voice
+4 Infantry Shield (TDC) 35
+1 Autumn's Veil
+2x Witch's Oven
+3 Ravenous Squirrel (MH2) 211
+4 Weapons Manufacturing
+1x Flaming Tyrannosaurus
+2 Alpha Authority (GTC) 114
+3 Keen Duelist
+4x Ramos, Dragon Engine
+1 Eluge, the Shoreless Sea (BLB) 49
+2 Crawling Sensation
+3x Sauron, the Dark Lord
+4 River's Rebuke (FDN) 595
+1 Thief of Sanity
+2x Marrow-Gnawer
+3 Goblin Trashmaster (M19) 144
+4 Necrogoyf
+1x Nesting Dovehawk
+2 Ms. Bumbleflower (BLC) 3
+3 Overgrowth
+4x Diamond City
+1 Rain of Filth (USG) 151
+2 Slagwoods Bridge
+3x Chitterspitter
+4 Collective Effort (MSC) 126
+1 Auriok Champion
+2x Gemhide Sliver
+3 Fertilid (MOC) 296
+4 Vnwxt, Verbose Host
+1x Test of Endurance
+2 Surly Badgersaur (C20) 57
+3 Tezzeret, Master of the Bridge
+4x Lavinia, Azorius Renegade
+1 Heap Gate (CLB) 354
+2 Toph, the First Metalbender
+3x Overmaster
+4 Gríma, Saruman's Footman (LTC) 57
+1 Oppression
+2x Ardyn, the Usurper
+3 Planetarium of Wan Shi Tong (TLA) 259
+4 Mendicant Core, Guidelight
+1x Endrek Sahr, Master Breeder
+2 Windgrace's Judgment (EOC) 129
+3 Forth Eorlingas!
+4x Flayer of Loyalties
+1 Favorable Winds (GNT) 21
+2 Inferno Titan
+3x Roxanne, Starfall Savant
+4 Basim Ibn Ishaq (ACR) 49
+1 Lurking Predators
+2x Whispering Madness
+3 Hazel of the Rootbloom (BLC) 2
+4 Khalni Garden
+1x Karametra, God of Harvests
+2 Kess, Dissident Mage (NCC) 344
+3 Frontier Warmonger
+4x Norn's Choirmaster
+1 Naya Charm (DMC) 162
+2 Honored Dreyleader
+3x Yargle and Multani
+4 Tolaria West (TSR) 286
+1 Damnable Pact
+2x Consult the Star Charts
+3 Zombify (FDN) 187
+4 Celestial Armor
+1x Chocobo Racetrack
+2 Strength of Will (SPM) 118
+3 Lunar Convocation
+4x Jace, the Mind Sculptor
+1 World at War (TRC) 456
+2 Daily Bugle Building
+3x Phyrexian Triniform
+4 Tangled Florahedron // Tangled Vale (ZNR) 211
+1 Geode Golem
+2x Memory Lapse
+3 Lunarch Veteran // Luminous Phantom (INR) 32
+4 Malcolm, Keen-Eyed Navigator
+1x Etchings of the Chosen
+2 Solar Transformer (MH3) 211
+3 Breeches, Eager Pillager
+4x Clive, Ifrit's Dominant // Ifrit, Warden of Inferno
+1 Master Biomancer (CLU) 200
+2 Keeper of Fables
+3x Sisay, Weatherlight Captain
+4 God-Eternal Bontu (EOC) 83
+1 Ingenious Infiltrator
+2x Conspicuous Snoop
+3 Irma, Part-Time Mutant (TMC) 12
+4 Hanweir Battlements
+1x The Gold Saucer
+2 Tenuous Truce (NCC) 87
+3 Meathook Massacre II
+4x Ingenious Prodigy
+1 Tablet of Discovery (SOS) 132
+2 Siege Smash
+3x Duress
+4 Strong Back (PIP) 83
+1 Titanoth Rex
+2x Mask of Griselbrand
+3 Shielded by Faith (SOC) 172
+4 One Ring to Rule Them All
+1x Merciless Eviction
+2 O'aka, Traveling Merchant (FIC) 39
+3 Promising Vein
+4x Mjölnir, Storm Hammer
+1 Yeva, Nature's Herald (RVR) 162
+2 Scytheclaw Raptor
+3x Ghost Vacuum
+4 Ezuri, Stalker of Spheres (ONE) 201
+1 Pippin, Guard of the Citadel
+2x Axebane Guardian
+3 Mycosynth Golem (5DN) 137
+4 Kellan, the Fae-Blooded // Birthright Boon
+1x Extract from Darkness
+2 Hearthhull, the Worldseed (EOC) 1
+3 Desert of the True
+4x Goblin Instigator
+1 Parhelion II (NEC) 87
+2 Tree of Redemption
+3x Giant Growth
+4 Ichor Rats (SOM) 67
+1 Lyse Hext
+2x Generous Patron
+3 Thornvault Forager (BLB) 197
+4 Skittering Cicada
+1x Gogo, Master of Mimicry
+2 Tanglepool Bridge (MH2) 257
+3 Spell Swindle
+4x Keeper of Secrets
+1 Tiller Engine (DMC) 20
+2 Wakening Sun's Avatar
+3x Eiganjo Castle
+4 Manaweft Sliver (CMM) 900
+1 Vampire of the Dire Moon
+2x Mishra's Factory
+3 Take the Bait (MKC) 43
+4 Goro-Goro, Disciple of Ryusei
+1x Vorel of the Hull Clade
+2 Chain of Smog (ONS) 132
+3 Nautiloid Ship
+4x Éowyn, Fearless Knight
+1 Spirit Water Revival (TLA) 73
+2 Canopy Tactician
+3x Hallowed Haunting
+4 Skyhunter Strike Force (PLST) ONC-21
+1 Lord of the Undead
+2x Gemstone Mine
+3 Thundermane Dragon (TDC) 38
+4 Decisive Denial
+1x Sunfall
+2 Jin-Gitaxias // The Great Synthesis (MOM) 65
+3 Ovika, Enigma Goliath
+4x Ogre Battledriver
+1 Gisa, the Hellraiser (OTJ) 89
+2 Archpriest of Shadows
+3x Sigil of Sleep
+4 Savvy Hunter (ELD) 200
+1 Hidden Hideout
+2x Grove of the Burnwillows
+3 Luminarch Ascension (A25) 23
+4 Leonin Warleader
+1x Heat Shimmer
+2 Exalted Flamer of Tzeentch (40K) 119
+3 Scheming Silvertongue // Sign in Blood
+4x Devastating Onslaught
+1 Court of Ire (CMR) 170
+2 Serra Paragon
+3x Soulless Jailer
+4 Athreos, Shroud-Veiled (DSC) 212
+1 Sunscorched Desert
+2x Shelter
+3 Mistblade Shinobi (PCA) 20
+4 Goblin Chirurgeon
+1x Rampant Rejuvenator
+2 Parapet Thrasher (TDC) 36
+3 Mana Flare
+4x Lulu, Stern Guardian
+1 Leyline of Hope (DSK) 18
+2 Court of Vantress
+3x Angelic Accord
+4 Godo, Bandit Warlord (CMM) 227
+1 Teferi, Temporal Pilgrim
+2x Gods Willing
+3 Frontier Siege (TDC) 256
+4 Turbulent Steppe
+1x Vincent Valentine // Galian Beast
+2 Command Bridge (EOE) 252
+3 Woodland Chasm
+4x Yedora, Grave Gardener
+1 Satoru, the Infiltrator (OTJ) 230
+2 Vorinclex // The Grand Evolution
+3x Scion of Calamity
+4 Canoptek Spyder (40K) 151
+1 Mortality Spear
+2x Orzhov Advokist
+3 Goblin Recruiter (6ED) 186
+4 Privileged Position
+1x Chandra, Awakened Inferno
+2 Surrak Dragonclaw (DMC) 169
+3 Make a Stand
+4x Hope of Ghirapur
+1 Bane of Bala Ged (CMM) 802
+2 Hour of Promise
+3x Scurry of Squirrels
+4 Blazing Crescendo (FRA) 75
+1 Zirda, the Dawnwaker
+2x Evolutionary Leap
+3 Monstrous Rage (WOE) 142
+4 Renegade Tactics
+1x Sphinx's Revelation
+2 Inspirit, Flagship Vessel (EOC) 2
+3 Sigarda, Font of Blessings
+4x Commit // Memory
+1 Ensnared by the Mara (WHO) 84
+2 Worldwalker Helm
+3x Kinjalli's Sunwing
+4 Dalkovan Encampment (TDM) 253
+1 Rhys the Redeemed
+2x White Plume Adventurer
+3 Mech Hangar (NEO) 270
+4 Hashaton, Scarab's Fist
+1x Flagstones of Trokair
+2 Immaculate Magistrate (CMR) 234
+3 Goblin King
+4x Rapacious Guest
+1 Skarrg, the Rage Pits (PCA) 127
+2 Cut Your Losses
+3x Lion Umbra
+4 Prince Imrahil the Fair (LTR) 219
+1 Pathbreaker Ibex
+2x Nephalia Drownyard
+3 Songbirds' Blessing (SOC) 174
+4 Turbulent Wilderness
+1x Grievous Wound
+2 Riverchurn Monument (DFT) 57
+3 Blossoming Tortoise
+4x Seal of Cleansing
+1 Soul's Majesty (NEC) 131
+2 Killian, Ink Duelist
+3x Oscorp Industries
+4 Chittering Witch (TDC) 175
+1 Quasiduplicate
+2x Reshape the Earth
+3 Coalition Relic (DMC) 180
+4 Decadent Dragon // Expensive Taste
+1x Rocky Tar Pit
+2 Quest for Renewal (WWK) 110
+3 Fires of Yavimaya
+4x Stinging Study
+1 Rite of the Raging Storm (MKC) 159
+2 Vizier of Tumbling Sands
+3x On Wings of Gold
+4 Ojer Pakpatiq, Deepest Epoch // Temple of Cyclical Time (LCI) 67
+1 Champions from Beyond
+2x Grim Guardian
+3 Demon of Fate's Design (DSC) 137
+4 Fain, the Broker
+1x Aragorn, the Uniter
+2 Lembas (LTR) 243
+3 Obyra, Dreaming Duelist
+4x Study Hall
+1 Bloomvine Regent // Claim Territory (TDM) 136
+2 Transmutation Font
+3x Blitzball
+4 Lord of the Void (RVR) 81
+1 Squirrel Nest
+2x Take Up the Shield
+3 Dire Fleet Daredevil (OTC) 162
+4 Ghostway
+1x Dockside Chef
+2 Counterbalance (CSP) 31
+3 Auroral Procession
+4x Eye of Nidhogg
+1 Doubling Cube (10E) 321
+2 Alisaie Leveilleur
+3x Speaker of the Heavens
+4 Out of the Tombs (40K) 46
+1 Inventory Management
+2x Berserk
+3 Cori Mountain Monastery (TDM) 252
+4 Yuna, Grand Summoner
+1x Feline Sovereign
+2 Increasing Devotion (C20) 91
+3 Reckless Endeavor
+4x Heliod, God of the Sun
+1 Jace Beleren (CMM) 850
+2 Selective Obliteration
+3x White Sun's Zenith
+4 Mob Rule (VOC) 147
+1 Spider-Punk
+2x Esior, Wardwing Familiar
+3 Ulamog's Crusher (CMM) 6
+4 Zada, Hedron Grinder
+1x Hooded Hydra
+2 Rule of Law (M20) 35
+3 Blasting Station
+4x Winter Orb
+1 Aether Hub (KLD) 242
+2 Titan's Presence
+3x Court of Locthwain
+4 Tormented Soul (PCA) 38
+1 Visions of Beyond
+2x Aang, Swift Savior // Aang and La, Ocean's Fury
+3 Magus of the Moon (TSR) 175
+4 Cloudshredder Sliver
+1x Shadowheart, Dark Justiciar
+2 Ride the Shoopuf (FIN) 197
+3 Dihada, Binder of Wills
+4x River Kelpie
+1 Heliod, the Radiant Dawn // Heliod, the Warped Eclipse (MOM) 17
+2 Nest of Scarabs
+3x Prismatic Omen
+4 Charming Scoundrel (WOE) 124
+1 Deadbridge Chant
+2x Risky Shortcut
+3 Nyxborn Hydra (MH3) 164
+4 Nylea, God of the Hunt
+1x Daybreak Coronet
+2 Forgotten Creation (CLB) 721
+3 Ertai Resurrected
+4x Eidolon of Countless Battles
+1 All-Out Assault (TDM) 167
+2 Earthquake Dragon
+3x Abandon Attachments
+4 Bishop of Wings (M20) 8
+1 Wirewood Symbiote
+2x Rapacious Dragon
+3 Jeweled Amulet (MBC) 75
+4 Edric, Spymaster of Trest
+1x Alela, Cunning Conqueror
+2 Kaalia of the Vast (MH3) 290
+3 Ulamog's Dreadsire
+4x General's Enforcer
+1 Sozin's Comet (TLA) 154
+2 Restless Anchorage
+3x Summon: Ixion
+4 High Perfect Morcant (ECL) 229
+1 Squall, SeeD Mercenary
+2x Treebeard, Gracious Host
+3 Bumi, Unleashed (TLA) 211
+4 Invigorate
+1x See Double
+2 Costly Plunder (2XM) 80
+3 Necromantic Selection
+4x Master of the Pearl Trident
+1 Axgard Armory (KHM) 250
+2 Tempting Contract
+3x Scion of Oona
+4 Ignite the Future (CLB) 797
+1 Slicer, Hired Muscle // Slicer, High-Speed Antagonist
+2x Thryx, the Sudden Storm
+3 Riptide Gearhulk (DFT) 219
+4 Belladonna Took
+1x Grow from the Ashes
+2 Maester Seymour (FIC) 68
+3 Rona, Herald of Invasion // Rona, Tolarian Obliterator
+4x Nissa's Pilgrimage
+1 Mutable Explorer (ECL) 186
+2 Stroke of Genius
+3x Andúril, Flame of the West
+4 Reckless Barbarian (CLB) 193
+1 Species Specialist
+2x Prowler's Helm
+3 Summon: Leviathan (FIN) 77
+4 Kiora, the Rising Tide
+1x Golgari Thug
+2 Devilish Valet (SNC) 105
+3 Smile at Death
+4x Trailtracker Scout
+1 Burning Inquiry (M10) 128
+2 Fervor
+3x Steel of the Godhead
+4 Wirewood Channeler (KHC) 79
+1 Secluded Starforge
+2x Eden, Seat of the Sanctum
+3 Bedrock Tortoise (LCI) 176
+4 Master of Cruelties
+1x Chrome Host Seedshark
+2 Omnath, Locus of the Roil (ECC) 130
+3 Garna, Bloodfist of Keld
+4x Pit of Offerings
+1 Brightcap Badger // Fungus Frolic (BLC) 28
+2 The Mending of Dominaria
+3x Good-Fortune Unicorn
+4 Neyali, Suns' Vanguard (ONC) 2
+1 Redemption Arc
+2x Karumonix, the Rat King
+3 K-9, Mark I (WHO) 47
+4 Countersquall
+1x Fiendish Duo
+2 Nim Deathmantle (2X2) 309
+3 Famished Worldsire
+4x Deep Forest Hermit
+1 Leyline of the Void (DSK) 106
+2 Sidisi, Brood Tyrant
+3x Hamza, Guardian of Arashin
+4 Darksteel Reactor (EOC) 134
+1 Lord of the Nazgûl
+2x Council's Judgment
+3 Agent Frank Horrigan (PIP) 89
+4 Clavileño, First of the Blessed
+1x Atraxa, Grand Unifier
+2 Searslicer Goblin (FDN) 93
+3 Blood Pact
+4x Soul of New Phyrexia
+1 Plague Belcher (AKH) 104
+2 Torpor Orb
+3x Eidolon of Rhetoric
+4 Didn't Say Please (ELD) 42
+1 Leyline of Transformation
+2x Vitalize
+3 The Masamune (FIN) 264
+4 Nesting Dragon
+1x Caustic Caterpillar
+2 The Book of Exalted Deeds (AFR) 4
+3 Restless Cottage
+4x Fire Lord Azula
+1 Storm the Vault // Vault of Catlacan (RIX) 173
+2 Malakir Bloodwitch
+3x Ral, Monsoon Mage // Ral, Leyline Prodigy
+4 Wall of Roots (TDC) 278
+1 Mishra's Workshop
+2x Frontline Medic
+3 Capital City (FIN) 274
+4 Deceptive Frostkite
+1x Aetherworks Marvel
+2 It'll Quench Ya! (TLA) 58
+3 Raid Bombardment
+4x Knight Exemplar
+1 Flamekin Village (ECC) 149
+2 Waterbender Ascension
+3x Salvation Engine
+4 Sphinx's Tutelage (ORI) 76
+1 Arahbo, the First Fang
+2x Lux Artillery
+3 White Auracite (FIN) 41
+4 Winged Words
+1x Spellstutter Sprite
+2 Path of Discovery (MSC) 179
+3 Bonny Pall, Clearcutter
+4x Patron of the Vein
+1 Champion of Dusk (LCC) 188
+2 Krark, the Thumbless
+3x Tidus, Yuna's Guardian
+4 Incarnation Technique (C21) 41
+1 Stone of Erech
+2x Rabble Rousing
+3 Overseer of the Damned (MKC) 132
+4 Prosperity
+1x Timetwister
+2 Amphin Mutineer (TDC) 143
+3 Sifter of Skulls
+4x Captivating Crew
+1 Detection Tower (M19) 249
+2 Trygon Predator
+3x Rose Room Treasurer
+4 Come Back Wrong (DSK) 86
+1 Repurposing Bay
+2x Flow of Knowledge
+3 Cloudblazer (FDN) 653
+4 Highland Forest
+1x Hoarding Ogre
+2 Rikku, Resourceful Guardian (FIC) 468
+3 Sakura-Tribe Scout
+4x Guild Artisan
+1 Bloodgift Demon (J25) 408
+2 Voyage Home
+3x Rakdos Joins Up
+4 War of the Last Alliance (LTR) 36
+1 Invigorating Surge
+2x Shadow in the Warp
+3 Regal Force (DDU) 22
+4 Copper Myr
+1x Skyline Despot
+2 Sower of Discord (CMM) 187
+3 Saruman, the White Hand
+4x Commissar Severina Raine
+1 Nicol Bolas, Dragon-God (RVR) 205
+2 Maja, Bretagard Protector
+3x Nylea, Keen-Eyed
+4 Magus of the Candelabra (BBD) 206
+1 Beetleback Chief
+2x Dragonborn Champion
+3 Edgar, Charmed Groom // Edgar Markov's Coffin (VOW) 236
+4 Folk Hero
+1x Blood for the Blood God!
+2 Absorb (DMR) 186
+3 Mardu Siegebreaker
+4x Mind's Desire
+1 Idolized (PIP) 17
+2 Curtains' Call
+3x Vexing Puzzlebox
+4 Clone Legion (NCC) 215
+1 Joshua, Phoenix's Dominant // Phoenix, Warden of Fire
+2x Clone
+3 Prisoner's Dilemma (MKC) 34
+4 Hungering Hydra
+1x Behemoth Sledge
+2 Ikra Shidiqi, the Usurper (TDC) 100
+3 Tormod, the Desecrator
+4x Crossway Troublemakers
+1 Angel of Serenity (C21) 83
+2 Final Act
+3x Florian, Voldaren Scion
+4 Arcbound Ravager (MMA) 198
+1 Armorcraft Judge
+2x Invasion of Zendikar // Awakened Skyclave
+3 Liquimetal Coating (CM2) 197
+4 Retether
+1x Ninja of the Deep Hours
+2 Rise and Shine (MOC) 233
+3 Reveillark
+4x Shadow of the Second Sun
+1 Abzan Battle Priest (MOC) 164
+2 Bureau Headmaster
+3x Gonti's Aether Heart
+4 Fire Magic (FIN) 136
+1 Elanor Gardner
+2x Putrid Goblin
+3 Communal Brewing (BLC) 29
+4 Rashmi, Eternities Crafter
+1x Red XIII, Proud Warrior
+2 Hunter's Talent (BLB) 179
+3 Spider Manifestation
+4x Komainu Battle Armor
+1 Lord of Extinction (TDC) 295
+2 The Second Doctor
+3x Echoing Assault
+4 Tempered Steel (TRC) 430
+1 Charix, the Raging Isle
+2x Prowling Serpopard
+3 Hobgoblin Bandit Lord (AFR) 147
+4 Moon-Circuit Hacker
+1x The Spear of Leonidas
+2 Haunting Voyage (ECC) 75
+3 Whisper of the Dross
+4x Aether Gale
+1 Ambition's Cost (MOC) 246
+2 Screaming Nemesis
+3x Markov Baron
+4 Victory Chimes (C21) 274
+1 Overlord of the Mistmoors
+2x Greenwarden of Murasa
+3 Open the Graves (MIC) 126
+4 Breaching Dragonstorm
+1x Hexplate Wallbreaker
+2 Ghyrson Starn, Kelermorph (40K) 124
+3 Dread Summons
+4x The Wise Mothman
+1 Storm of Saruman (LTR) 72
+2 Yavimaya Hollow
+3x Tifa, Martial Artist
+4 Brave the Elements (C14) 66
+1 Scaled Nurturer
+2x Ozai, the Phoenix King
+3 Map the Frontier (OTJ) 170
+4 Polyraptor
+1x Kor Haven
+2 Angelic Gift (J25) 165
+3 Thunderhawk Gunship
+4x Sporemound
+1 Calix, Guided by Fate (MAT) 26
+2 Omnath, Locus of Mana
+3x Wildwood Scourge
+4 Syncopate (FIN) 80
+1 Sakashima's Student
+2x Sharding Sphinx
+3 Secrets of the Dead (C19) 95
+4 Maelstrom Pulse
+1x Transmute Artifact
+2 Bramble Familiar // Fetch Quest (WOE) 164
+3 Prizefight
+4x Orb of Dragonkind
+1 Phyresis Outbreak (ONC) 12
+2 Polluted Bonds
+3x Crucible of Fire
+4 Avishkar Raceway (DFT) 249
+1 Satoru Umezawa
+2x Minds Aglow
+3 Seizan, Perverter of Truth (CHK) 143
+4 Reya Dawnbringer
+1x Radagast of Rhosgobel
+2 Desert of the Indomitable (OTC) 285
+3 Bello, Bard of the Brambles
+4x Pack Rat
+1 Astarion, the Decadent (CLB) 265
+2 Fear of Sleep Paralysis
+3x Bristling Backwoods
+4 Thirst for Discovery (VOW) 85
+1 Mnemonic Deluge
+2x MacCready, Lamplight Mayor
+3 Sanctum of Eternity (C19) 59
+4 Wildsear, Scouring Maw
+1x Warden of Evos Isle
+2 Oltec Matterweaver (BIG) 3
+3 The Master, Multiplied
+4x Nibelheim Aflame
+1 Garruk, Cursed Huntsman (ELD) 191
+2 Sephiroth, Fallen Hero
+3x Desert of the Mindful
+4 Yavimaya Elder (DSC) 208
+1 Diluvian Primordial
+2x Blight Mound
+3 Skullwinder (OTC) 207
+4 Seal of Primordium
+1x The Ten Rings
+2 Access Denied (NEC) 11
+3 Rootcast Apprenticeship
+4x Baldin, Century Herdmaster
+1 Jazal Goldmane (CMM) 32
+2 Astarion's Thirst
+3x White Lotus Tile
+4 Prismari, the Inspiration (SOS) 212
+1 Dark Petition
+2x Broodcaller Scourge
+3 Flourishing Defenses (ECC) 107
+4 Kolaghan's Command
+1x Glorious Sunrise
+2 Coercive Recruiter (LCC) 222
+3 Karlov of the Ghost Council
+4x Hidden Nursery
+1 Selfless Safewright (ECL) 193
+2 Bladewing the Risen
+3x Lightning Helix
+4 Court of Embereth (PLST) WOC-24
+1 Spinner of Souls
+2x Faithful Mending
+3 Teferi, Hero of Dominaria (DOM) 207
+4 Stocking the Pantry
+1x Goldnight Commander
+2 Stunt Double (CLU) 101
+3 Zanarkand, Ancient Metropolis // Lasting Fayth
+4x Village Bell-Ringer
+1 Another Round (OTJ) 1
+2 Level Up
+3x Jegantha, the Wellspring
+4 Haste Magic (FIN) 140
+1 Ral, Storm Conduit
+2x Arbaaz Mir
+3 Infiltration Lens (SOM) 167
+4 Cryogen Relic
+1x Nekusar, the Mindrazer
+2 Airbending Lesson (TLA) 8
+3 Hour of Revelation
+4x Martial Impetus
+1 Korlessa, Scale Singer (CLB) 280
+2 Preston, the Vanisher
+3x Sunblast Angel
+4 Chainsaw (DSK) 128
+1 Infestation Sage
+2x Blessed Respite
+3 Court of Ardenvale (WOC) 21
+4 Nissa, Ascended Animist
+1x Healer's Hawk
+2 Yes Man, Personal Securitron (PIP) 29
+3 Bloodroot Apothecary
+4x Argothian Enchantress
+1 Reckoner Bankbuster (NEO) 255
+2 And They Shall Know No Fear
+3x Hapatra, Vizier of Poisons
+4 Conformer Shuriken (FIC) 98
+1 Glarb, Calamity's Augur
+2x Deathsprout
+3 Pariah's Shield (RVR) 264
+4 The Sound of Drums
+1x Laughing Jasper Flint
+2 Flick a Coin (WOE) 128
+3 Deadly Tempest
+4x Hide on the Ceiling
+1 Memory Erosion (CM2) 45
+2 Fortune Teller's Talent
+3x Curse of Verbosity
+4 Wheel of Fate (TSR) 198
+1 Bucknard's Everfull Purse
+2x Mjölnir, Hammer of Thor
+3 Kefka, Dancing Mad (FIC) 84
+4 Sarkhan's Triumph
+1x Firespitter Whelp
+2 Papalymo Totolymo (FIC) 90
+3 The Necrobloom
+4x Stoneskin
+1 Animal Sanctuary (M21) 242
+2 Relm's Sketching
+3x Lossarnach Captain
+4 Interplanar Beacon (CMM) 1004
+1 Dragon Sniper
+2x Argoth, Sanctum of Nature
+3 Metalworker (UDS) 135
+4 Determined Iteration
+1x Sanctum of Stone Fangs
+2 Geist of Saint Thalia (FRA) 214
+3 Moseo, Vein's New Dean
+4x Sunfrill Imitator
+1 Llanowar Visionary (J25) 684
+2 Lifecreed Duo
+3x Blossoming Bogbeast
+4 Hop to It (BLB) 16
+1 Svyelun of Sea and Sky
+2x Sorin of House Markov // Sorin, Ravenous Neonate
+3 Tegwyll, Duke of Splendor (WOC) 1
+4 Whitemane Lion
+1x Baral's Expertise
+2 Might of the Meek (BLB) 144
+3 Star of Extinction
+4x Heartstone
+1 Avenger of the Fallen (TDM) 73
+2 Nils, Discipline Enforcer
+3x Palani's Hatcher
+4 Teferi, Temporal Archmage (CMM) 125
+1 Primal Might
+2x Heliod's Pilgrim
+3 Goblin Sharpshooter (C13) 111
+4 Mavren Fein, Dusk Apostle
+1x Thopter Fabricator
+2 Smothering Abomination (SOC) 226
+3 Maddening Hex
+4x Akoum Refuge
+1 Squee, Goblin Nabob (SOC) 254
+2 Aboleth Spawn
+3x Smoldering Crater
+4 Blacksmith's Talent (BLB) 125
+1 Gravebreaker Lamia
+2x Replenish
+3 Herald of Eternal Dawn (FDN) 17
+4 Illusionist's Gambit
+1x Baloth Prime
+2 Throne of Geth (2XM) 301
+3 Fanatic of Mogis
+4x Sygg, River Cutthroat
+1 Fight Rigging (SNC) 145
+2 Gadrak, the Crown-Scourge
+3x Karazikar, the Eye Tyrant
+4 Claim the Precious (LTR) 81
+1 Spitfire Lagac
+2x Champions of the Perfect
+3 Behold the Multiverse (KHM) 46
+4 Tromell, Seymour's Butler
+1x Legion's Landing // Adanto, the First Fort
+2 Snapback (TSR) 87
+3 Galadhrim Brigade
+4x Fiend Hunter
+1 Desecrate Reality (CMM) 714
+2 Seeker of Skybreak
+3x Sliver Hivelord
+4 Reckoner's Bargain (NEO) 120
+1 Divine Reckoning
+2x Restoration Seminar
+3 Vohar, Vodalian Desecrator (DMU) 226
+4 Unctus, Grand Metatect
+1x Hunting Velociraptor
+2 Redress Fate (DSC) 9
+3 Sorcerer Class
+4x Roil Elemental
+1 Will of the Temur (TDC) 24
+2 Breaker of Creation
+3x Luminarch Aspirant
+4 Tevesh Szat, Doom of Fools (CMR) 153
+1 Experimental Confectioner
+2x Hedron Crawler
+3 Marketback Walker (DFT) 235
+4 Hare Apparent
+1x Their Name Is Death
+2 Exhume (JMP) 230
+3 Ninja Pizza
+4x Heirloom Blade
+1 Windswift Slice (LTC) 45
+2 Expansion // Explosion
+3x Stonehewer Giant
+4 Eriette of the Charmed Apple (SOC) 307
+1 Hakbal of the Surging Soul
+2x Extinguisher Battleship
+3 Inherited Envelope (LTR) 242
+4 Hideous Taskmaster
+1x Tidespout Tyrant
+2 Trash for Treasure (2XM) 148
+3 Hero's Heirloom
+4x Traxos, Scourge of Kroog
+1 Noble Heritage (CLB) 35
+2 Apex of Power
+3x Harmonic Sliver
+4 Reins of Power (CLB) 734
+1 Druid's Deliverance
+2x Eviscerator's Insight
+3 Matoya, Archon Elder (FIN) 62
+4 Bovine Intervention
+1x Wilson, Refined Grizzly
+2 Genesis Ultimatum (IKO) 189
+3 Golbez, Crystal Collector
+4x Rite of Oblivion
+1 Eumidian Hatchery (EOC) 20
+2 Oubliette
+3x Unlicensed Hearse
+4 Vona's Hunger (RIX) 90
+1 Mystic Reflection
+2x Commune with Lava
+3 Gemrazer (IKO) 155
+4 Unsettled Mariner
+1x Elementalist's Palette
+2 Badgermole (TLA) 166
+3 Empowered Autogenerator
+4x Grave Venerations
+1 Amazing Acrobatics (SPM) 25
+2 Broken Wings
+3x Crested Sunmare
+4 Solemnity (HOU) 22
+1 The Ooze
+2x Annoyed Altisaur
+3 Alphinaud Leveilleur (FIC) 33
+4 Vincent, Vengeful Atoner
+1x Honor-Worn Shaku
+2 Sorin, Imperious Bloodlord (INR) 133
+3 Molten Psyche
+4x Harbinger of the Seas
+1 Roadside Reliquary (NEO) 272
+2 Llanowar Loamspeaker
+3x Jagged Barrens
+4 Depthshaker Titan (EOC) 9
+1 Captain of the Watch
+2x Bygone Colossus
+3 Neheb, Dreadhorde Champion (DMC) 125
+4 Muxus, Goblin Grandee
+1x Evendo Brushrazer
+2 Eaten by Piranhas (FDN) 507
+3 Grim Servant
+4x Sazacap's Brew
+1 General Ferrous Rokiric (MH2) 198
+2 Workshop Assistant
+3x Cactus Preserve
+4 Haru, Hidden Talent (TLA) 182
+1 Firion, Wild Rose Warrior
+2x Altered Ego
+3 Palace Jailer (MSC) 140
+4 Felothar the Steadfast
+1x The Irencrag
+2 Arcane Adaptation (XLN) 46
+3 Count on Luck
+4x Colossal Skyturtle
+1 Gisa and Geralf (INR) 237
+2 Shadow of the Goblin
+3x Rampaging Brontodon
+4 Search for Azcanta // Azcanta, the Sunken Ruin (XLN) 74
+1 Orochi Soul-Reaver
+2x Minsc & Boo, Timeless Heroes
+3 Vivien, Champion of the Wilds (CLB) 838
+4 Grand Coliseum
+1x Vesuvan Duplimancy
+2 Swift Reconfiguration (NEC) 10
+3 Selvala's Stampede
+4x Heartwood Storyteller
+1 Encroaching Mycosynth (ONE) 47
+2 Solitary Confinement
+3x Virus Beetle
+4 Szarel, Genesis Shepherd (EOC) 4
+1 Feasting Hobbit
+2x Virtue of Courage // Embereth Blaze
+3 Stargaze (BLB) 114
+4 Lux Cannon
+1x The Legend of Roku // Avatar Roku
+2 Artful Dodge (DKA) 27
+3 Karmic Justice
+4x Clown Car
+1 Pentad Prism (EOC) 56
+2 Ultron, Artificial Malevolence
+3x Volcanic Torrent
+4 Cadira, Caller of the Small (CLB) 269
+1 Thalia and The Gitrog Monster
+2x Indulgent Tormentor
+3 Merrow Reejerey (LCC) 165
+4 Sapling Nursery
+1x Extinguish All Hope
+2 Mana Echoes (2XM) 136
+3 Bronzebeak Foragers
+4x Innocent Blood
+1 Unfinished Business (FIC) 259
+2 Prava of the Steel Legion
+3x Shared Summons
+4 Afterlife from the Loam (TDC) 25
+1 Protection Magic
+2x Skyknight Vanguard
+3 Ramunap Ruins (OTC) 311
+4 Eroded Canyon
+1x Alloy Myr
+2 Jenova, Ancient Calamity (FIN) 228
+3 Pestilence
+4x Flame Rift
+1 Slippery Bogbonder (NCC) 312
+2 Bottle-Cap Blast
+3x Scavenger's Talent
+4 Bag of Holding (CLB) 299
+1 Echocasting Symposium
+2x Rug of Smothering
+3 Hidden Volcano (LCI) 277
+4 Lumbering Worldwagon
+1x Elder Brain
+2 Scion of Draco (MH2) 234
+3 Harmonized Trio // Brainstorm
+4x Dion, Bahamut's Dominant // Bahamut, Warden of Light
+1 Shield Sphere (ALL) 129
+2 Chaos Dragon
+3x Starfield Shepherd
+4 Ob Nixilis, Unshackled (2X2) 84
+1 King of the Pride
+2x Kaito, Cunning Infiltrator
+3 Unable to Scream (DSK) 78
+4 Angel of Finality
+1x Armageddon
+2 Hushbringer (ELD) 18
+3 Scavenged Brawler
+4x Lotus Bloom
+1 Spell Stutter (WOE) 69
+2 Anara, Wolvid Familiar
+3x Airbender's Reversal
+4 Desolation Twin (C21) 82
+1 Avacyn, Angel of Horror
+2x Hidden Strings
+3 Locke, Treasure Hunter (FIC) 87
+4 Phyrexian Delver
+1x Shivan Devastator
+2 Well Rested (PIP) 88
+3 Beza, the Bounding Spring
+4x Woodfall Primus
+1 March of the World Ooze (DFT) 169
+2 Ajani, the Greathearted
+3x Yuna, Hope of Spira
+4 Alania, Divergent Storm (BLB) 204
+1 Bilbo's Gambit
+2x Boomerang Basics
+3 Lilypad Village (BLB) 255
+4 Essence Channeler
+1x Composer of Spring
+2 Doomed Necromancer (J25) 426
+3 Vivien Reid
+4x Orcrist, Goblin-cleaver
+1 Flow State (SOS) 49
+2 Devastation Tide
+3x Ghostly Dancers
+4 Contaminant Grafter (ONC) 17
+1 In the Darkness Bind Them
+2x Invoke Calamity
+3 Wild Ricochet (CMR) 419
+4 Open the Vaults
+1x Earthcraft
+2 Sandstone Oracle (CMM) 406
+3 Wizards of Thay
+4x Inquisitor's Flail
+1 Arctic Treeline (KHM) 249
+2 Vines of Vastwood
+3x Barbarian Class
+4 Quicksilver Amulet (M12) 214
+1 Sludge Monster
+2x Tezzeret, Betrayer of Flesh
+3 Chocobo Knights (FIC) 12
+4 Metallurgic Summonings
+1x Dancer's Chakrams
+2 Birthday Escape (LTR) 43
+3 Obelisk of Urd
+4x Kykar, Zephyr Awakener
+1 Akki Battle Squad (NEC) 18
+2 Curse of Disturbance
+3x Cori-Steel Cutter
+4 Sower of Temptation (BBD) 131
+1 Nested Shambler
+2x Ajani's Chosen
+3 Nazgûl Battle-Mace (LTC) 510
+4 Viridian Revel
+1x Titania's Command
+2 Galerider Sliver (CMM) 849
+3 Children of Korlis
+4x Dance with Calamity
+1 Journey to Eternity // Atzal, Cave of Eternity (RIX) 160
+2 Absolute Virtue
+3x Canoptek Scarab Swarm
+4 Horizon Stone (CMR) 315
+1 Colossification
+2x Nahiri's Lithoforming
+3 Jaws of Defeat (TDC) 27
+4 Copy Artifact
+1x Tymna the Weaver
+2 Dress Down (MH2) 39
+3 Tavern Scoundrel
+4x Tarrian's Journal // The Tomb of Aclazotz
+1 Lingering Souls (FRC) 27
+2 Bloodline Necromancer
+3x The Legend of Yangchen // Avatar Yangchen
+4 Dismantling Wave (MSC) 129
+1 Hydra Omnivore
+2x Demonic Junker
+3 Tinybones Joins Up (OTJ) 108
+4 Spawning Kraken
+1x Retraction Helix
+2 Aragorn, King of Gondor (LTC) 5
+3 Stensian Sanguinist // Exsanguinate
+4x Mysidian Elder
+1 Undead Butler (J25) 500
+2 Amalia Benavides Aguirre
+3x Shay Cormac
+4 Cosmic Intervention (KHC) 3
+1 Feather of Flight
+2x Sam's Desperate Rescue
+3 Necropolis Regent (J25) 469
+4 Mirelurk Queen
+1x Banefire
+2 Artificer Class (CLB) 663
+3 Season of the Burrow
+4x Sword of the Squeak
+1 Shalai and Hallar (MOC) 10
+2 Zo-Zu the Punisher
+3x Emberwilde Captain
+4 Merfolk Sovereign (LCC) 164
+1 Rogue's Gloves
+2x Liliana's Contract
+3 Shoot the Sheriff (OTJ) 106
+4 Mirrorhall Mimic // Ghastly Mimicry
+1x Assault Suit
+2 Titania, Nature's Force (DSC) 202
+3 Creosote Heath
+4x Azami, Lady of Scrolls
+1 Karn's Temporal Sundering (DOM) 55
+2 Vision Skeins
+3x Drogskol Reaver
+4 Avatar Kyoshi, Earthbender (TLE) 130
+1 Barrowgoyf
+2x Cathartic Pyre
+3 Port of Karfell (MKC) 280
+4 Jace's Sanctum
+1x Mirror March
+2 Soaring Lightbringer (DSC) 11
+3 Dawn of a New Age
+4x Subtlety
+1 Galadriel, Light of Valinor (LTC) 498
+2 Veinwitch Coven
+3x Mask of Avacyn
+4 Murderous Redcap (UMA) 217
+1 Coppercoat Vanguard
+2x Alms Collector
+3 Oliphaunt (HOC) 199
+4 Smell Fear
+1x Crucible of the Spirit Dragon
+2 Zuko's Exile (TLA) 3
+3 Feral Ghoul
+4x Old Stickfingers
+1 Ethereal Investigator (MKC) 105
+2 Revitalize
+3x Maul of the Skyclaves
+4 Elesh Norn // The Argent Etchings (MOM) 12
+1 Kheru Goldkeeper
+2x Big Game Hunter
+3 Inspiring Refrain (C21) 27
+4 Kopala, Warden of Waves
+1x Ring of the Lucii
+2 Norn's Decree (ONC) 9
+3 Jan Jansen, Chaos Crafter
+4x Dina's Guidance
+1 Gothmog, Morgul Lieutenant (LTR) 87
+2 Mass Calcify
+3x Angel of Invention
+4 Kor Cartographer (KHC) 28
+1 Sword of Sinew and Steel
+2x Enter the Avatar State
+3 Angelic Field Marshal (CMM) 13
+4 Azure Beastbinder
+1x Tectonic Edge
+2 Remote Isle (DMR) 254
+3 Scroll of Fate
+4x Cool but Rude
+1 Noxious Ghoul (HOP) 35
+2 Search for Glory
+3x Turnabout
+4 Glacial Floodplain (KHM) 257
+1 Zur, Eternal Schemer
+2x Aminatou, the Fateshifter
+3 Gigantosaurus (M19) 185
+4 Suplex
+1x Reach the Horizon
+2 Jasmine Dragon Tea Shop (TLA) 270
+3 Joraga Treespeaker
+4x Omnath, Locus of Creation
+1 Vizier of the Menagerie (FDN) 769
+2 Realms Uncharted
+3x Mechanized Warfare
+4 Bandit's Talent (BLB) 83
+1 Gossip's Talent
+2x The Cruelty of Gix
+3 Sorin Markov (M12) 109
+4 Benthic Anomaly
+1x Restless Spire
+2 Koth, Fire of Resistance (ONE) 138
+3 Replication Technique
+4x Ob Nixilis, the Hate-Twisted
+1 Portent (DSC) 74
+2 Restless Reef
+3x Blast-Furnace Hellkite
+4 Thundering Raiju (NEO) 166
+1 Spawning Pit
+2x Watcher of the Spheres
+3 Foil (UMA) 55
+4 Murmuration
+1x Tivit, Seller of Secrets
+2 Thrilling Discovery (OTC) 245
+3 Queen Allenal of Ruadach
+4x Throne of the High City
+1 Tail Swipe (J25) 721
+2 The Millennium Calendar
+3x Vraska, Golgari Queen
+4 Emperor Mihail II (LCC) 155
+1 Leap
+2x Moogles' Valor
+3 Firemind Vessel (CMM) 383
+4 Shang-Chi, Master of Kung Fu
+1x Vanishing Verse
+2 Unstable Amulet (MH3) 142
+3 Chandra, Hope's Beacon
+4x Zhur-Taa Druid
+1 Realmbreaker, the Invasion Tree (MOM) 263
+2 Wyll, Blade of Frontiers
+3x The First Sliver
+4 Tender Wildguide (BLB) 196
+1 The Emperor of Palamecia // The Lord Master of Hell
+2x Manakin
+3 Decoction Module (KLD) 205
+4 Idyllic Grange
+1x Witch's Mark
+2 Heartbeat of Spring (2XM) 171
+3 Patron of the Arts
+4x Braid of Fire
+1 Screeching Scorchbeast (PIP) 49
+2 Faldorn, Dread Wolf Herald
+3x Herd Baloth
+4 Baeloth Barrityl, Entertainer (CLB) 655
+1 Indulging Patrician
+2x Mathemagics
+3 Wall of Reverence (TDC) 139
+4 Archmage of Echoes
+1x Ordeal of Nylea
+2 Teferi, Mage of Zhalfir (TSR) 91
+3 Tyvar Kell
+4x The Gitrog, Ravenous Ride
+1 Submerge (NEM) 48
+2 Ajani, Caller of the Pride
+3x Three Tree Mascot
+4 Yoshimaru, Ever Faithful (NEC) 32
+1 Neyith of the Dire Hunt
+2x Mole Man, Moloid Master
+3 Highway Robbery (OTJ) 129
+4 Riveteers Ascendancy
+1x Resurrection Orb
+2 Tavern Brawler (CLB) 200
+3 Orcish Siegemaster
+4x Erebos, Bleak-Hearted
+1 Notorious Throng (ZNC) 33
+2 Lolth, Spider Queen
+3x Hordewing Skaab
+4 Consuming Tide (VOW) 53
+1 Gixian Puppeteer
+2x Tezzeret, Artifice Master
+3 Caldera Pyremaw (TDC) 33
+4 Dark Prophecy
+1x Squirrel Sovereign
+2 Minn, Wily Illusionist (AFC) 16
+3 Throat Slitter
+4x Anti-Venom, Horrifying Healer
+1 Cloud, Ex-SOLDIER (FIC) 2
+2 Snowfield Sinkhole
+3x Clockspinning
+4 Verity Circle (VOC) 116
+1 Hanweir Garrison
+2x The Underworld Cookbook
+3 Defiler of Dreams (DMU) 46
+4 Navigation Orb
+1x Gargos, Vicious Watcher
+2 Aether Tunnel (M19) 43
+3 Reki, the History of Kamigawa
+4x Polluted Mire
+1 High-Society Hunter (FDN) 61
+2 Cryptcaller Chariot
+3x Spectral Deluge
+4 Changeling Wayfinder (ECL) 1
+1 Zuko, Exiled Prince
+2x Chaos Wand
+3 Chittering Dispatcher (M3C) 63
+4 Diffusion Sliver
+1x Vizier of Many Faces
+2 Waterbending Lesson (TLA) 80
+3 Rolling Hamsphere
+4x Plumecreed Escort
+1 Vraan, Executioner Thane (ONE) 114
+2 Unburial Rites
+3x Pippin, Warden of Isengard
+4 Biotransference (40K) 30
+1 Conspiracy Theorist
+2x Mirrormind Crown
+3 Crystalline Sliver (CMM) 920
+4 Queen Brahne
+1x Quandrix Command
+2 Permission Denied (REX) 17
+3 Blue Sun's Twilight
+4x Ancestors' Aid
+1 Zodiark, Umbral God (FIN) 128
+2 Undying Evil
+3x Wall of Denial
+4 Vexilus Praetor (40K) 19
+1 Aang's Journey
+2x The Theorist, Jace Beleren
+3 Bonescythe Sliver (CMM) 815
+4 Flickering Ward
+1x Shifting Sliver
+2 Stormsplitter (BLB) 154
+3 Dazzling Denial
+4x Timberwatch Elf
+1 Hydra Broodmaster (C21) 194
+2 Dissipation Field
+3x Agonasaur Rex
+4 Indomitable Ancients (TDC) 121
+1 Seismic Sense
+2x Metropolis Reformer
+3 Sentinel Sliver (CMM) 835
+4 Staff of Titania
+1x Coin of Mastery
+2 Drag to the Roots (DSK) 213
+3 Rammas Echor, Ancient Shield
+4x Merfolk Looter
+1 Horn of the Mark (LTR) 241
+2 Ifnir Deadlands
+3x Fractured Identity
+4 Helga, Skittish Seer (BLB) 217
+1 Teferi, Who Slows the Sunset
+2x Within Range
+3 Excalibur II (FIN) 257
+4 Canopy Cover
+1x Sword of Body and Mind
+2 Ice Tunnel (KHM) 262
+3 Baron, Airship Kingdom
+4x Jinnie Fay, Jetmir's Second
+1 Umbra Mystic (ROE) 52
+2 Akroan Horse
+3x Luxior, Giada's Gift
+4 Solar Array (EOC) 18
+1 Teysa, Orzhov Scion
+2x Animation Module
+3 Unwanted Remake (DSK) 39
+4 The Restoration of Eiganjo // Architect of Restoration
+1x Goblin Ringleader
+2 Mauhúr, Uruk-hai Captain (LTR) 214
+3 Legion Loyalist
+4x Venom Sliver
+1 Retrofitter Foundry (C18) 57
+2 Vicious Rumors
+3x Cayth, Famed Mechanist
+4 Raffine, Scheming Seer (SNC) 213
+1 Hakoda, Selfless Commander
+2x Kaya's Wrath
+3 Phyrexian Rebirth (MOC) 199
+4 Perennial Behemoth
+1x Pridemalkin
+2 Kitesail Larcenist (LCI) 61
+3 Cauldron of Souls
+4x Bone-Cairn Butcher
+1 Seer's Sundial (CMR) 470
+2 Walking Bulwark
+3x Mothdust Changeling
+4 Enter the Infinite (GTC) 34
+1 Séance Board
+2x Thieving Varmint
+3 Thoughtseize (2XM) 109
+4 Katara, the Fearless
+1x Lozhan, Dragons' Legacy
+2 Ossification (ONE) 26
+3 Tifa's Limit Break
+4x Deeproot Waters
+1 Treno, Dark City (FIN) 290
+2 Ob Nixilis Reignited
+3x Ao, the Dawn Sky
+4 Barkform Harvester (BLB) 243
+1 Compulsive Research
+2x Master Chef
+3 Mirage Mesa (OTJ) 262
+4 Mox Tantalite
+1x Urza's Factory
+2 Syr Vondam, Sunstar Exemplar (EOE) 231
+3 Primordial Sage
+4x Boon Reflection
+1 Siphon Insight (OTC) 242
+2 Tidal Barracuda
+3x Nogi, Draco-Zealot
+4 Crypt Incursion (DGM) 23
+1 Blazing Volley
+2x Katara, Water Tribe's Hope
+3 Liliana's Triumph (WAR) 98
+4 Merry, Esquire of Rohan
+1x Keiga, the Tide Star
+2 Phial of Galadriel (LTR) 248
+3 Necrodominance
+4x Light of Promise
+1 Summon: Valefor (FIC) 42
+2 Birthing Ritual
+3x Bitter Work
+4 Jackdaw Savior (BLB) 18
+1 Shadowgrange Archfiend
+2x Tato Farmer
+3 Malevolent Hermit // Benevolent Geist (MID) 61
+4 Kastral, the Windcrested
+1x Desecrated Tomb
+2 Akroma, Angel of Wrath (C20) 73
+3 Earthbending Lesson
+4x Helix Pinnacle
+1 Elturel Survivors (CLB) 172
+2 Nyx-Fleece Ram
+3x Fiend Artisan
+4 Wild Wasteland (PIP) 71
+1 Spiked Corridor // Torture Pit
+2x Captain Sisay
+3 Mage Slayer (NEC) 140
+4 Moonmist
+1x Nightmare Shepherd
+2 Moss Diamond (CLB) 327
+3 Desert of the Glorified
+4x Nighthowler
+1 Captain N'ghathrod (CLB) 646
+2 The Golden Throne
+3x Baron Bertram Graywater
+4 Last Chance (DMR) 127
+1 Dragonlord Atarka
+2x Fist of Suns
+3 Urabrask, Heretic Praetor (SNC) 129
+4 Sami, Wildcat Captain
+1x Tannuk, Steadfast Second
+2 Crush Contraband (NEC) 82
+3 Raise the Alarm
+4x Call the Spirit Dragons
+1 Joraga Warcaller (CMA) 120
+2 Hashep Oasis
+3x Altar's Reap
+4 Senu, Keen-Eyed Protector (ACR) 8
+1 Mage-Ring Network
+2x Knollspine Dragon
+3 Brute Force (TSR) 157
+4 Balor
+1x Witherbloom Charm
+2 Luck Bobblehead (PIP) 135
+3 Tyrant's Familiar
+4x Grumgully, the Generous
+1 Titan's Strength (J25) 603
+2 Kaya, Geist Hunter
+3x Fevered Visions
+4 Ajani, Nacatl Pariah // Ajani, Nacatl Avenger (MH3) 237
+1 Ob Nixilis, Captive Kingpin
+2x Pawpatch Formation
+3 Dauntless Dismantler (LCI) 8
+4 City of Death
+1x Gyruda, Doom of Depths
+2 Endless Foot Assault (TMC) 8
+3 Distinguished Conjurer
+4x Darksteel Juggernaut
+1 Swashbuckler Extraordinaire (CLB) 198
+2 Auramancer
+3x Dusk Legion Zealot
+4 Vizkopa Guildmage (IMA) 211
+1 Goblin Rabblemaster
+2x Bayek of Siwa
+3 Guff Rewrites History (CMM) 737
+4 Unruly Catapult
+1x Spit Flame
+2 Tasha, the Witch Queen (CLB) 294
+3 Liliana, Heretical Healer // Liliana, Defiant Necromancer
+4x Maelstrom Colossus
+1 Gilgamesh, Master-at-Arms (FIN) 139
+2 Haze of Rage
+3x Rundvelt Hordemaster
+4 Deeproot Pilgrimage (LCI) 52
+1 Annul
+2x New Blood
+3 Fireball (CLB) 175
+4 Planar Bridge
+1x Urza, Prince of Kroog
+2 Descendants' Fury (ECC) 93
+3 Purphoros, Bronze-Blooded
+4x Cerulean Wisps
+1 Brightglass Gearhulk (DFT) 191
+2 Ancient Adamantoise
+3x Peek
+4 Jade Orb of Dragonkind (CLB) 236
+1 Lost Jitte
+2x Grim Affliction
+3 You Find Some Prisoners (AFR) 169
+4 Queza, Augur of Agonies
+1x Éowyn, Shieldmaiden
+2 With Great Power . . . (SPM) 24
+3 Impervious Greatwurm
+4x Gollum, Patient Plotter
+1 Darien, King of Kjeldor (MKC) 59
+2 Summon: Fat Chocobo
+3x Dream Fracture
+4 Zephyr Boots (STX) 261
+1 Bilious Skulldweller
+2x The Deck of Many Things
+3 Abzan Charm (DMC) 138
+4 Freya Crescent
+1x Stifle
+2 Witherbloom Apprentice (STX) 247
+3 Shaman of the Pack
+4x Kura, the Boundless Sky
+1 Savvy Trader (OTC) 33
+2 High Score
+3x Banquet Guests
+4 Coastal Peak (TRC) 519
+1 Katilda, Dawnhart Prime
+2x Thornglint Bridge
+3 Kalain, Reclusive Painter (AFR) 225
+4 Seafloor Oracle
+1x Thraben Watcher
+2 Desert (AFC) 233
+3 Research Thief
+4x Urban Retreat
+1 Beacon of Unrest (2XM) 77
+2 Divine Resilience
+3x Phyrexian Censor
+4 Nanogene Conversion (WHO) 49
+1 Torens, Fist of the Angels
+2x Archetype of Courage
+3 Necrotic Ooze (2X2) 83
+4 Growing Ranks
+1x Elderfang Disciple
+2 Big Mother Mouser (TMC) 37
+3 Collective Voyage
+4x Atla Palani, Nest Tender
+1 Mindslaver (SOM) 176
+2 Calamity of the Titans
+3x Vindictive Vampire
+4 Thran Portal (DMU) 259
+1 Mechtitan Core
+2x Gimli's Reckless Might
+3 Skemfar Shadowsage (J25) 489
+4 Cryptic Caves
+1x RMS Titanic
+2 Impassioned Orator (M20) 306
+3 Shield of the Oversoul
+4x Labyrinth of Skophos
+1 Securitron Squadron (PIP) 23
+2 Garnet, Princess of Alexandria
+3x Rabanastre, Royal City
+4 Nerd Rage (PIP) 34
+1 Naya Panorama
+2x Scampering Surveyor
+3 Plague Stinger (SOM) 75
+4 Norman Osborn // Green Goblin
+1x Voidslime
+2 Yorion, Sky Nomad (IKO) 232
+3 Glowing One
+4x Villainous Wrath
+1 Orcish Medicine (LTR) 104
+2 Sunken Palace
+3x Remand
+4 Sokrates, Athenian Teacher (ACR) 67
+1 Braids, Cabal Minion
+2x Deranged Assistant
+3 Machinist's Arsenal (FIN) 23
+4 Creative Technique
+1x Serum Snare
+2 Malleable Impostor (WOC) 10
+3 Michelangelo, Weirdness to 11
+4x Hunted Horror
+1 Seasoned Dungeoneer (CLB) 660
+2 Burning-Rune Demon
+3x Skittering Invasion
+4 Strixhaven Stadium (STX) 259
+1 Ichorclaw Myr
+2x Wojek Investigator
+3 Nemesis of Reason (CLB) 850
+4 Liliana's Mastery
+1x Snort
+2 Wizard's Retort (JMP) 198
+3 Price of Fame
+4x Bloodsoaked Champion
+1 Dreadbore (RVR) 180
+2 Moonlit Meditation
+3x Everything Comes to Dust
+4 Master of the Feast (JOU) 75
+1 Eagle Vision
+2x Mind Flayer
+3 Finneas, Ace Archer (BLB) 212
+4 Grim Reaper's Sprint
+1x Song of Freyalise
+2 Cleaver Skaab (MIC) 11
+3 Midnight Banshee
+4x Xyris, the Writhing Storm
+1 Serpent of Yawning Depths (THB) 291
+2 Ultima Weapon
+3x Furnace of Rath
+4 Octomancer (BLC) 37
+1 Tower Winder
+2x Khârn the Betrayer
+3 Brallin, Skyshark Rider (C20) 4
+4 Shrieking Drake
+1x Displaced Dinosaurs
+2 Polymorphist's Jest (C17) 90
+3 Blatant Thievery
+4x Keep Watch
+1 Angelic Skirmisher (GTC) 3
+2 Théoden, King of Rohan
+3x Ugin's Mastery
+4 Viridian Longbow (AFC) 221
+1 Gilraen, Dúnedain Protector
+2x Helping Hand
+3 Syphon Sliver (CMM) 870
+4 Bumi, Eclectic Earthbender
+1x Destroy Evil
+2 Overlord of the Boilerbilges (DSK) 146
+3 Pyre of Heroes
+4x Angel of Suffering
+1 Bramble Sovereign (CLB) 218
+2 Satsuki, the Living Lore
+3x Secret Arcade // Dusty Parlor
+4 Rat Colony (DOM) 101
+1 Plundering Barbarian
+2x Apprentice Necromancer
+3 Aang, Airbending Master (TLE) 74
+4 Flood of Tears
+1x Fanatical Offering
+2 Vodalian Hexcatcher (DMU) 75
+3 V.A.T.S.
+4x Endless Evil
+1 Alpine Meadow (KHM) 248
+2 Battle Mastery
+3x Guardian Scalelord
+4 Condemn (RVR) 14
+1 Entrapment Maneuver
+2x Surge to Victory
+3 Uchuulon (CLB) 673
+4 Avatar Roku, Firebender
+1x Kelpie Guide
+2 Sliver Legion (TSR) 261
+3 Restart Sequence
+4x Goblin War Strike
+1 My Precious // Allure of Power (HOB) 176
+2 Ghostfire Slice
+3x Captain America's Shield
+4 Maraleaf Pixie (ELD) 196
+1 Prishe's Wanderings
+2x Twinblade Blessing
+3 Electrickery (RTR) 93
+4 Olórin's Searing Light
+1x Rose, Cutthroat Raider
+2 Filth (JUD) 66
+3 Kiora Bests the Sea God
+4x Marisi, Breaker of the Coil
+1 Vivid Creek (NCC) 444
+2 Slaughter Specialist
+3x Armored Scrapgorger
+4 Zenos yae Galvus // Shinryu, Transcendent Rival (FIN) 127
+1 Eternal Skylord
+2x Of Herbs and Stewed Rabbit
+3 Hajar, Loyal Bodyguard (BRO) 211
+4 Thrumming Hivepool
+1x Deliberate
+2 Crawling Infestation (CMM) 281
+3 Stormscale Scion
+4x Stolen Strategy
+1 Coiling Rebirth (BLB) 86
+2 Shanid, Sleepers' Scourge
+3x Death Kiss
+4 Deekah, Fractal Theorist (SOC) 193
+1 Deadly Brew
+2x Blazing Firesinger // Seething Song
+3 Goldhound (SNC) 108
+4 Galvanic Blast
+1x Neriv, Heart of the Storm
+2 Summon: Magus Sisters (FIC) 71
+3 The Raven Man
+4x Jeska, Thrice Reborn
+1 Preacher of the Schism (LCI) 113
+2 The Odd Acorn Gang
+3x Rite of Harmony
+4 Ishai, Ojutai Dragonspeaker (CM2) 12
+1 Rally the Ranks
+2x Taigam, Master Opportunist
+3 Reluctant Role Model (DSK) 26
+4 Volcanic Vision
+1x Ardbert, Warrior of Darkness
+2 Grist, Voracious Larva // Grist, the Plague Swarm (MH3) 251
+3 Troop of Ponies
+4x Vivid Grove
+1 Frogify (2XM) 52
+2 Jolene, the Plunder Queen
+3x Glimmervoid
+4 Glacier Godmaw (EOE) 188
+1 Stormchaser's Talent
+2x Jwar Isle Refuge
+3 Brainstone (DSC) 242
+4 Maximum Carnage
+1x Felisa, Fang of Silverquill
+2 Curate (MKC) 99
+3 Spawning Bed
+4x Towering Titan
+1 Mai, Scornful Striker (TLA) 109
+2 Cartographer's Hawk
+3x Nezumi Informant
+4 Sarinth Steelseeker (BRO) 189
+1 Camaraderie
+2x Summon: Good King Mog XII
+3 Saruman's Trickery (LTR) 68
+4 Ravnica at War
+1x Haunted One
+2 Quick Sliver (CMM) 907
+3 Heartless Act
+4x Celes, Rune Knight
+1 Trail of Crumbs (J25) 732
+2 Sunset Strikemaster
+3x Bonus Round
+4 Ruric Thar, the Unbowed (2X2) 271
+1 Psychotic Fury
+2x Bilbo's Ring
+3 Kellan, Inquisitive Prodigy // Tail the Suspect (MKM) 212
+4 Phyrexian Scriptures
+1x Faramir, Prince of Ithilien
+2 Star Compass (IMA) 229
+3 Indomitable Might
+4x World Breaker
+1 Gifted Aetherborn (JMP) 239
+2 Assemble the Players
+3x Surgehacker Mech
+4 Fumulus, the Infestation (J25) 42
+1 Frodo, Adventurous Hobbit
+2x Liliana Vess
+3 Peacewalker Colossus (NEC) 155
+4 Snapping Voidcraw
+1x Hammerhead Tyrant
+2 The Balrog of Moria (LTC) 46
+3 Obelisk Spider
+4x The Wandering Rescuer
+1 Component Pouch (AFC) 59
+2 Slinn Voda, the Rising Deep
+3x Ancestral Anger
+4 Reject Imperfection (ONE) 67
+1 Mm'menon, the Right Hand
+2x Breeches, Brazen Plunderer
+3 Paladin Class (AFR) 29
+4 Ulalek, Fused Atrocity
+1x Naga Fleshcrafter
+2 Trenzalore Clocktower (WHO) 190
+3 Aunt May
+4x Vexing Radgull
+1 Wulfgar of Icewind Dale (AFC) 56
+2 Wand of Orcus
+3x Marshal's Anthem
+4 Kishla Village (TDM) 259
+1 Shadow of Mortality
+2x Azusa's Many Journeys // Likeness of the Seeker
+3 Heronblade Elite (MIC) 26
+4 Sylvan Offering
+1x Elfsworn Giant
+2 Traveler's Amulet (INR) 273
+3 Sokka, Tenacious Tactician
+4x Restless Ridgeline
+1 Sea-Dasher Octopus (IKO) 66
+2 Mindless Automaton
+3x Memory Plunder
+4 Blade Splicer (MOC) 175
+1 Theater of Horrors
+2x Outrageous Robbery
+3 Summon: Shiva (FIN) 78
+4 Xu-Ifit, Osteoharmonist
+1x Barrensteppe Siege
+2 Triple Triad (FIN) 166
+3 Back in Town
+4x Boon of the Spirit Realm
+1 Goblin Lackey (USG) 190
+2 Mulch
+3x Sinister Gnarlbark
+4 Nelly Borca, Impulsive Accuser (MKC) 4
+1 Gyome, Master Chef
+2x Winota, Joiner of Forces
+3 Cathedral of War (M13) 221
+4 Elenda, Saint of Dusk
+1x Sothera, the Supervoid
+2 Deduce (MKM) 52
+3 Dream Devourer
+4x Urza, Chief Artificer
+1 Smokebraider (ECC) 96
+2 Brotherhood Vertibird
+3x Sin, Unending Cataclysm
+4 Sharlayan, Nation of Scholars (FIN) 288
+1 Jori En, Ruin Diver
+2x Platinum Emperion
+3 Tale's End (M20) 77
+4 Restless Fortress
+1x Nullpriest of Oblivion
+2 Triskelion (MOC) 387
+3 Filigree Vector
+4x Aphetto Alchemist
+1 Act of Treason (RVR) 99
+2 Nightshade Harvester
+3x Spiteful Sliver
+4 Primal Rage (10E) 286
+1 Ambush Viper
+2x Sisay's Ring
+3 Slip On the Ring (LTR) 31
+4 Titan of Littjara
+1x Far Traveler
+2 Éomer, King of Rohan (LTC) 52
+3 Stolen Identity
+4x Bringer of the Last Gift
+1 Behind the Scenes (TDC) 172
+2 Quandrix Campus
+3x Rydia, Summoner of Mist
+4 Grave Betrayal (RTR) 67
+1 Hateful Eidolon
+2x Balefire Liege
+3 Alrund's Epiphany (KHM) 41
+4 Containment Priest
+1x Invigorating Hot Spring
+2 Sejiri Refuge (KHC) 118
+3 Biosynthic Burst
+4x Attrition
+1 Super Shredder (TMT) 83
+2 Mandate of Abaddon
+3x Into the North
+4 Kruphix, God of Horizons (JOU) 152
+1 Sword of Once and Future
+2x Path of Annihilation
+3 Combat Calligrapher (SOC) 141
+4 The Boulder, Ready to Rumble
+1x Stadium Headliner
+2 Wondrous Crucible (BRC) 20
+3 Danitha, Benalia's Hope
+4x Faerie Artisans
+1 Reflector Mage (OGW) 157
+2 Fade from History
+3x Magma Opus
+4 Wayward Servant (AKH) 208
+1 Long-Range Sensor
+2x Audacity
+3 Smoke Bomb (ACR) 75
+4 Tunneling Geopede
+1x Possibility Storm
+2 Swarm Intelligence (C21) 130
+3 Clive's Hideaway
+4x Terisian Mindbreaker
+1 Relic of Progenitus (EMA) 231
+2 Tithing Blade // Consuming Sepulcher
+3x Two-Headed Hellkite
+4 Mister Fantastic, Reed Richards (MSH) 66
+1 Omni-Changeling
+2x Rhonas the Indomitable
+3 Amoeboid Changeling (LRW) 51
+4 Flamerush Rider
+1x Lilysplash Mentor
+2 Aang, at the Crossroads // Aang, Destined Savior (TLA) 203
+3 Barbarian Ring
+4x Atzocan Seer
+1 Nemata, Primeval Warden (DMU) 209
+2 The Wanderer
+3x Wakka, Devoted Guardian
+4 Thalia's Lieutenant (C20) 103
+1 Lupinflower Village
+2x Soul Snuffers
+3 Sudden Breakthrough (STX) 116
+4 Fell Specter
+1x Biomass Mutation
+2 Restless Bivouac (WOE) 257
+3 Sorin, Lord of Innistrad
+4x Carnifex Demon
+1 Kaito, Bane of Nightmares (DSK) 220
+2 Open the Gates
+3x Ensnaring Bridge
+4 Mission Briefing (MKC) 110
+1 Baneslayer Angel
+2x Timeline Culler
+3 Zurgo, Thunder's Decree (TDM) 237
+4 Ajani Steadfast
+1x Damping Sphere
+2 Goblin War Drums (A25) 133
+3 Stonehoof Chieftain
+4x Tempt with Mayhem
+1 Season of Loss (BLB) 112
+2 Sporocyst
+3x Prismari Charm
+4 Knight of the Ebon Legion (M20) 105
+1 Maelstrom Nexus
+2x Loyal Subordinate
+3 Dark Fortress (MSH) 264
+4 Brought Back
+1x Treasure Chest
+2 Moxite Refinery (EOC) 17
+3 Toralf, God of Fury // Toralf's Hammer
+4x Marchesa, the Black Rose
+1 Izzet Generatorium (MH3) 191
+2 Glacierwood Siege
+3x Stoneforge Masterwork
+4 Overcharged Amalgam (INR) 80
+1 Professor Hojo
+2x Oboro, Palace in the Clouds
+3 Norin the Wary (TSP) 171
+4 Warren Warleader
+1x Hedron Detonator
+2 Doomskar (KHM) 9
+3 Kishla Skimmer
+4x Glass-Cast Heart
+1 Putrid Imp (TOR) 77
+2 Scuzzback Scrounger
+3x Astor, Bearer of Blades
+4 Cryptolith Fragment // Aurora of Emrakul (INR) 260
+1 Wall of Frost
+2x Wandertale Mentor
+3 Cosmic Cube (MSH) 245
+4 Adriana, Captain of the Guard
+1x Abomination of Llanowar
+2 Personify (ECL) 28
+3 On the Trail
+4x Flash Photography
+1 Hammers of Moradin (CLB) 25
+2 Fiendlash
+3x Long-Term Plans
+4 Felix Five-Boots (OTC) 6
+1 Vengeful Dead
+2x Emeritus of Ideation // Ancestral Recall
+3 Gilt-Leaf Palace (LRW) 268
+4 Cliffhaven Vampire
+1x Omen Hawker
+2 Pensive Professor (SOS) 63
+3 Zara, Renegade Recruiter
+4x Lord of Atlantis
+1 Lumbering Falls (AFC) 247
+2 Elspeth Tirel
+3x Elegy Acolyte
+4 Contest of Claws (LCC) 12
+1 The Magic Mirror
+2x From Beyond
+3 Sage of the Beyond (OTC) 111
+4 Drifting Meadow
+1x Captain Howler, Sea Scourge
+2 Imotekh the Stormlord (40K) 5
+3 Vector, Imperial Capital
+4x Guadosalam, Farplane Gateway
+1 The Bath Song (LTR) 40
+2 Nissa, Vital Force
+3x Goldberry, River-Daughter
+4 King T'Challa // Black Panther, Hope Enduring (MSH) 219
+1 Deadly Recluse
+2x Kabira Crossroads
+3 Samut, Hazoret's Champion (FRA) 251
+4 Helm of the Gods
+1x Ravenous Tyrannosaurus
+2 Bloodbraid Elf (J25) 743
+3 Pilgrim's Eye
+4x Torgal, A Fine Hound
+1 Defiler of Instinct (DMU) 119
+2 Prophetic Prism
+3x Tinybones, Trinket Thief
+4 Splinter's Technique (TMT) 80
+1 Aerith, Last Ancient
+2x Pinnacle Emissary
+3 Quakestrider Ceratops (FDN) 110
+4 Relentless Dead
+1x Death's Presence
+2 Zuko, Firebending Master (TLE) 127
+3 Skyknight Squire
+4x Cyber Conversion
+1 Cut Down (DMU) 89
+2 Digsite Engineer
+3x Wolfwillow Haven
+4 Glimpse the Unthinkable (2X2) 218
+1 Earth Kingdom General
+2x Profane Command
+3 Cloud's Limit Break (FIC) 14
+4 Angel of Jubilation
+1x Sauron's Ransom
+2 Song of Creation (IKO) 210
+3 Ashling, Rekindled // Ashling, Rimebound
+4x Rotting Regisaur
+1 Arwen, Mortal Queen (LTR) 193
+2 Toby, Beastie Befriender
+3x Aligned Heart
+4 Roil Cartographer (MH3) 67
+1 Marauding Mako
+2x The Scorpion God
+3 Planetary Annihilation (EOC) 12
+4 Kroxa, Titan of Death's Hunger
+1x Sliver Hive
+2 Ghoulish Procession (INR) 110
+3 Twinflame Travelers
+4x Goblin Chainwhirler
+1 Ankh of Mishra (6ED) 273
+2 Faerie Conclave
+3x Valkyrie's Call
+4 Creakwood Liege (SOC) 301
+1 Aurora Phoenix
+2x Angelfire Ignition
+3 Mistcutter Hydra (THS) 162
+4 Stalwart Shield-Bearers
+1x Kellan, the Kid
+2 Kefnet's Monument (AKH) 231
+3 Batterskull
+4x Awaken the Honored Dead
+1 Agility Bobblehead (PIP) 126
+2 Bant Panorama
+3x Grasslands
+4 Auron, Venerated Guardian (FIC) 10
+1 Wickerbough Elder
+2x Judith, Carnage Connoisseur
+3 Burst Lightning (FDN) 192
+4 Gaze of Granite
+1x Necron Deathmark
+2 Astrologian's Planisphere (FIN) 46
+3 God-Eternal Rhonas
+4x Iridescent Hornbeetle
+1 Arvinox, the Mind Flail (DSC) 130
+2 Romantic Rendezvous
+3x Gale, Waterdeep Prodigy
+4 Evercoat Ursine (BLC) 30
+1 Lightning Runner
+2x Dauntless Scrapbot
+3 Storm of Souls (VOC) 9
+4 Ancient Animus
+1x Black Sun's Twilight
+2 Lady Octopus, Inspired Inventor (SPM) 35
+3 Esper Origins // Summon: Esper Maduin
+4x Cadric, Soul Kindler
+1 Defiler of Faith (DMU) 16
+2 Ruin Grinder
+3x Cruel Somnophage // Can't Wake Up
+4 Tromokratis (CMM) 129
+1 Betor, Ancestor's Voice
+2x Rakdos, the Muscle
+3 Withering Boon (MIR) 152
+4 Shelob, Child of Ungoliant
+1x Inkwell Leviathan
+2 Doors of Durin (LTR) 199
+3 Diamond Weapon
+4x Sazh Katzroy
+1 Shuri, Wakandan Inventor (MSH) 75
+2 Krark's Thumb
+3x Reclaim
+4 Zell Dincht (FIN) 170
+1 Windurst, Federation Center
+2x Spider-Woman, Stunning Savior
+3 Combat Tutorial (FIN) 48
+4 Haystack
+1x Great Forest Druid
+2 Old Rutstein (VOW) 244
+3 Phyrexian Swarmlord
+4x Unstable Obelisk
+1 Star Athlete (DSC) 29
+2 Fecundity
+3x Summon: Esper Valigarmanda
+4 Beastcaller Savant (BFZ) 170
+1 Terra, Herald of Hope
+2x Rhet-Tomb Mystic
+3 Rith, Liberated Primeval (DMU) 214
+4 Olivia, Crimson Bride
+1x Angel of Despair
+2 Tend the Pests (STX) 242
+3 Infesting Radroach
+4x Helm of the Ghastlord
+1 Phenax, God of Deception (BNG) 152
+2 Opera Love Song
+3x Brass Knuckles
+4 Mirror Image (M19) 61
+1 Teyo, Geometric Tactician
+2x Savage Order
+3 Vat Emergence (ONE) 112
+4 Sweet-Gum Recluse
+1x Valley Mightcaller
+2 Verdant Command (MH2) 182
+3 Vastwood Surge
+4x Gollum, Obsessed Stalker
+1 Insomnia, Crown City (FIN) 282
+2 Oriq Loremage
+3x Xenagos, the Reveler
+4 Robe of the Archmagi (CLB) 91
+1 Glen Elendra Liege
+2x King Darien XLVIII
+3 Arcane Heist (OTC) 13
+4 Cache Grab
+1x Pendant of Prosperity
+2 Steady Progress (MM2) 58
+3 Rockalanche
+4x Sliver Overlord
+1 Sand Scout (OTC) 11
+2 Go-Shintai of Life's Origin
+3x Saheeli, the Sun's Brilliance
+4 Sword of Hours (AFC) 61
+1 Bant Charm
+2x Unsubstantiate
+3 Doomed Traveler (CLU) 59
+4 Reverse the Polarity
+1x Cavalier of Thorns
+2 Terra, Magical Adept // Esper Terra (FIN) 245
+3 Oblivion Ring
+4x Gift of Estates
+1 Angelic Arbiter (JMP) 86
+2 Undergrowth Recon
+3x Sauron, Lord of the Rings
+4 Instill Energy (5ED) 304
+1 Chains of Custody
+2x Trespasser's Curse
+3 Congregate (PLST) DMR-4
+4 Pugnacious Hammerskull
+1x Gavel of the Righteous
+2 White Lotus Hideout (TLA) 281
+3 Nahiri's Resolve
+4x March from the Black Gate
+1 Monk Gyatso (TLE) 81
+2 Idol of False Gods
+3x Broadside Bombardiers
+4 Soul of Windgrace (EOC) 126
+1 Restless Prairie
+2x Lush Oasis
+3 Aerial Surveyor (NEC) 5
+4 Perplex
+1x Battle Cry Goblin
+2 Smaug, Wicked Worm (HOB) 164
+3 Ureni, the Song Unending
+4x Secluded Glen
+1 Toph, Greatest Earthbender (TLE) 70
+2 Ashcoat of the Shadow Swarm
+3x Anvil of Bogardan
+4 Temmet, Naktamun's Will (DRC) 4
+1 Suspicious Bookcase
+2x Observed Stasis
+3 Oona, Queen of the Fae (ZNC) 98
+4 Flayer of the Hatebound
+1x Arvad the Cursed
+2 Nicol Bolas, God-Pharaoh (2X2) 260
+3 Chromatic Sphere
+4x Generous Ent
+1 Cloudsteel Kirin (NEO) 8
+2 Gideon's Sacrifice
+3x Fleet Swallower
+4 Traverse the Ulvenwald (INR) 221
+1 Calix, Destiny's Hand
+2x Joint Exploration
+3 Akroma, Vision of Ixidor (CMR) 2
+4 Hithlain Rope
+1x Entreat the Angels
+2 Artificer's Assistant (DOM) 44
+3 Doran, the Siege Tower
+4x Flaming Fist
+1 Goblin Negotiation (FDN) 88
+2 Xolatoyac, the Smiling Flood
+3x Curse of the Restless Dead
+4 Pack Leader (M21) 29
+1 Stitch in Time
+2x Everlasting Torment
+3 Utopia Mycon (TSR) 244
+4 Ruthless Lawbringer
+1x The Thirteenth Doctor
+2 Bigger on the Inside (WHO) 115
+3 Samwise the Stouthearted
+4x Arc Reactor
+1 Pile On (MKC) 134
+2 Prophet of the Scarab
+3x Horn of Valhalla // Ysgard's Call
+4 March of the Canonized (LCC) 73
+1 Ugin's Binding
+2x Macabre Waltz
+3 Capture of Jingzhou (CMM) 79
+4 Cream of the Crop
+1x March of Progress
+2 Life of the Party (NCC) 48
+3 Slash the Ranks
+4x Spear Spewer
+1 Voldaren Epicure (INR) 182
+2 The Kami War // O-Kagachi Made Manifest
+3x Silverwing Squadron
+4 Song of the Worldsoul (C19) 6
+1 Omo, Queen of Vesuva
+2x Necrotic Sliver
+3 Forbidden Alchemy (TDC) 152
+4 Ring of Valkas
+1x Contraband Livestock
+2 Ranger's Path (M13) 186
+3 South Pole Voyager
+4x Snarling Gorehound
+1 Eshki, Temur's Roar (TDC) 3
+2 Pyrokinesis
+3x Generous Pup
+4 Mind Spring (BLB) 389
+1 Suspended Sentence
+2x Doomsday
+3 Danitha, New Benalia's Light (MAT) 29
+4 Reunion of the House
+1x Narci, Fable Singer
+2 Remorseful Cleric (SOC) 164
+3 Valley Questcaller
